@@ -1,14 +1,123 @@
 <htmlform formName="Mental Health Follow Up"
-          formDescription="USed for collecting follow up details about mental health"
+          formDescription="USed for collecting individual visit details"
           formEncounterType="0b3012b6-9eff-11e8-a0a6-cb6dac4515ee"
           formUuid="fa3295cb-07d7-4554-972b-ce959d10732c"
           formVersion="1.0">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="/common.css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="../js/common.js"></script>
+
     <style>
         
     </style>
     <script type="text/javascript">
     </script>
-   <div class="headers" style="text-align: center;">
-      <h3 style="background:  #00b4ef; padding: 10px; color: #fff;">Mental Health Follow Up Details</h3>
-   </div>
+</head>
+<body>
+    <form autocomplete="off" onReset="setAllDisabledStates();" class="">
+        <div class="sticky-top bg-white d-flex flex-column">
+            <h1 class="bg-primary d-flex justify-content-center">Mental Health - Visit Details</h1>
+            <div class="d-flex flex-row justify-content-around m-2">
+                <div class="flex-column flex-grow-1 align-content-center">
+                    <div id="blue-card-header-common" class="d-flex">
+                        <span class="d-flex flex-fill justify-content-start flex-column">
+                            <label for="province-select" class="d-flex flex-fill justify-content-center">Province</label>
+                            <label for="transfer-or-consult-date" class="d-flex flex-fill justify-content-center" >Date of Consulation/Transfer</label>
+		</span>
+
+		<span class="d-flex flex-fill flex-column">
+		    <select name="province-select" id="province-select" autocomplete="off" class="mb-2" tabindex="1">
+			<option value="" id="not-selected">--Not Selected--</option>
+			<option value="other" id="other">Other</option>
+		    </select>
+		    <span class="">
+			<input tabindex="4" type="date" id="transfer-or-consult-date" class="" onchange="warnMaxDateToday(this, 'span[id=transfer-or-consult-date-alert]');">
+			<span class="" role="alert" id="transfer-or-consult-date-alert"></span>
+		    </span>
+		</span>
+		<span class="d-flex flex-fill flex-column">
+		    <label for="district-select" class="d-flex flex-fill justify-content-center">District</label>
+		    <label for="NID" class="d-flex flex-fill justify-content-center">Patient's NID</label>
+		</span>
+		<span class="d-flex flex-fill flex-column">
+		    <select name="district-select" id="district-select" class="mb-2" tabindex="2">
+			    <option value="" id="not-selected">--Not Selected--</option>
+			    <option value="other" id="other">Other</option>
+			</select>
+		    <input type="text" id="NID" name="NID" autocomplete="off" class="" tabindex="5">
+		</span>
+		<span class="d-flex flex-fill">
+		    <label for="health-facility" class="flex-fill d-flex justify-content-center">Health Facility</label>
+                        </span>
+                        <span class="d-flex flex-column">
+                                <!--<input type="text" id="health-facility" name="health-facility">-->
+                            <select name="health-facility-select" id="health-facility-select" class="flex-fill" tabindex="3">
+                                <option value="" id="not-selected">--Not-Selected--</option>
+                                <option value="other" id="other">Other</option>
+                            </select>
+                            <span class="d-flex flex-fill mt-2">
+                                <input type="submit" value="Create record" class="btn btn-primary mr-2">
+                                <input type="reset" value="Reset All" class="btn btn-warning" onclick="confirmReset(event);">
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="nav nav-tabs nav-fill" id="section-tabs" hidden>
+                <div class="nav-item">
+                    <a class="nav-link active" id="visit-details-tab" role="tab" data-toggle="tab" href="#visit-details" aria-controls="visit details tab" aria-selected="true">Visit Details</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" id="treatment-tab" role="tab" data-toggle="tab" href="#treatment" aria-controls="treatment tab" aria-selected="false">Treatment Details</a>
+                </div>
+                <div class="nav-item">
+                        <a class="nav-link" id="vital-signs-tab" role="tab" data-toggle="tab" href="#vital-signs" aria-controls="vital signs tab" aria-selected="false">Vital Signs</a>
+                </div>
+                <div class="nav-item">
+                        <a class="nav-link" id="side-effects-tab" role="tab" data-toggle="tab" href="#side-effects" aria-controls="side effects tab" aria-selected="false">Medication Side Effects</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" id="comments-tab" role="tab" data-toggle="tab" href="#comments" aria-controls="comments tab" aria-selected="false">Comments/Next Visit</a>
+                </div>
+            </div>
+        </div>
+        <div class="tab-content" id="tab-content-sections">
+            <fieldset id="visit-details" class="form-group tab-pane show active fade" role="tabpanel">
+                <legend>Visit Details</legend>
+                <div>
+                    <label for="primary-dx" class="">Primary Diagnosis (ICD10)</label>
+                        <select id="primary-dx" name="primary-dx" onchange="setDependentDisabledState(this, undefined, 'input[id=primary-dx-other]', true, this[this.selectedIndex].id!='other');">
+                            <option value="" id="not-selected">--Not-Selected--</option>
+                            <option value="other" id="other">Other</option>
+                        </select>
+                        <label for="primary-dx-other">If other, please specify</label>
+                        <input type="text" name="primary-dx-other" id="primary-dx-other" disabled="true">
+                    <label for="secondary-dx" class="">Secondary Diagnosis (ICD10)</label>
+                        <select id="secondary-dx" name="secondary-dx" onchange="setDependentDisabledState(this, undefined, 'input[id=secondary-dx-other]', true, this[this.selectedIndex].id!='other');">
+                            <option value="" id="not-selected">--Not-Selected--</option>
+                            <option value="other" id="other">Other</option>
+                        </select>
+                        <label for="secondary-dx-other">If other, please specify</label>
+                        <input type="text" name="secondary-dx-other" id="secondary-dx-other" disabled="true">
+                    <label for="visit-date" class="">Visit Date</label>
+<!--
+                        <input type="date" name="visit-date" id="visit-date" oninput="warnMaxDateToday(this, 'span[id=visit-date-warning]');">
+                        <span class="alert" id="visit-date-warning"></span>
+-->
+                    <encounterDate default="today"/>
+                </div>
+            </fieldset>
+        </div>
+    </form>
+</body>
 </htmlform>
