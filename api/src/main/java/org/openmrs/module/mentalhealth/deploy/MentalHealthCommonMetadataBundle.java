@@ -3,7 +3,6 @@ package org.openmrs.module.mentalhealth.deploy;
 import org.openmrs.module.mentalhealth.metadata.MentalHealthEncounterTypes;
 import org.openmrs.module.mentalhealth.metadata.MentalHealthPatientIdentifierTypes;
 import org.openmrs.module.mentalhealth.metadata.MentalHealthPersonAttributeTypes;
-import org.openmrs.module.mentalhealth.metadata.MentalHealthProgramtypes;
 import org.openmrs.module.metadatadeploy.bundle.AbstractMetadataBundle;
 import org.springframework.stereotype.Component;
 
@@ -13,7 +12,8 @@ public class MentalHealthCommonMetadataBundle extends AbstractMetadataBundle {
     /**
      * @see org.openmrs.module.metadatadeploy.bundle.AbstractMetadataBundle#install()
      */
-    public void install() throws Exception {
+    @Override
+	public void install() throws Exception {
 
         // install the patient identifier types
 
@@ -29,8 +29,8 @@ public class MentalHealthCommonMetadataBundle extends AbstractMetadataBundle {
 
 
         //installing programs metadata
-        log.info("Installing Programs");
-        install(MentalHealthProgramtypes.MH_PROGRAM);
+		//log.info("Installing Programs");
+		//install(MentalHealthProgramtypes.MH_PROGRAM);
 
         //install identifier types
         log.info("Installing patient identifier types");

@@ -1,0 +1,28 @@
+version: '3'
+services:
+  esaude-platform-tomcat:
+    image: esaude-mh-docker-platform-docker.bintray.io/tomcat:1.4.5-MH
+    ports:
+      - "8080:8080"
+    container_name: esaude-platform-tomcat
+    depends_on:
+      - esaude-platform-mysql
+    networks:
+      - network
+    volumes:
+      - data:/opt/esaude/data
+    hostname: esaude-platform-tomcat
+    restart: unless-stopped
+  esaude-platform-mysql:
+    image: esaude-mh-docker-platform-docker.bintray.io/mysql:1.4.5-MH
+    container_name: esaude-platform-mysql
+    networks:
+      - network
+    volumes:
+      - data:/opt/esaude/data
+    hostname: esaude-platform-mysql
+    restart: unless-stopped
+networks:
+  network:
+volumes:
+  data:

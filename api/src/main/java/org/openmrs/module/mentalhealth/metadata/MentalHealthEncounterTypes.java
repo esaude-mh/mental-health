@@ -7,7 +7,7 @@ public class MentalHealthEncounterTypes {
     public static EncounterTypeDescriptor INITIAL_ENCOUNTER_TYPE = new EncounterTypeDescriptor() {
         @Override
         public String name() {
-            return "Mental Health Initial";
+			return "Saúde Mental: Processo";
         }
 
         @Override
@@ -15,7 +15,8 @@ public class MentalHealthEncounterTypes {
             return "Used for collecting Initial mental health information";
         }
 
-        public String uuid() {
+        @Override
+		public String uuid() {
             return "e7c5643e-9efe-11e8-a4c3-2b65da6977a7";
         }
     };
@@ -23,7 +24,7 @@ public class MentalHealthEncounterTypes {
     public static EncounterTypeDescriptor FOLLOW_UP_ENCOUNTER_TYPE = new EncounterTypeDescriptor() {
         @Override
         public String name() {
-            return "Mental Health Clinical Follow up";
+			return "Saúde Mental: Seguimento";
         }
 
         @Override
@@ -31,7 +32,8 @@ public class MentalHealthEncounterTypes {
             return "Mental Health Follow up information";
         }
 
-        public String uuid() {
+        @Override
+		public String uuid() {
             return "0b3012b6-9eff-11e8-a0a6-cb6dac4515ee";
         }
     };

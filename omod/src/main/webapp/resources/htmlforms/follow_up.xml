@@ -1,4 +1,4 @@
-<htmlform formName="MENTAL HEALTH FOLLOW UP FORM"
+<htmlform formName="SAÚDE MENTAL: SEGUIMENTO"
           formDescription="Used for collecting follow up details about mental health patient"
           formEncounterType="0b3012b6-9eff-11e8-a0a6-cb6dac4515ee"
           formUuid="fa3295cb-07d7-4554-972b-ce959d10732c"
@@ -184,6 +184,11 @@
 		}
 		.form-control-sm {
 		    border: 1px solid #1aac9b;
+		}
+		.nav-tabs .nav-link.active {
+		    color: #fff !important;
+		    background-color: #007bff;
+		    border-color: #007bff #007bff #fff;
 		}
 
 	</style>
@@ -1511,7 +1516,7 @@ $(document).ready(
     		<div class="card  bg-white d-flex flex-column">
   				<div class="card-body bg-info text-white">
                     <div class="row">
-						<div class="col text-center">
+						<div class="col text-left">
 							<input type="submit" id="submit-form-btn" class="btn-sm btn-primary mr-2" data-translate-value="true" value="mentalhealth.form.initial.save" onsubmit="submitHtmlForm()"/>
 							<input type="reset" id="reset-form-btn" class="btn-sm btn-warning" onclick="confirmReset(event);" data-translate-value="true" value="mentalhealth.form.initial.reset"/>
 						</div>
@@ -1523,7 +1528,8 @@ $(document).ready(
 							<label >mentalhealth.form.initial.title</label>
 						</div>
 						<div class="col-md-5 text-right">
-							<label>mentalhealth.form.initial.patient.nid</label>:  <span id="patient-details-NID"><lookup expression="patient.getPatientIdentifier(14)"/></span>
+							<label>mentalhealth.form.initial.patient.art.nid</label>:  <span id="patient-details-ART-NID"><lookup expression="patient.getPatientIdentifier(2)"/></span><br />
+							<label>mentalhealth.form.initial.patient.mh.nid</label>:  <span id="patient-details-MH-NID"><lookup expression="patient.getPatientIdentifier(14)"/></span>
 						</div>
 					</div>
 					<div class="row">
@@ -1598,25 +1604,25 @@ $(document).ready(
                 <div  class="form-group row">
                 	<label for="symptom-assessment-whodas" class="col-md-2 col-form-label-sm">mentalhealth.form.followup.symptom.whodas</label>
                   	<div class="col-md-3">
-                  		<input data-concept-id="d14dec0e-833b-49d4-b3f2-02c4111ab4f9" type="number" name="symptom-assessment-whodas" id="symptom-assessment-whodas" min="0" max="48" class="form-control-sm"/>
+                  		<input data-concept-id="d14dec0e-833b-49d4-b3f2-02c4111ab4f9" type="number" name="symptom-assessment-whodas" id="symptom-assessment-whodas" min="0" max="48" class="form-control-sm"/>[0-48]
                 	</div>
                 </div>
                 <div class="form-group row">
                 	<label for="symptom-assessment-phq-9" class="col-md-2 col-form-label-sm">mentalhealth.form.followup.symptom.phq9</label>
                   	<div class="col-md-3">
-                  		<input data-concept-id="5d6928f5-f470-44d6-8b6a-325955a7c40c" type="number" name="symptom-assessment-phq-9" id="symptom-assessment-phq-9" min="0" max="27" class="form-control-sm"/>
+                  		<input data-concept-id="5d6928f5-f470-44d6-8b6a-325955a7c40c" type="number" name="symptom-assessment-phq-9" id="symptom-assessment-phq-9" min="0" max="27" class="form-control-sm"/>[0-27]
                 	</div>
                 </div>
                 <div class="form-group row">
                 	<label for="symptom-assessment-gad-7" class="col-md-2 col-form-label-sm">mentalhealth.form.followup.symptom.gad7</label>
                   	<div class="col-md-3">
-                		<input data-concept-id="9270abbe-cc39-41c4-8ea9-9414894efd7c" type="number" name="symptom-assessment-gad-7" id="symptom-assessment-gad-7" min="0" max="21" class="form-control-sm"/>
+                		<input data-concept-id="9270abbe-cc39-41c4-8ea9-9414894efd7c" type="number" name="symptom-assessment-gad-7" id="symptom-assessment-gad-7" min="0" max="21" class="form-control-sm"/>[0-21]
                 	</div>
                 </div>
                 <div class="form-group row">
                 	<label for="symptom-assessment-audit" class="col-md-2 col-form-label-sm">mentalhealth.form.followup.symptom.audit</label>
                   	<div class="col-md-3">
-                  		<input data-concept-id="907cea1f-92aa-4368-b7ff-64f14ce1a70e" type="number" name="symptom-assessment-audit" id="symptom-assessment-audit" min="0" max="40" class="form-control-sm"/>
+                  		<input data-concept-id="907cea1f-92aa-4368-b7ff-64f14ce1a70e" type="number" name="symptom-assessment-audit" id="symptom-assessment-audit" min="0" max="40" class="form-control-sm"/>[0-40]
                 	</div>
               	</div>
                 <div class="form-group row">
