@@ -36,5 +36,7 @@ public class MentalHealthCommonMetadataBundle extends AbstractMetadataBundle {
         log.info("Installing patient identifier types");
         install(MentalHealthPatientIdentifierTypes.MH_NID);
 
+        install(MentalHealthPatientIdentifierTypes.TARV_NID);
+
     }
 }

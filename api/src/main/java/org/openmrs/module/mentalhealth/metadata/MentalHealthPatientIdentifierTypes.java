@@ -21,4 +21,34 @@ public class MentalHealthPatientIdentifierTypes {
             return "Patient Identifier to represent a patient in mental health program";
         }
     };
+
+    public static PatientIdentifierTypeDescriptor TARV_NID= new PatientIdentifierTypeDescriptor(){
+
+        @Override
+        public String uuid() {
+            return "e2b966d0-1d5f-11e0-b929-000c29ad1d07";
+        }
+
+        @Override
+        public String name() {
+            return "NID (SERVICO TARV";
+        }
+
+        @Override
+        public String description() {
+            return "Numero de Identificaçao de Doente, serviço TARV";
+        }
+
+        public String format() {
+            return "[0-9]{8}/[0-9]{2}/[0-9]{5}";
+        }
+        public String formatDescription() {
+            return "PPDDUUSS/AA/NNNNN";
+        }
+
+        @Override
+        public boolean required() {
+            return true;
+        }
+    };
 }
