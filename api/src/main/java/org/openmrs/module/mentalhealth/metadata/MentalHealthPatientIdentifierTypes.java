@@ -31,7 +31,7 @@ public class MentalHealthPatientIdentifierTypes {
 
         @Override
         public String name() {
-            return "NID (SERVICO TARV";
+			return "NID (SERVIÇO TARV)";
         }
 
         @Override
@@ -39,10 +39,12 @@ public class MentalHealthPatientIdentifierTypes {
             return "Numero de Identificaçao de Doente, serviço TARV";
         }
 
-        public String format() {
+        @Override
+		public String format() {
             return "[0-9]{8}/[0-9]{2}/[0-9]{5}";
         }
-        public String formatDescription() {
+        @Override
+		public String formatDescription() {
             return "PPDDUUSS/AA/NNNNN";
         }
 

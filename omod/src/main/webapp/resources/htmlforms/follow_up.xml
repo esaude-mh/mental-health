@@ -1528,8 +1528,8 @@ $(document).ready(
 							<label >mentalhealth.form.initial.title</label>
 						</div>
 						<div class="col-md-5 text-right">
-							<label>mentalhealth.form.initial.patient.art.nid</label>:  <span id="patient-details-ART-NID"><lookup expression="patient.getPatientIdentifier(2)"/></span><br />
-							<label>mentalhealth.form.initial.patient.mh.nid</label>:  <span id="patient-details-MH-NID"><lookup expression="patient.getPatientIdentifier(14)"/></span>
+							<label>mentalhealth.form.initial.patient.art.nid</label>:  <span id="patient-details-ART-NID"><lookup complexExpression="#foreach($pi in $patient.getActiveIdentifiers()) #if($pi.identifierType.getUuid() == 'e2b966d0-1d5f-11e0-b929-000c29ad1d07') $patient.getPatientIdentifier($pi.identifierType.patientIdentifierTypeId) #end #end"/></span><br />
+							<label>mentalhealth.form.initial.patient.mh.nid</label>:  <span id="patient-details-MH-NID"><lookup complexExpression="#foreach($pi in $patient.getActiveIdentifiers()) #if($pi.identifierType.getUuid() == '689a4f84-aa03-11e8-adff-6fec648a8d89') $patient.getPatientIdentifier($pi.identifierType.patientIdentifierTypeId) #end #end"/></span>
 						</div>
 					</div>
 					<div class="row">
