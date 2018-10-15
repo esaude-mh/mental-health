@@ -9,7 +9,7 @@ import org.apache.commons.logging.LogFactory;
 import org.openmrs.api.FormService;
 import org.openmrs.api.context.Context;
 import org.openmrs.module.mentalhealth.MentalHealthConstants;
-import org.openmrs.module.mentalhealth.utils.MentalHealthExtensionFormUtil;
+import org.openmrs.module.mentalhealth.utils.MhExtensionFormUtil;
 import org.openmrs.module.formentryapp.FormEntryAppService;
 import org.openmrs.module.formentryapp.FormManager;
 import org.openmrs.module.formentryapp.page.controller.forms.ExtensionForm;
@@ -25,15 +25,15 @@ import org.openmrs.ui.framework.resource.ResourceProvider;
  * 2) Attempts to create an HFE form from each of the files
  * 3) Adds the forms as in Configure MentalHealthMetadata \ Manage Forms
  */
-public class MentalHealthHtmlFormsInitializer implements MentalHealthInitializer {
+public class MhHtmlFormsInitializer implements MhInitializer {
 
-    protected static final Log log = LogFactory.getLog(MentalHealthHtmlFormsInitializer.class);
+    protected static final Log log = LogFactory.getLog(MhHtmlFormsInitializer.class);
 
     protected static final String providerName = "mentalhealth";
     protected static final String formsPath = "htmlforms/";
 
     /**
-     * @see MentalHealthInitializer#started()
+     * @see MhInitializer#started()
      */
     public synchronized void started() {
         log.info("Setting HFE forms for " + MentalHealthConstants.MODULE_ID);
@@ -63,8 +63,8 @@ public class MentalHealthHtmlFormsInitializer implements MentalHealthInitializer
                 htmlForm = HtmlFormUtil.getHtmlFormFromUiResource(resourceFactory, formService, hfeService, providerName, formPath);
                 try {
                     // Adds meta data
-                    System.out.println("The form is found here :::"+htmlForm.getName());
-                    ExtensionForm extensionForm = MentalHealthExtensionFormUtil.getExtensionFormFromUiResourceAndForm(resourceFactory, providerName, formPath, hfeAppService, formManager, htmlForm.getForm());
+                    //System.out.println("The form is found here :::"+htmlForm.getName());
+                    ExtensionForm extensionForm = MhExtensionFormUtil.getExtensionFormFromUiResourceAndForm(resourceFactory, providerName, formPath, hfeAppService, formManager, htmlForm.getForm());
                     log.info("The form at " + formPath + " has been successfully loaded with its metadata");
                 } catch (Exception e) {
                     log.error("The form was created but its extension point could not be created in Manage Forms \\ Configure MentalHealthMetadata: " + formPath, e);
@@ -82,7 +82,7 @@ public class MentalHealthHtmlFormsInitializer implements MentalHealthInitializer
     }
 
     /**
-     * @see MentalHealthInitializer#stopped()
+     * @see MhInitializer#stopped()
      */
     public void stopped() {
         //TODO: Perhaps disable the forms?

@@ -17,7 +17,7 @@ import org.openmrs.util.OpenmrsUtil;
 import java.util.Date;
 import java.util.List;
 
-public class MentalHealthCalculationUtils {
+public class MhCalculationUtils {
 
     /**
      * Evaluates the specified calculation for a single patient
@@ -27,7 +27,7 @@ public class MentalHealthCalculationUtils {
      * @return the calculation result
      */
     public static CalculationResult evaluateForPatient(Class <? extends PatientCalculation> calculationClass, String configuration, Patient patient) {
-        PatientCalculation calculation = MentalHealthConfigCalculationUtils.instantiateCalculation(calculationClass, configuration);
+        PatientCalculation calculation = MhConfigCalculationUtils.instantiateCalculation(calculationClass, configuration);
         return Context.getService(PatientCalculationService.class).evaluate(patient.getId(), calculation);
     }
 

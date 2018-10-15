@@ -10,7 +10,7 @@ import org.openmrs.scheduler.TaskDefinition;
 /**
  * Custom application configurations
  */
-public class MentalHealthAppConfigurationInitializer implements MentalHealthInitializer {
+public class MhAppConfigurationInitializer implements MhInitializer {
 
     protected Log log = LogFactory.getLog(getClass());
 

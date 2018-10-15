@@ -19,7 +19,7 @@ import java.util.*;
  *
  * @author Dimitri Renault
  */
-public class MentalHealthExtensionFormUtil {
+public class MhExtensionFormUtil {
 
     protected org.apache.commons.logging.Log log = LogFactory.getLog(getClass());
 
@@ -108,7 +108,7 @@ public class MentalHealthExtensionFormUtil {
     }
 
     protected static int getAttributeIntegerValue(Node htmlForm, String attributeName, int defaultValue) {
-        Log log = LogFactory.getLog(MentalHealthExtensionFormUtil.class);
+        Log log = LogFactory.getLog(MhExtensionFormUtil.class);
         String stringValue = getAttributeStringValue(htmlForm, attributeName, (new Integer(defaultValue)).toString());
         int val = defaultValue;
         try {

@@ -29,9 +29,10 @@ import org.openmrs.module.ModuleFactory;
 import org.openmrs.module.htmlformentry.HtmlFormEntryService;
 import org.openmrs.module.idgen.IdentifierSource;
 import org.openmrs.module.idgen.service.IdentifierSourceService;
-import org.openmrs.module.mentalhealth.activator.MentalHealthAppConfigurationInitializer;
-import org.openmrs.module.mentalhealth.activator.MentalHealthHtmlFormsInitializer;
-import org.openmrs.module.mentalhealth.activator.MentalHealthInitializer;
+import org.openmrs.module.mentalhealth.activator.MhAppConfigurationInitializer;
+import org.openmrs.module.mentalhealth.activator.MhHtmlFormsInitializer;
+import org.openmrs.module.mentalhealth.activator.MhInitializer;
+import org.openmrs.module.mentalhealth.activator.MhReportsInitializer;
 import org.openmrs.module.mentalhealth.deploy.MentalHealthCommonMetadataBundle;
 import org.openmrs.module.mentalhealth.handlers.FieldsetHandler;
 import org.openmrs.module.mentalhealth.handlers.InputHandler;
@@ -97,7 +98,7 @@ public class MentalHealthConfigurationsActivator extends BaseModuleActivator {
 		installCommonMetadata(deployService);
 
 		// run the initializers
-		for (MentalHealthInitializer initializer : getInitializers()) {
+		for (MhInitializer initializer : getInitializers()) {
 			initializer.started();
 		}
 		// generate OpenMRS ID for patients without the identifier
@@ -121,10 +122,11 @@ public class MentalHealthConfigurationsActivator extends BaseModuleActivator {
 		log.info("Aihd Configurations Module stopped");
 	}
 
-	private List<MentalHealthInitializer> getInitializers() {
-		List<MentalHealthInitializer> l = new ArrayList<MentalHealthInitializer>();
-		l.add(new MentalHealthAppConfigurationInitializer());
-		l.add(new MentalHealthHtmlFormsInitializer());
+	private List<MhInitializer> getInitializers() {
+		List<MhInitializer> l = new ArrayList<MhInitializer>();
+		l.add(new MhAppConfigurationInitializer());
+		l.add(new MhHtmlFormsInitializer());
+		l.add(new MhReportsInitializer());
 		return l;
 	}
 

@@ -38,7 +38,7 @@ import java.util.HashMap;
 /**
  * Utility class of common base calculations
  */
-public class MentalHealthConfigCalculations {
+public class MhConfigCalculations {
 
 
 
@@ -52,7 +52,7 @@ public class MentalHealthConfigCalculations {
      */
     public static CalculationResultMap alive(Collection<Integer> cohort, PatientCalculationContext context) {
         VitalStatusDataDefinition def = new VitalStatusDataDefinition("alive");
-        CalculationResultMap vitals = MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
+        CalculationResultMap vitals = MhConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
 
         CalculationResultMap ret = new CalculationResultMap();
         for (int ptId : cohort) {
@@ -74,7 +74,7 @@ public class MentalHealthConfigCalculations {
      */
     public static CalculationResultMap genders(Collection<Integer> cohort, PatientCalculationContext context) {
         GenderDataDefinition def = new GenderDataDefinition("gender");
-        return MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
+        return MhConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
     }
 
     /**
@@ -86,7 +86,7 @@ public class MentalHealthConfigCalculations {
     public static CalculationResultMap ages(Collection<Integer> cohort, PatientCalculationContext context) {
         AgeDataDefinition def = new AgeDataDefinition("age on");
         def.setEffectiveDate(context.getNow());
-        return MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
+        return MhConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
     }
 
     /**
@@ -98,7 +98,7 @@ public class MentalHealthConfigCalculations {
      */
     public static CalculationResultMap allObs(Concept concept, Collection<Integer> cohort, PatientCalculationContext context) {
         ObsForPersonDataDefinition def = new ObsForPersonDataDefinition("all obs", TimeQualifier.ANY, concept, context.getNow(), null);
-        return MentalHealthConfigCalculationUtils.ensureEmptyListResults(MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context), cohort);
+        return MhConfigCalculationUtils.ensureEmptyListResults(MhConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context), cohort);
     }
 
     /**
@@ -110,7 +110,7 @@ public class MentalHealthConfigCalculations {
      */
     public static CalculationResultMap firstObs(Concept concept, Collection<Integer> cohort, PatientCalculationContext context) {
         ObsForPersonDataDefinition def = new ObsForPersonDataDefinition("first obs", TimeQualifier.FIRST, concept, context.getNow(), null);
-        return MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
+        return MhConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
     }
 
     /**
@@ -122,7 +122,7 @@ public class MentalHealthConfigCalculations {
      */
     public static CalculationResultMap firstObsOnOrAfter(Concept concept, Date onOrAfter, Collection<Integer> cohort, PatientCalculationContext context) {
         ObsForPersonDataDefinition def = new ObsForPersonDataDefinition("first obs on or after", TimeQualifier.FIRST, concept, context.getNow(), onOrAfter);
-        return MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
+        return MhConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
     }
 
     /**
@@ -134,7 +134,7 @@ public class MentalHealthConfigCalculations {
      */
     public static CalculationResultMap lastObs(Concept concept, Collection<Integer> cohort, PatientCalculationContext context) {
         ObsForPersonDataDefinition def = new ObsForPersonDataDefinition("last obs", TimeQualifier.LAST, concept, context.getNow(), null);
-        return MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
+        return MhConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
     }
 
     /**
@@ -150,7 +150,7 @@ public class MentalHealthConfigCalculations {
         onOrBefore = MentalHealthConfigCoreUtils.earliest(onOrBefore, context.getNow());
 
         ObsForPersonDataDefinition def = new ObsForPersonDataDefinition("last obs on or before", TimeQualifier.LAST, concept, onOrBefore, null);
-        return MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
+        return MhConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
     }
 
     /**
@@ -184,8 +184,8 @@ public class MentalHealthConfigCalculations {
         }
         def.setWhich(TimeQualifier.ANY);
         def.setOnOrBefore(context.getNow());
-        CalculationResultMap results = MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
-        return MentalHealthConfigCalculationUtils.ensureEmptyListResults(results, cohort);
+        CalculationResultMap results = MhConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
+        return MhConfigCalculationUtils.ensureEmptyListResults(results, cohort);
     }
 
     /**
@@ -206,7 +206,7 @@ public class MentalHealthConfigCalculations {
         }
         def.setWhich(TimeQualifier.FIRST);
         def.setOnOrBefore(context.getNow());
-        return MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
+        return MhConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
     }
 
     /**
@@ -227,7 +227,7 @@ public class MentalHealthConfigCalculations {
         }
         def.setWhich(TimeQualifier.LAST);
         def.setOnOrBefore(context.getNow());
-        return MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
+        return MhConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
     }
 
     /**
@@ -248,8 +248,8 @@ public class MentalHealthConfigCalculations {
         }
         def.setWhich(TimeQualifier.ANY);
         def.setOnOrAfter(onOrAfter);
-        CalculationResultMap results = MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
-        return MentalHealthConfigCalculationUtils.ensureEmptyListResults(results, cohort);
+        CalculationResultMap results = MhConfigCalculationUtils.evaluateWithReporting(def, cohort, null, null, context);
+        return MhConfigCalculationUtils.ensureEmptyListResults(results, cohort);
     }
 
     /**
@@ -265,8 +265,8 @@ public class MentalHealthConfigCalculations {
         def.setWhichEnrollment(TimeQualifier.ANY);
         def.setProgram(program);
         def.setEnrolledOnOrBefore(context.getNow());
-        CalculationResultMap results = MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, new HashMap<String, Object>(), null, context);
-        return MentalHealthConfigCalculationUtils.ensureEmptyListResults(results, cohort);
+        CalculationResultMap results = MhConfigCalculationUtils.evaluateWithReporting(def, cohort, new HashMap<String, Object>(), null, context);
+        return MhConfigCalculationUtils.ensureEmptyListResults(results, cohort);
     }
 
     /**
@@ -293,7 +293,7 @@ public class MentalHealthConfigCalculations {
         def.setWhichEnrollment(TimeQualifier.LAST);
         def.setProgram(program);
         def.setActiveOnDate(onDate);
-        return MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, new HashMap<String, Object>(), null, context);
+        return MhConfigCalculationUtils.evaluateWithReporting(def, cohort, new HashMap<String, Object>(), null, context);
     }
 
 
@@ -310,8 +310,8 @@ public class MentalHealthConfigCalculations {
         def.setWhichEnrollment(TimeQualifier.FIRST);
         def.setProgram(program);
         def.setEnrolledOnOrBefore(context.getNow());
-        CalculationResultMap results = MentalHealthConfigCalculationUtils.evaluateWithReporting(def, cohort, new HashMap<String, Object>(), null, context);
-        return MentalHealthConfigCalculationUtils.ensureEmptyListResults(results, cohort);
+        CalculationResultMap results = MhConfigCalculationUtils.evaluateWithReporting(def, cohort, new HashMap<String, Object>(), null, context);
+        return MhConfigCalculationUtils.ensureEmptyListResults(results, cohort);
     }
 
 }
