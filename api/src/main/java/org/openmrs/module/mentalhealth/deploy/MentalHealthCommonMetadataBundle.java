@@ -27,15 +27,10 @@ public class MentalHealthCommonMetadataBundle extends AbstractMetadataBundle {
         install(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE);
         install(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE);
 
-
-        //installing programs metadata
-		//log.info("Installing Programs");
-		//install(MentalHealthProgramtypes.MH_PROGRAM);
-
         //install identifier types
         log.info("Installing patient identifier types");
+        install(MentalHealthPatientIdentifierTypes.OPENMRS_ID);
         install(MentalHealthPatientIdentifierTypes.MH_NID);
-
         install(MentalHealthPatientIdentifierTypes.TARV_NID);
 
     }

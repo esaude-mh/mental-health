@@ -1,6 +1,8 @@
 package org.openmrs.module.mentalhealth.metadata;
 
+import org.openmrs.module.idgen.validator.LuhnMod30IdentifierValidator;
 import org.openmrs.module.metadatadeploy.descriptor.PatientIdentifierTypeDescriptor;
+import org.openmrs.patient.IdentifierValidator;
 
 public class MentalHealthPatientIdentifierTypes {
 
@@ -48,9 +50,25 @@ public class MentalHealthPatientIdentifierTypes {
             return "PPDDUUSS/AA/NNNNN";
         }
 
+    };
+
+    public static PatientIdentifierTypeDescriptor OPENMRS_ID = new PatientIdentifierTypeDescriptor() {
         @Override
-        public boolean required() {
-            return true;
+        public String name() {
+            return "OpenMRS ID";
+        }
+
+        @Override
+        public String description() {
+            return "OpenMRS patient identifier, with check-digit";
+        }
+
+        public String uuid() {
+            return "05a29f94-c0ed-11e2-94be-8c13b969e334";
+        }
+
+        public Class<? extends IdentifierValidator> validator() {
+            return LuhnMod30IdentifierValidator.class;
         }
     };
 }
