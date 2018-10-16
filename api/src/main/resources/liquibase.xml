@@ -8,4 +8,16 @@
         See http://www.liquibase.org/manual/home#available_database_refactorings
         for a list of supported elements and attributes
     -->
+    <changeSet id="mental-health-20181030001" author="ningosi">
+        <preConditions onFail="MARK_RAN">
+            <dbms type="mysql"/>
+            <sqlCheck expectedResult="1">
+                select count(*) from location as l, global_property as gp where l.name=gp.property_value and gp.property='default_location';
+            </sqlCheck>
+        </preConditions>
+        <comment>Provide a default location if NOT set yet, but if set just ignore</comment>
+        <sql>
+            update global_property as gp, location as l set gp.property_value=l.name where l.location_id=1 and gp.property='default_location';
+        </sql>
+    </changeSet>
 </databaseChangeLog>
