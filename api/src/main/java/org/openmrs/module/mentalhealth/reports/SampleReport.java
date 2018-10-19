@@ -33,9 +33,12 @@ public class SampleReport extends MhDataExportManager {
     @Autowired
     private MhCommonDimension mhCommonDimension;
 
+	public static final String XLS_TEMPLATE_UUID = "83684b4c-d062-11e8-89d2-938f982d9cb7";
+	public static final String REPORT_DEFINITION_UUID = "94110b96-d062-11e8-9f06-a3af958caf7f";
+    
     @Override
     public String getExcelDesignUuid() {
-        return "83684b4c-d062-11e8-89d2-938f982d9cb7";
+        return XLS_TEMPLATE_UUID;//"83684b4c-d062-11e8-89d2-938f982d9cb7";
     }
 
     /**
@@ -54,7 +57,7 @@ public class SampleReport extends MhDataExportManager {
 
     @Override
     public String getUuid() {
-        return "94110b96-d062-11e8-9f06-a3af958caf7f";
+        return REPORT_DEFINITION_UUID;
     }
 
     @Override
