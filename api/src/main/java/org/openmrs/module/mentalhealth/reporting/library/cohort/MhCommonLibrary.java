@@ -1,5 +1,6 @@
 package org.openmrs.module.mentalhealth.reporting.library.cohort;
 
+import org.openmrs.Concept;
 import org.openmrs.EncounterType;
 import org.openmrs.Location;
 import org.openmrs.Program;
@@ -91,7 +92,11 @@ public class MhCommonLibrary {
         sqlCohortDefinition.addParameter(new Parameter("startDate", "Data Inicial Inclusão", Date.class));
         sqlCohortDefinition.addParameter(new Parameter("endDate", "Data Final Inclusão", Date.class));
         sqlCohortDefinition.addParameter(new Parameter("location", "Unidade Sanitária", Date.class));
-        sqlCohortDefinition.setQuery("SELECT patient_id FROM patient");
+        sqlCohortDefinition.addParameter(new Parameter("concept", "Concept", Concept.class));
+        sqlCohortDefinition.addParameter(new Parameter("months", "Months", Integer.class));
+        sqlCohortDefinition.addParameter(new Parameter("alive", "Alive", Boolean.class));
+        sqlCohortDefinition.addParameter(new Parameter("encounter", "Encounter Type", EncounterType.class));
+        sqlCohortDefinition.setQuery("SELECT person_id FROM obs where concept_id=:concept");
         return sqlCohortDefinition;
     }
 }

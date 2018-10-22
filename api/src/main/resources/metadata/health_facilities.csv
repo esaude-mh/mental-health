@@ -1,0 +1,1616 @@
+CODIGO,PROVINCIA,DISTRITO,UNIDADE SANITÁRIA,CLASSIFICAÇÃO,NÍVEL,TIPO DE US,Tipo,Maternidade,Camas Maternidade,Camas Internamento,Camas Total
+1040206,Zambezia,Alto Molocue,CS Alto Molócuè,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1040299,Zambezia,Alto Molocue,CS Bonifacio Groveta,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1040207,Zambezia,Alto Molocue,CS Caiaia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040208,Zambezia,Alto Molocue,CS Chapala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1040236,Zambezia,Alto Molocue,CS Cololo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040216,Zambezia,Alto Molocue,CS Ecole,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040265,Zambezia,Alto Molocue,CS Malua,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040211,Zambezia,Alto Molocue,CS Mouia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1040212,Zambezia,Alto Molocue,CS Mugema,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1040255,Zambezia,Alto Molocue,CS Mutala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040213,Zambezia,Alto Molocue,CS Nacuaca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040214,Zambezia,Alto Molocue,CS Nauela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,10,18
+1040237,Zambezia,Alto Molocue,CS Nivava,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040200,Zambezia,Alto Molocue,CS Novanana,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040215,Zambezia,Alto Molocue,HD Alto Mulocue,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,19,64,83
+1040256,Zambezia,Alto Molocue,PS Nimala,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,4,0,4
+1040210,Zambezia,Alto Molocue,CS Welele,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,,,
+1020206,Cabo Delgado,Ancuabe,CS Ancuabe,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,11,29,40
+1020207,Cabo Delgado,Ancuabe,CS Mariri,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1020210,Cabo Delgado,Ancuabe,CS Mesa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1020209,Cabo Delgado,Ancuabe,CS Metoro,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,22,29,51
+1020211,Cabo Delgado,Ancuabe,CS Minhewene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1020214,Cabo Delgado,Ancuabe,CS Nacuale,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1020213,Cabo Delgado,Ancuabe,CS Ngewe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1020208,Cabo Delgado,Ancuabe,CS Ntutupue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1030210,Nampula,Angoche,CS Abue,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,5,0,5
+1030219,Nampula,Angoche,CS Catamoio,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1030286,Nampula,Angoche,CS Gelo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1030206,Nampula,Angoche,CS Inguri,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1030218,Nampula,Angoche,CS Josina Machel,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1030217,Nampula,Angoche,CS Malatane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1030211,Nampula,Angoche,CS Mepapata,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1030205,Nampula,Angoche,CS Mirrepe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1030212,Nampula,Angoche,CS Mirrere,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1030221,Nampula,Angoche,CS Mucual,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1030213,Nampula,Angoche,CS Nacopa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1030207,Nampula,Angoche,CS Namaponda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030208,Nampula,Angoche,CS Namitoria,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,14,18,32
+1030214,Nampula,Angoche,CS Napruma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1030209,Nampula,Angoche,CS Natir,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030285,Nampula,Angoche,CS Quelelene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1030215,Nampula,Angoche,CS Quilua,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1030216,Nampula,Angoche,CS Sangage,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1030201,Nampula,Angoche,HR Angoche,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,22,50,72
+1050203,Tete,Angónia,CS Calomue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1050216,Tete,Angónia,CS Catondo,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1050204,Tete,Angónia,CS Chia,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,2,0,2
+1050208,Tete,Angónia,CS Chimuala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1050207,Tete,Angónia,CS Domue,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,0,33,33
+1050210,Tete,Angónia,CS Lifidzi,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1050214,Tete,Angónia,CS Mpandula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1050211,Tete,Angónia,CS Mpenha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1050218,Tete,Angónia,CS Mulanguene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,3,3
+1050217,Tete,Angónia,CS Ntsedeza,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1050212,Tete,Angónia,CS Seze,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,3,3
+1050215,Tete,Angónia,CS Ulongue,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1050213,Tete,Angónia,CS Vila Velha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050200,Tete,Angónia,HR Ulongue,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,20,40,60
+1020306,Cabo Delgado,Balama,CS Balama,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,9,50,59
+1020307,Cabo Delgado,Balama,CS Impiri,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,3,8
+1020308,Cabo Delgado,Balama,CS KueKue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,1,5
+1020309,Cabo Delgado,Balama,CS Mavala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1020311,Cabo Delgado,Balama,CS Metata,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,não,3,3,6
+1020313,Cabo Delgado,Balama,CS Muape,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1020312,Cabo Delgado,Balama,CS Murripa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,4,8
+1020310,Cabo Delgado,Balama,CS Ntete,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1070110,Sofala,Beira,CS Ceramica,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070108,Sofala,Beira,CS Chingussura,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,22,0,22
+1070112,Sofala,Beira,CS Chota,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1070103,Sofala,Beira,CS de Inhamizua,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1070114,Sofala,Beira,CS M. Mascarenha,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,9,0,9
+1070113,Sofala,Beira,CS Macurrungo,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,18,0,18
+1070104,Sofala,Beira,CS Manga-Loforte,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1070105,Sofala,Beira,CS Marrocanhe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070106,Sofala,Beira,CS Munhava,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,22,0,22
+1070107,Sofala,Beira,CS Nhaconjo,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,20,0,20
+1070116,Sofala,Beira,CS Nhangau,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1070109,Sofala,Beira,CS Ponta Gea,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,24,0,24
+1070100,Sofala,Beira,HC Beira,Hospital Central,Nível Quaternário,Hospital Central (Tipo US),HosPital,sim,68,598,666
+1070111,Sofala,Beira,PS Chamba,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1070115,Sofala,Beira,PS Matadouro,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1090210,Gaza,Bilene,CS Incaia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1090206,Gaza,Bilene,CS Macia,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,29,41
+1090208,Gaza,Bilene,CS Mamonho,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090216,Gaza,Bilene,CS Mangol,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1090212,Gaza,Bilene,CS Mazivila,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1090213,Gaza,Bilene,CS Messano,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090214,Gaza,Bilene,CS Olombe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1090207,Gaza,Bilene,CS Praia de Bilene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090215,Gaza,Bilene,CS Tuane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100210,Maputo Provincia,Boane,CS Beleluane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1100206,Maputo Provincia,Boane,CS Boane,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,20,21,41
+1100207,Maputo Provincia,Boane,CS Campuane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1100217,Maputo Provincia,Boane,CS Escola Pratica de Formacao de Sargentos,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1100219,Maputo Provincia,Boane,CS Josina Machel,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1100211,Maputo Provincia,Boane,CS Mabanja,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,9,0,9
+1100205,Maputo Provincia,Boane,CS Mahanhane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1100208,Maputo Provincia,Boane,CS Mahubo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100209,Maputo Provincia,Boane,CS Massaca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100218,Maputo Provincia,Boane,CS Mulotana,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100216,Maputo Provincia,Boane,CS Picoco,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1100214,Maputo Provincia,Boane,PS Casa Gaiato,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1100212,Maputo Provincia,Boane,PS Matola-Rio,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,8,0,8
+1100213,Maputo Provincia,Boane,PS Pequenos Libombos,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1100215,Maputo Provincia,Boane,PS Águas de Maputo,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1070207,Sofala,Buzi,CS Ampara,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070206,Sofala,Buzi,CS Bandua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070209,Sofala,Buzi,CS Barada,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1070210,Sofala,Buzi,CS Bura,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070211,Sofala,Buzi,CS Chissinguana,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070220,Sofala,Buzi,CS Danga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070212,Sofala,Buzi,CS Estaquinha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1070216,Sofala,Buzi,CS Grudja,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1070217,Sofala,Buzi,CS Guara-Guara,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070208,Sofala,Buzi,CS Inhamichindo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1070267,Sofala,Buzi,CS Inhavininga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070215,Sofala,Buzi,CS Marombe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070200,Sofala,Buzi,HR  Buzi,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,27,32,59
+1070214,Sofala,Buzi,PS Rio Buzi,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1060214,Manica,Bárue,CS Barauro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060207,Manica,Bárue,CS Cagore,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060215,Manica,Bárue,CS Catandica,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1060216,Manica,Bárue,CS Chuala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060206,Manica,Bárue,CS Cruz. Macossa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060208,Manica,Bárue,CS Honde,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060218,Manica,Bárue,CS Munene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060217,Manica,Bárue,CS Mussianharo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060210,Manica,Bárue,CS Nhampassa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060211,Manica,Bárue,CS Nhassacara,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060209,Manica,Bárue,CS Nhazonia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060212,Manica,Bárue,CS Phanze,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060213,Manica,Bárue,CS Serra Choa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060200,Manica,Bárue,HD Catandica,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,30,72,102
+1050306,Tete,Cahora Bassa,CS chinhanda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050313,Tete,Cahora Bassa,CS Chintholo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050314,Tete,Cahora Bassa,CS Chipalapala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050309,Tete,Cahora Bassa,CS Chirodze-Ponte,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1050308,Tete,Cahora Bassa,CS Chitima,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,15,56,71
+1050312,Tete,Cahora Bassa,CS Maroeira,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050310,Tete,Cahora Bassa,CS NhacapiririI,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050311,Tete,Cahora Bassa,CS Nhambalo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1050202,Tete,Cahora Bassa,CS Songo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1050301,Tete,Cahora Bassa,HR Songo,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,26,65,91
+1070356,Sofala,Caia,CS Chatala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070310,Sofala,Caia,CS Deve,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1070314,Sofala,Caia,CS Kapassene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070305,Sofala,Caia,CS Licoma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070308,Sofala,Caia,CS Murraça,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,5,10
+1070307,Sofala,Caia,CS Murrema,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070311,Sofala,Caia,CS Ndoro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1070315,Sofala,Caia,CS Nhambalo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1070309,Sofala,Caia,CS Ntopa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1070312,Sofala,Caia,CS Sena,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,6,13
+1070306,Sofala,Caia,HD Caia,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,37,0,37
+1070320,Sofala,Caia,PS Nhamatanda,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,0,0
+1050414,Tete,Changara,CS Banga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1050406,Tete,Changara,CS Changara,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,14,20
+1050407,Tete,Changara,CS Chioco,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050408,Tete,Changara,CS Chipembere,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1050409,Tete,Changara,CS Dzunga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1050410,Tete,Changara,CS Goba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1050416,Tete,Changara,CS M'palamabue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1050415,Tete,Changara,CS M'saua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1050412,Tete,Changara,CS Nachinanga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1050413,Tete,Changara,CS Ntemangau,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1070408,Sofala,Chemba,CS 3 Fevereiro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1070459,Sofala,Chemba,CS Cado,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070439,Sofala,Chemba,CS Catuele,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1070410,Sofala,Chemba,CS Chemba-Sede,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,18,24
+1070407,Sofala,Chemba,CS Chiramba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1070412,Sofala,Chemba,CS Goe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1070406,Sofala,Chemba,CS Mulima,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,2,5
+1070457,Sofala,Chemba,CS Senhabuzua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1070414,Sofala,Chemba,PS Jequecene,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1070508,Sofala,Cheringoma,CS Chite,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1070500,Sofala,Cheringoma,CS Inhaminga,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,40,52
+1070511,Sofala,Cheringoma,CS Inhamitanga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1070510,Sofala,Cheringoma,CS Maciaboza,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1070509,Sofala,Cheringoma,CS Mazamba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070507,Sofala,Cheringoma,CS Nhataca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1070506,Sofala,Cheringoma,CS Pungue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1070606,Sofala,Chibabava,CS Chibabava-Sede,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,16,20
+1070617,Sofala,Chibabava,CS Chinhica,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070616,Sofala,Chibabava,CS Goonda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070609,Sofala,Chibabava,CS Hoode,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070615,Sofala,Chibabava,CS Magunde,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1070614,Sofala,Chibabava,CS Mucheve,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070610,Sofala,Chibabava,CS Mulingue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1070604,Sofala,Chibabava,CS Mutindire,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1070608,Sofala,Chibabava,CS Nhango,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1070611,Sofala,Chibabava,CS Panja,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070613,Sofala,Chibabava,CS Revue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070612,Sofala,Chibabava,CS Tronga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070600,Sofala,Chibabava,HR Muxungue,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,28,64,92
+1070607,Sofala,Chibabava,PS Esperança-Berta,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1070605,Sofala,Chibabava,PS Massaquessa,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1090307,Gaza,Chibuto,CS Alto Changane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090304,Gaza,Chibuto,CS Celula Mussavene,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1090312,Gaza,Chibuto,CS Chaimite,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090317,Gaza,Chibuto,CS Changanine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090306,Gaza,Chibuto,CS Chibuto,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,39,0,39
+1090313,Gaza,Chibuto,CS Chimundo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090308,Gaza,Chibuto,CS Chipadja,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090305,Gaza,Chibuto,CS Coca Missava,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1090311,Gaza,Chibuto,CS Maivene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090309,Gaza,Chibuto,CS Malehice,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,12,0,12
+1090302,Gaza,Chibuto,CS Maqueze,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1090318,Gaza,Chibuto,CS Meboi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090315,Gaza,Chibuto,CS Mukhotwene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1090310,Gaza,Chibuto,CS Muxaxane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090314,Gaza,Chibuto,CS Nwavaquene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1090301,Gaza,Chibuto,HR Chibuto,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,0,77,77
+1090303,Gaza,Chibuto,PS Vila Milenio,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1090414,Gaza,Chicualacuala,CS Chicualacuala,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1090412,Gaza,Chicualacuala,CS Litlatla,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1090407,Gaza,Chicualacuala,CS Mahatlane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090411,Gaza,Chicualacuala,PS Pafuri,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1051117,Tete,Chifunde,CS Bolimo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050506,Tete,Chifunde,CS Chifunde,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,8,16
+1050507,Tete,Chifunde,CS Luia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1050512,Tete,Chifunde,CS Nkamande,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1050511,Tete,Chifunde,CS Nkantha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050509,Tete,Chifunde,CS Thequesse,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1050508,Tete,Chifunde,CS Tsadzo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1050510,Tete,Chifunde,CS Vila Mualadzi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1090506,Gaza,Chigubo,CS Saute,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1090508,Gaza,Chigubo,CS Dindiza,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,3,9
+1090510,Gaza,Chigubo,CS Nhanale,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090507,Gaza,Chigubo,CS Zinhane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1090511,Gaza,Chigubo,CS Cubo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1010406,Niassa,Chimbonila,CS Chala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1010407,Niassa,Chimbonila,CS Chimbunila,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,8,16
+1010401,Niassa,Chimbonila,CS Chinenge,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1010408,Niassa,Chimbonila,CS Cholue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1010416,Niassa,Chimbonila,CS Colongo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1010409,Niassa,Chimbonila,CS Lione,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1010402,Niassa,Chimbonila,CS Lumbe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1010423,Niassa,Chimbonila,CS Machemba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1010417,Niassa,Chimbonila,CS Machumane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1010418,Niassa,Chimbonila,CS Mapaco,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1010414,Niassa,Chimbonila,CS Mussa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1010415,Niassa,Chimbonila,CS Namuanica,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1010403,Niassa,Chimbonila,CS Uti,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1060107,Manica,Chimoio,CS 1º de Maio,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,18,0,18
+1060110,Manica,Chimoio,CS 7 De Abril,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,8,0,8
+1060109,Manica,Chimoio,CS Chissui,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,5,0,5
+1060106,Manica,Chimoio,CS Eduardo Mondlane,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1060108,Manica,Chimoio,CS Nhamaonha,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,7,0,7
+1060112,Manica,Chimoio,CS Vila Nova,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,18,0,18
+1060100,Manica,Chimoio,HP Chimoio,HP - Hospital Provincial,Nível Terciário,Hospital Provincial (Tipo US),HosPital,sim,47,338,385
+1040307,Zambezia,Chinde,CS Chinde - Sede,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,23,35
+1040313,Zambezia,Chinde,CS Jorge,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040309,Zambezia,Chinde,CS Madal,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1040310,Zambezia,Chinde,CS Matilde,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040311,Zambezia,Chinde,CS Micaune,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040316,Zambezia,Chinde,PS Centro Educacional,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1040312,Zambezia,Chinde,PS Mitange,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1020409,Cabo Delgado,Chiure,CS Catapua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1020407,Cabo Delgado,Chiure,CS Chiure Velho,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,10,14
+1020417,Cabo Delgado,Chiure,CS Marera,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1020410,Cabo Delgado,Chiure,CS Mazeze,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1020412,Cabo Delgado,Chiure,CS M'mala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1020414,Cabo Delgado,Chiure,CS Muege,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1020415,Cabo Delgado,Chiure,CS Nakoto,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1020413,Cabo Delgado,Chiure,CS Namogelia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1020411,Cabo Delgado,Chiure,CS Ocua,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,14,20
+1020404,Cabo Delgado,Chiure,CS Samora Machel,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1020406,Cabo Delgado,Chiure,HD Chiure,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,37,93,130
+1020408,Cabo Delgado,Chiure,PS Bilibiza,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1050606,Tete,Chiuta,CS Cazula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1050607,Tete,Chiuta,CS Kaunda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1050608,Tete,Chiuta,CS Manje,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,3,18,21
+1050605,Tete,Chiuta,CS Matenje,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050609,Tete,Chiuta,CS Mavudzi-Ponte,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090605,Gaza,Chockwe,CS 25 de Setembro,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1090608,Gaza,Chockwe,CS Barragem,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1090603,Gaza,Chockwe,CS Carmelo,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,115,115
+1090615,Gaza,Chockwe,CS Chalucuane,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,9,138,147
+1090626,Gaza,Chockwe,CS Chiaquelane Reassentamento,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090606,Gaza,Chockwe,CS Chokwé,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1090617,Gaza,Chockwe,CS Conhane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1090616,Gaza,Chockwe,CS Hokwe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1090620,Gaza,Chockwe,CS Lionde,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,6,12
+1090622,Gaza,Chockwe,CS Malhazine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1090601,Gaza,Chockwe,CS Manjangue,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,6,14
+1090609,Gaza,Chockwe,CS Muianga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1090612,Gaza,Chockwe,CS Tlawene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,3,6
+1090604,Gaza,Chockwe,CS Urbano 3º Bairro,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,6,0,6
+1090619,Gaza,Chockwe,CS Xilembene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090600,Gaza,Chockwe,HR Chokwé,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,32,185,217
+1090624,Gaza,Chockwe,PS 6 Bairro,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1090618,Gaza,Chockwe,PS Chiaquelane,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1090602,Gaza,Chockwe,PS Chiguidela,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1090614,Gaza,Chockwe,PS Cumba,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,0,0
+1090613,Gaza,Chockwe,PS Machua,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,6,0,6
+1090625,Gaza,Chockwe,PS Macunene,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1090610,Gaza,Chockwe,PS Mapapa,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1090621,Gaza,Chockwe,PS Massavasse,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,4,0,4
+1090623,Gaza,Chockwe,PS Militar,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1090611,Gaza,Chockwe,PS Wachicoloane,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,2,0,2
+1090607,Gaza,Chockwe,PS Zuza,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,2,0,2
+1091206,Gaza,Chongoene,CS Banhine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1091217,Gaza,Chongoene,CS Bungane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1090926,Gaza,Chongoene,CS Chicavane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1091209,Gaza,Chongoene,CS Chongoene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,10,0,10
+1090917,Gaza,Chongoene,CS Cucuine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1091212,Gaza,Chongoene,CS Maciene,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,35,47
+1090913,Gaza,Chongoene,CS Macupulane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090914,Gaza,Chongoene,CS Mangunze,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090918,Gaza,Chongoene,CS Matsinhane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1091210,Gaza,Chongoene,CS Nhacutse,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,10,0,10
+1091213,Gaza,Chongoene,CS Siaia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1091222,Gaza,Chongoene,PS Ndambine 2000,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,0,0
+1091216,Gaza,Chongoene,PS Nhamavila,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1010202,Niassa,Cuamba,CS Adine 3,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1010216,Niassa,Cuamba,CS Cuamba,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,4,0,4
+1010206,Niassa,Cuamba,CS Etatara,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,4,4
+1010217,Niassa,Cuamba,CS Lúrio,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1010224,Niassa,Cuamba,CS Macaue II,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1010207,Niassa,Cuamba,CS Malapa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,2,4
+1010223,Niassa,Cuamba,CS Matias,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1010228,Niassa,Cuamba,CS Mepessene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1010221,Niassa,Cuamba,CS Mepica,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1010225,Niassa,Cuamba,CS Meripo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1010209,Niassa,Cuamba,CS Mitucué,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,3,3
+1010220,Niassa,Cuamba,CS Muanamunepa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1010211,Niassa,Cuamba,CS Mucuapa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1010212,Niassa,Cuamba,CS Muitetere,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1010218,Niassa,Cuamba,CS Mujawa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,2,2
+1010213,Niassa,Cuamba,CS Namicova,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,2,2
+1010222,Niassa,Cuamba,CS Namuntimbua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1010215,Niassa,Cuamba,CS Napacala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1010226,Niassa,Cuamba,CS Teteriane,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1010214,Niassa,Cuamba,CS Titimane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,1,5
+1010201,Niassa,Cuamba,HR Cuamba,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,23,79,102
+1041804,Zambezia,Derre,CS Derre,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,13,18
+1041805,Zambezia,Derre,CS Guerrissa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041803,Zambezia,Derre,CS Machindo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1010110,Niassa,Distrito de Lichinga,CS Assumane,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,4,1,5
+1010108,Niassa,Distrito de Lichinga,CS Chiuaula,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,10,0,10
+1010112,Niassa,Distrito de Lichinga,CS Chiulugo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1010106,Niassa,Distrito de Lichinga,CS Lichinga,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,1,1
+1010101,Niassa,Distrito de Lichinga,CS Luiça,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1010111,Niassa,Distrito de Lichinga,CS Lulimile,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,3,1,4
+1010102,Niassa,Distrito de Lichinga,CS Magiga,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,2,1,3
+1010109,Niassa,Distrito de Lichinga,CS Malica,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,1,7
+1010107,Niassa,Distrito de Lichinga,CS Massenger,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1010104,Niassa,Distrito de Lichinga,CS Matama,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1010116,Niassa,Distrito de Lichinga,CS Matemangue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,1,2
+1010105,Niassa,Distrito de Lichinga,CS Meponda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,1,5
+1010113,Niassa,Distrito de Lichinga,CS Mitava,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,1,5
+1010115,Niassa,Distrito de Lichinga,CS Namacula,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,8,2,10
+1010118,Niassa,Distrito de Lichinga,CS Nbetazigone,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1010119,Niassa,Distrito de Lichinga,CS Nnomba,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1010114,Niassa,Distrito de Lichinga,CS Sambula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1010117,Niassa,Distrito de Lichinga,CS Utumuile,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1010100,Niassa,Distrito de Lichinga,HP Lichinga,HP - Hospital Provincial,Nível Terciário,Hospital Provincial (Tipo US),HosPital,sim,0,0,0
+1030108,Nampula,Distrito de Nampula,CS 1 de Maio,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1030106,Nampula,Distrito de Nampula,CS 25 de Setembro,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,43,0,43
+1032007,Nampula,Distrito de Nampula,CS Anchilo,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,19,35,54
+1032019,Nampula,Distrito de Nampula,CS Maratene,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,6,17,23
+1030116,Nampula,Distrito de Nampula,CS Mental,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1032021,Nampula,Distrito de Nampula,CS Mucova,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1030122,Nampula,Distrito de Nampula,CS Mucuache,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,7,0,7
+1030117,Nampula,Distrito de Nampula,CS Muhala Expansão,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,27,40,67
+1030120,Nampula,Distrito de Nampula,CS Mutavarex,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,10,0,10
+1032013,Nampula,Distrito de Nampula,CS Naholoco,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1032014,Nampula,Distrito de Nampula,CS Namachilo (MOMALA),Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1032015,Nampula,Distrito de Nampula,CS Namiconha,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1030113,Nampula,Distrito de Nampula,CS Namicopo,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1030112,Nampula,Distrito de Nampula,CS Namutequeliua,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1030109,Nampula,Distrito de Nampula,CS Napipine,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1030121,Nampula,Distrito de Nampula,CS Niarro,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1030114,Nampula,Distrito de Nampula,CS O.T.M.,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1030119,Nampula,Distrito de Nampula,CS Penitenciaria,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1032020,Nampula,Distrito de Nampula,CS Saua-Saua,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1030100,Nampula,Distrito de Nampula,HC Nampula,Hospital Central,Nível Quaternário,Hospital Central (Tipo US),HosPital,sim,0,0,0
+1030107,Nampula,Distrito de Nampula,HG Marrere,HG - Hospital Gerais,Nível Secundário,Hospital Geral (Tipo US),HosPital,sim,12,120,132
+1030102,Nampula,Distrito de Nampula,HM Nampula,Hospital Militar,Nível Quaternário,Hospital Militar(Tipo US),HosPital,sim,0,0,0
+1030110,Nampula,Distrito de Nampula,PS Anexo (Psiquiatrico),Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1030111,Nampula,Distrito de Nampula,PS Mutauanha,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1051402,Tete,Doa,CS Ancuaze,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1051400,Tete,Doa,CS Chueza,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1051403,Tete,Doa,CS Doa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,1,6
+1051409,Tete,Doa,CS Fortuna,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1070717,Sofala,Dondo,CS Bloco Nove,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070716,Sofala,Dondo,CS Canhandula,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1070710,Sofala,Dondo,CS Chibuabuabua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070709,Sofala,Dondo,CS Chinamacondo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070706,Sofala,Dondo,CS Dondo,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,20,55,75
+1070714,Sofala,Dondo,CS Macharote,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1070707,Sofala,Dondo,CS Mafambisse,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,28,40
+1070713,Sofala,Dondo,CS Mutua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070777,Sofala,Dondo,CS Samora Machel,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1070711,Sofala,Dondo,CS Savane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070720,Sofala,Dondo,CS Sengo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070703,Sofala,Dondo,CS Thundane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070719,Sofala,Dondo,PS Igreja Baptista,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1070715,Sofala,Dondo,PS Lusalite,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1070712,Sofala,Dondo,PS Nhamainga,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1030314,Nampula,Erati,CS Jacoco,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030312,Nampula,Erati,CS Kutua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030307,Nampula,Erati,CS Mirrote,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,7,20,27
+1030308,Nampula,Erati,CS Namiroa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030311,Nampula,Erati,CS Odinepa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030310,Nampula,Erati,CS Samora Machel,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030313,Nampula,Erati,CS Tubruto (25 Junho),Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1030306,Nampula,Erati,HR Alua,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,14,42,56
+1030301,Nampula,Erati,HR Namapa,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,43,82,125
+1030309,Nampula,Erati,PS Mantoge,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,4,0,4
+1080206,Inhambane,Funhalouro,CS Funhalouro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,16,22
+1080209,Inhambane,Funhalouro,CS Manhiça,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080207,Inhambane,Funhalouro,CS Mavume,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080208,Inhambane,Funhalouro,CS Tomé,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080210,Inhambane,Funhalouro,CS Tsenane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1040406,Zambezia,Gilé,CS Alto Ligonha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1040439,Zambezia,Gilé,CS Kayane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040455,Zambezia,Gilé,CS Mamala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040408,Zambezia,Gilé,CS Moneia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1040409,Zambezia,Gilé,CS Muiane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040404,Zambezia,Gilé,CS Mutequela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040405,Zambezia,Gilé,CS Ntxotxa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1040462,Zambezia,Gilé,CS Pury,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040410,Zambezia,Gilé,CS Uape,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040407,Zambezia,Gilé,HD Gilé,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,14,45,59
+1040437,Zambezia,Gilé,PS Namuaca,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1060307,Manica,Gondola,CS Amatongas,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1060306,Manica,Gondola,CS Chipindaumwe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060319,Manica,Gondola,CS F. Manyanga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1060309,Manica,Gondola,CS Inchope,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1060305,Manica,Gondola,CS Josina Machel,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1060313,Manica,Gondola,CS Muda Serração,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060355,Manica,Gondola,CS Mutocoma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060300,Manica,Gondola,HD Gondola,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,20,32,52
+1070812,Sofala,Gorongoza,CS Canda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070818,Sofala,Gorongoza,CS Casa Banana,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1070821,Sofala,Gorongoza,CS Cudzo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070806,Sofala,Gorongoza,CS Gorongoza-Sede,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,10,14,24
+1070816,Sofala,Gorongoza,CS Mucodza,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070809,Sofala,Gorongoza,CS Muera,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1070804,Sofala,Gorongoza,CS Nhambondo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,5,0,5
+1070811,Sofala,Gorongoza,CS Nhamissongora,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1070807,Sofala,Gorongoza,CS Piro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1070815,Sofala,Gorongoza,CS Pungue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070810,Sofala,Gorongoza,CS Tsiquir,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070814,Sofala,Gorongoza,CS Vunduzi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1070817,Sofala,Gorongoza,PS Chitengo,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1070813,Sofala,Gorongoza,PS Domba,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1070808,Sofala,Gorongoza,PS Jutchenge,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1070819,Sofala,Gorongoza,PS Nhataca,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1070820,Sofala,Gorongoza,PS Tazaronda,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1080305,Inhambane,Govuro,CS Chimunda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1080306,Inhambane,Govuro,CS Doane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,8,27,35
+1080310,Inhambane,Govuro,CS Jofane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1080355,Inhambane,Govuro,CS Luido,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1080311,Inhambane,Govuro,CS Maluvane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,4,0,4
+1080309,Inhambane,Govuro,CS Nova Mambone,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1080307,Inhambane,Govuro,CS Pande,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,4,0,4
+1080308,Inhambane,Govuro,CS Save,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,4,3,7
+1090708,Gaza,Guijá,CS Chibabel,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1090709,Gaza,Guijá,CS Chimbembe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1090710,Gaza,Guijá,CS Chinhacanine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1090711,Gaza,Guijá,CS Chivonguene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090706,Gaza,Guijá,CS Guija,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,29,41
+1090701,Gaza,Guijá,CS Mpelane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090712,Gaza,Guijá,CS Mubanguene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1090713,Gaza,Guijá,CS Nalazi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,9,0,9
+1090707,Gaza,Guijá,PS Mbalavala,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,8,0,8
+1090715,Gaza,Guijá,CS Javanhane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1060406,Manica,Guro,CS Bunga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060407,Manica,Guro,CS Chivuli,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060408,Manica,Guro,CS Guro - Sede,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,17,18,35
+1060409,Manica,Guro,CS Mandie,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060411,Manica,Guro,CS Massangano,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060410,Manica,Guro,CS Mungari,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060412,Manica,Guro,CS Nhamassonge,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060413,Manica,Guro,CS Nhansana,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1060103,Manica,Guro,CS Nhaphungo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060414,Manica,Guro,CS Tchetcha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1060415,Manica,Guro,CS Thanda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040506,Zambezia,Gurué,CS Gurue,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1040516,Zambezia,Gurué,CS Invinha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040507,Zambezia,Gurué,CS Lioma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1040517,Zambezia,Gurué,CS Macuarro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040508,Zambezia,Gurué,CS Mepuagiua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040514,Zambezia,Gurué,CS Muagiua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040563,Zambezia,Gurué,CS Nintulo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040509,Zambezia,Gurué,CS Ruace,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040510,Zambezia,Gurué,CS Serra,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040511,Zambezia,Gurué,CS Tetete,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040512,Zambezia,Gurué,CS UP 10,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040513,Zambezia,Gurué,CS UP 4,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040500,Zambezia,Gurué,HD Gurue,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,44,118,162
+1080410,Inhambane,Homoine,CS  Maganda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,8,0,8
+1080407,Inhambane,Homoine,CS Chinjiguir,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,0,0,0
+1080406,Inhambane,Homoine,CS Homoine,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,Sim,12,32,44
+1080418,Inhambane,Homoine,CS Inhamangua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,5,0,5
+1080417,Inhambane,Homoine,CS Inhamussua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1080414,Inhambane,Homoine,CS Madumo,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,Sim,0,0,0
+1080408,Inhambane,Homoine,CS Mafuiane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,6,0,6
+1080409,Inhambane,Homoine,CS Maiaice,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1080411,Inhambane,Homoine,CS Marrengo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1080416,Inhambane,Homoine,CS Maxamal,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,7,0,7
+1080415,Inhambane,Homoine,CS Pembe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,6,0,6
+1080412,Inhambane,Homoine,CS Quengue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,9,0,9
+1080413,Inhambane,Homoine,PS Benhane,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1020506,Cabo Delgado,Ibo,CS Ibo,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,13,19
+1020507,Cabo Delgado,Ibo,CS Matemo,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,não,0,1,1
+1020508,Cabo Delgado,Ibo,CS QUirimba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,3,7
+1040655,Zambezia,Ile,CS Curruane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040601,Zambezia,Ile,CS ILE-Sede,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,12,30,42
+1040637,Zambezia,Ile,CS Massira,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040667,Zambezia,Ile,CS Mucuaba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040610,Zambezia,Ile,CS Mulequela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040608,Zambezia,Ile,CS Mungulama,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,9,0,9
+1040661,Zambezia,Ile,CS Namanda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1040636,Zambezia,Ile,CS Niboia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1040612,Zambezia,Ile,CS Nipiode,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1040607,Zambezia,Ile,CS Phalane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040613,Zambezia,Ile,CS Socone,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1040665,Zambezia,Ile,CS Ualasse,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1030406,Nampula,Ilha de Moçambique,CS Ilha de Moçambique,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,27,39
+1030407,Nampula,Ilha de Moçambique,CS Lumbo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1030410,Nampula,Ilha de Moçambique,CS Macicate,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1030409,Nampula,Ilha de Moçambique,CS Muchela (Sangage),Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,15,23
+1030408,Nampula,Ilha de Moçambique,PS Ampara,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,8,0,8
+1080106,Inhambane,Inhambane,CS Balane ( Urbano ),Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1080108,Inhambane,Inhambane,CS Conguiane,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1080109,Inhambane,Inhambane,CS Guiua,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,7,0,7
+1080107,Inhambane,Inhambane,CS Ilha de Inhambane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1080110,Inhambane,Inhambane,CS Josina Machel,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,não,28,38,66
+1080100,Inhambane,Inhambane,CS Macucune,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1080113,Inhambane,Inhambane,CS Muelé,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,não,5,0,5
+1080111,Inhambane,Inhambane,CS Salela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080112,Inhambane,Inhambane,HP Inhambane,HP - Hospital Provincial,Nível Terciário,Hospital Provincial (Tipo US),HosPital,sim,53,197,250
+1080506,Inhambane,Inharrime,CS Chacane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1080507,Inhambane,Inharrime,CS Chongola,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1080509,Inhambane,Inharrime,CS Inharrime,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,15,22,37
+1080510,Inhambane,Inharrime,CS Mejoote,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1080511,Inhambane,Inharrime,CS Mocumbi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1080505,Inhambane,Inharrime,CS Nhapadiane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1080504,Inhambane,Inharrime,CS Sihane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1080512,Inhambane,Inharrime,PS Coguno,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,8,0,8
+1080508,Inhambane,Inharrime,PS Inhamachafo,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,4,0,4
+1080503,Inhambane,Inharrime,PS Mafassane,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1080609,Inhambane,Inhassoro,CS Bazaruto,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1080614,Inhambane,Inhassoro,CS Chitsecane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080611,Inhambane,Inhassoro,CS Cometela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1080606,Inhambane,Inhassoro,CS Inhassoro,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,10,23,33
+1080605,Inhambane,Inhassoro,CS Machulane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1080607,Inhambane,Inhassoro,CS Macovane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080610,Inhambane,Inhassoro,CS Mangugumete,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,7,10,17
+1080612,Inhambane,Inhassoro,CS Napela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080613,Inhambane,Inhassoro,CS Temane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1040711,Zambezia,Inhassunge,CS Bingagira,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1040706,Zambezia,Inhassunge,CS Chirimane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040707,Zambezia,Inhassunge,CS Gonhane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1040712,Zambezia,Inhassunge,CS Ilova,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040708,Zambezia,Inhassunge,CS Inhassunge-Sede,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,27,35
+1040710,Zambezia,Inhassunge,CS Olinda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040713,Zambezia,Inhassunge,CS Palane-Mucula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1080706,Inhambane,Jangamo,CS Cumbana,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,14,20,34
+1080707,Inhambane,Jangamo,CS Jangamo,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,10,13,23
+1080705,Inhambane,Jangamo,CS Ligogo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080711,Inhambane,Jangamo,CS Massavane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080708,Inhambane,Jangamo,CS Nhancodja,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080710,Inhambane,Jangamo,CS Ravene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1080709,Inhambane,Jangamo,PS Mutamba,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1110406,Maputo Cidade,Kamavota,CS 1º de Junho,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,38,0,38
+1110411,Maputo Cidade,Kamavota,CS Albazine,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,12,0,12
+1110416,Maputo Cidade,Kamavota,CS Chiango,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110414,Maputo Cidade,Kamavota,CS Hulene,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110422,Maputo Cidade,Kamavota,CS Mavalane,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110415,Maputo Cidade,Kamavota,CS Pescadores,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,11,0,11
+1110412,Maputo Cidade,Kamavota,CS Romão,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110401,Maputo Cidade,Kamavota,HG Mavalane,HG - Hospital Gerais,Nível Secundário,Hospital Geral (Tipo US),HosPital,sim,55,272,327
+1110307,Maputo Cidade,Kamaxakeni,CS 1º de Maio,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,35,0,35
+1110317,Maputo Cidade,Kamaxakeni,HG Polana Caniço,HG - Hospital Gerais,Nível Secundário,Hospital Geral (Tipo US),HosPital,não,34,92,126
+1110507,Maputo Cidade,Kamubukwane,CS Bagamoio,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,27,4,31
+1110512,Maputo Cidade,Kamubukwane,CS Inhagoia,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110514,Maputo Cidade,Kamubukwane,CS Magoanine,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,12,0,12
+1110511,Maputo Cidade,Kamubukwane,CS Magoanine Tendas,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110515,Maputo Cidade,Kamubukwane,CS Zimpeto,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,27,0,27
+1110508,Maputo Cidade,Kamubukwane,HPsi Infulene,HPS - Hospital Psiquiátrico,Nível Quaternário,Hospital Especializado,HosPital,não,0,260,260
+1110701,Maputo Cidade,Kanyaka,CS Inguane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1110708,Maputo Cidade,Kanyaka,CS Inhaca,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,7,19
+1110719,Maputo Cidade,Kanyaka,CS Muchina,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1110609,Maputo Cidade,Katembe,CS Catembe,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,12,24
+1110610,Maputo Cidade,Katembe,CS Chamissava,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,12,0,12
+1110613,Maputo Cidade,Katembe,CS Incassane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1110621,Maputo Cidade,Katembe,CS Mutsekua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1110106,Maputo Cidade,Khampfumo,CS Alto Maé,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110109,Maputo Cidade,Khampfumo,CS Malhangalene,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110107,Maputo Cidade,Khampfumo,CS Maxaquene,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110110,Maputo Cidade,Khampfumo,CS Polana Cimento,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+11101110,Maputo Cidade,Khampfumo,CS Porto,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110101,Maputo Cidade,Khampfumo,HC Maputo,Hospital Central,Nível Quaternário,Hospital Central (Tipo US),HosPital,sim,176,992,1168
+1110102,Maputo Cidade,Khampfumo,HM Maputo,Hospital Militar,Nível Quaternário,Hospital Militar(Tipo US),HosPital,sim,0,132,132
+1110113,Maputo Cidade,Khampfumo,PS Nº 2 Tribunal,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1010313,Niassa,Lago,CS Bandeze,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,3,6
+1010304,Niassa,Lago,CS Chia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,3,5
+1010320,Niassa,Lago,CS Chiuanga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,2,5
+1010314,Niassa,Lago,CS Cóbuè,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,8,12
+1010317,Niassa,Lago,CS Lizunga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,3,5
+1010312,Niassa,Lago,CS Lupilichi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,3,5
+1010321,Niassa,Lago,CS Mandambuzi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,1,2
+1010315,Niassa,Lago,CS Maniamba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,3,5
+1010316,Niassa,Lago,CS Mechumua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,1,2
+1010306,Niassa,Lago,CS Melulucas,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,2,4
+1010307,Niassa,Lago,CS Messumba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,3,5
+1010308,Niassa,Lago,CS Metangula,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,4,10,14
+1010309,Niassa,Lago,CS Ngofi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1010310,Niassa,Lago,CS Ngôo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,3,4
+1010323,Niassa,Lago,CS Nkolongue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,2,5
+1010322,Niassa,Lago,CS Ntumba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,1,3
+1010319,Niassa,Lago,CS Tulo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,5,6
+1010311,Niassa,Lago,CS Wikihi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,3,4
+1030506,Nampula,Lalaua,CS Lalaua,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,20,28
+1030507,Nampula,Lalaua,CS Lurio,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1030508,Nampula,Lalaua,CS Meti,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1030510,Nampula,Lalaua,CS Muesseleque,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1030509,Nampula,Lalaua,CS Naquessa,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1030505,Nampula,Lalaua,CS Namige,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1032202,Nampula,Larde,CS Guarneia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1032203,Nampula,Larde,CS Larde,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,11,18
+1032204,Nampula,Larde,CS Marrupanama,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1032205,Nampula,Larde,CS Topuito,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1032206,Nampula,Larde,PS Najaca,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1032207,Nampula,Larde,PS Nambilane,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1091201,Gaza,Limpopo,CS Chicumbane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,29,69,98
+1091208,Gaza,Limpopo,CS Chipenhe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,10,0,10
+1090209,Gaza,Limpopo,CS Chissano,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1091211,Gaza,Limpopo,CS Julius Nyerere,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,10,0,10
+1090211,Gaza,Limpopo,CS Licilio,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1091215,Gaza,Limpopo,CS Vladimir Lenine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1091214,Gaza,Limpopo,CS Zongoene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,10,0,10
+1032302,Nampula,Liupo,CS Liupo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,24,32
+1032303,Nampula,Liupo,CS Nakakana,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1032304,Nampula,Liupo,CS Quinga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1041904,Zambezia,Luabo,CS Ilha Chimbazo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1041903,Zambezia,Luabo,CS Ilha Salia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041902,Zambezia,Luabo,CS Luabo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,6,10
+1041906,Zambezia,Luabo,CS Marcação,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1041905,Zambezia,Luabo,CS Socovinho,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040809,Zambezia,Lugela,CS Erurune,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040806,Zambezia,Lugela,CS Lugela-Sede,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,9,34,43
+1040811,Zambezia,Lugela,CS Mubanama,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040816,Zambezia,Lugela,CS Mucubi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1040838,Zambezia,Lugela,CS Mudedereia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,10,0,10
+1040836,Zambezia,Lugela,CS Mulide,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040812,Zambezia,Lugela,CS Mungulune,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040807,Zambezia,Lugela,CS Munhamade,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1040808,Zambezia,Lugela,CS Namagoa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,10,7,17
+1040814,Zambezia,Lugela,CS Puthine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040815,Zambezia,Lugela,CS Tacuane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1040810,Zambezia,Lugela,PS Limbue,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,3,0,3
+1040813,Zambezia,Lugela,PS Nigau,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1090814,Gaza,Mabalane,CS Chinhequete,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1090807,Gaza,Mabalane,CS Combomune,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,9,0,9
+1090806,Gaza,Mabalane,CS Mabalane,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,13,14,27
+1090808,Gaza,Mabalane,CS Mabomo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1090809,Gaza,Mabalane,CS Matsambo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1090812,Gaza,Mabalane,CS Pfukwe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,10,0,10
+1090811,Gaza,Mabalane,CS Tsocate,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,6,0,6
+1090801,Gaza,Mabalane,PS Macarrale,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1090813,Gaza,Mabalane,PS Munginge,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1090810,Gaza,Mabalane,PS Nhimbainwe B,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1080811,Inhambane,Mabote,CS Benzane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1080806,Inhambane,Mabote,CS Mabote,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,24,32
+1080810,Inhambane,Mabote,CS Maculuve,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1080807,Inhambane,Mabote,CS Mussengue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080805,Inhambane,Mabote,CS Papatane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1080809,Inhambane,Mabote,CS Tunguane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1080808,Inhambane,Mabote,CS Zimane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050713,Tete,Macanga,CS Bawe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1050711,Tete,Macanga,CS Campala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1050706,Tete,Macanga,CS Chidzolomondo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1050701,Tete,Macanga,CS Furancungo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,11,26,37
+1050705,Tete,Macanga,CS Gandali,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,9,0,9
+1050709,Tete,Macanga,CS Miwanga,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1050710,Tete,Macanga,CS Mutchoncho,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1050708,Tete,Macanga,CS Namadende,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050714,Tete,Macanga,CS Walota,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1061207,Manica,Macate,CS Catize,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1061206,Manica,Macate,CS Chicanga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1061208,Manica,Macate,CS Chinete,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1061203,Manica,Macate,CS Macate,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,14,0,14
+1061204,Manica,Macate,CS Marera,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1061205,Manica,Macate,CS Zembe Centro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070905,Sofala,Machanga,CS Beia-Peia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070911,Sofala,Machanga,CS Buene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070912,Sofala,Machanga,CS Chiloane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1070910,Sofala,Machanga,CS Chinhuque,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070909,Sofala,Machanga,CS Divinhe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070907,Sofala,Machanga,CS Inharingue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1070901,Sofala,Machanga,CS Javane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1070908,Sofala,Machanga,CS Machanga,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,10,8,18
+1070906,Sofala,Machanga,CS Maropanhe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1070913,Sofala,Machanga,CS Nhamachire,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060506,Manica,Machaze,CS Bassane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1060507,Manica,Machaze,CS Chipopopo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1060508,Manica,Machaze,CS Chipudji,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060509,Manica,Machaze,CS Chitobe,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1060596,Manica,Machaze,CS Mavende,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060510,Manica,Machaze,CS Mazwissanga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060513,Manica,Machaze,CS Mutefo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060512,Manica,Machaze,CS Sambassoca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060511,Manica,Machaze,CS Save,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1060597,Manica,Machaze,CS Thimbi - Thimbi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060514,Manica,Machaze,CS Chinzine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1020612,Cabo Delgado,Macomia,CS  Macomia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,17,29,46
+1020614,Cabo Delgado,Macomia,CS Chai,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,4,10
+1020607,Cabo Delgado,Macomia,CS Mucojo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,7,11
+1020610,Cabo Delgado,Macomia,CS Naunde,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1020609,Cabo Delgado,Macomia,CS Nguida,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1020611,Cabo Delgado,Macomia,CS Piquewe,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,Sim,4,2,6
+1020608,Cabo Delgado,Macomia,CS Quaterajo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,4,5
+1060610,Manica,Macossa,CS Dunda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1060606,Manica,Macossa,CS Macossa,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,12,18
+1060607,Manica,Macossa,CS Massangazi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060609,Manica,Macossa,CS Nguawala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060608,Manica,Macossa,CS Nhamagua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040916,Zambezia,Maganja da Costa,CS Alto Mutola,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1040902,Zambezia,Maganja da Costa,CS Cabuir,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1040913,Zambezia,Maganja da Costa,CS Cariua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1040908,Zambezia,Maganja da Costa,CS Mabala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1040936,Zambezia,Maganja da Costa,CS Mapira,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1040909,Zambezia,Maganja da Costa,CS Muloa,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1040961,Zambezia,Maganja da Costa,CS Muzo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,10,13,23
+1040911,Zambezia,Maganja da Costa,CS Nante,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1040906,Zambezia,Maganja da Costa,HD Maganja da Costa,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,0,0,0
+1040937,Zambezia,Maganja da Costa,PS Moneia,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1040919,Zambezia,Maganja da Costa,PS Mugaua,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1040915,Zambezia,Maganja da Costa,PS Vila Valdez,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,13,34,47
+1050806,Tete,Magoe,CS Cazindira,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1050807,Tete,Magoe,CS Chinthopo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050808,Tete,Magoe,CS Chitete,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050809,Tete,Magoe,CS Daque,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1050805,Tete,Magoe,CS Luia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,2,8
+1050810,Tete,Magoe,CS Magoe,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,5,8,13
+1050811,Tete,Magoe,CS Mucumbura,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,13,16,29
+1050812,Tete,Magoe,CS Mussenguezi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1100307,Maputo Provincia,Magude,CS Captine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100315,Maputo Provincia,Magude,CS Chichico,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100312,Maputo Provincia,Magude,CS Chicutso,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100314,Maputo Provincia,Magude,CS Facazissa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1100306,Maputo Provincia,Magude,CS Magude,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,11,41,52
+1100310,Maputo Provincia,Magude,CS Mahel,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100311,Maputo Provincia,Magude,CS Mapulanguene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100313,Maputo Provincia,Magude,CS Moine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100308,Maputo Provincia,Magude,CS Motaze,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1100309,Maputo Provincia,Magude,CS Panjane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1010512,Niassa,Majune,CS Lisombe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1010506,Niassa,Majune,CS Luambala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1010511,Niassa,Majune,CS Lugenda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1010507,Niassa,Majune,CS Malanga,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,10,25,35
+1010505,Niassa,Majune,CS Matucuta,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,1,5
+1010509,Niassa,Majune,CS Mecualo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,1,5
+1010514,Niassa,Majune,CS Metomone,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,1,5
+1010510,Niassa,Majune,CS Muaquia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1010508,Niassa,Majune,CS Nairubi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1010513,Niassa,Majune,CS Riate,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,1,2
+1030608,Nampula,Malema,CS Chuhulo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1030609,Nampula,Malema,CS Cunvarre,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1030606,Nampula,Malema,CS Malema,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,25,33
+1030610,Nampula,Malema,CS Murralelo,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030611,Nampula,Malema,CS Murripa,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1030614,Nampula,Malema,CS Murumbo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1030607,Nampula,Malema,CS Mutuali,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1030613,Nampula,Malema,CS Nakata,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030612,Nampula,Malema,CS Nataleia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1030615,Nampula,Malema,PS Nioce,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1010602,Niassa,Mandimba,CS Chanica,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,1,3
+1010607,Niassa,Mandimba,CS Lipuzia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,1,2
+1010608,Niassa,Mandimba,CS Lissiete,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,2,4
+1010615,Niassa,Mandimba,CS Lussangasse,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,1,2
+1010606,Niassa,Mandimba,CS Mandimba,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1010609,Niassa,Mandimba,CS Meluluca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,2,5
+1010610,Niassa,Mandimba,CS Mepapa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1010611,Niassa,Mandimba,CS Mississi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,1,2
+1010612,Niassa,Mandimba,CS Mitande,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,5,9
+1010613,Niassa,Mandimba,CS N'tembo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,1,3
+1090910,Niassa,Mandimba,HD Mandimba,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,0,0,0
+1090908,Gaza,Mandlakazi,CS Banguene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090911,Gaza,Mandlakazi,CS Betula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1090926,Gaza,Mandlakazi,CS Chibondzane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090906,Gaza,Mandlakazi,CS Chidenguele,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1090907,Gaza,Mandlakazi,CS Denguine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1090927,Gaza,Mandlakazi,CS Incadine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090920,Gaza,Mandlakazi,CS Laranjeiras,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090928,Gaza,Mandlakazi,CS Macasselane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1090912,Gaza,Mandlakazi,CS Macuacua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1090902,Gaza,Mandlakazi,CS Mandlakazi,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1090915,Gaza,Mandlakazi,CS Manhique,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1090919,Gaza,Mandlakazi,CS Mausse,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1090909,Gaza,Mandlakazi,CS Mussavelane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1090916,Gaza,Mandlakazi,CS Muzamane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1090903,Gaza,Mandlakazi,CS Ndolene,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090921,Gaza,Mandlakazi,CS Tavane,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,13,21
+1090901,Gaza,Mandlakazi,HR Mandlakazi,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,28,58,86
+1100415,Maputo Provincia,Manhiça,CS 3 de Fevereiro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1100410,Maputo Provincia,Manhiça,CS Calanga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1100417,Maputo Provincia,Manhiça,CS Chibucutso,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100414,Maputo Provincia,Manhiça,CS Ilha Josina,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1100408,Maputo Provincia,Manhiça,CS Malavela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100409,Maputo Provincia,Manhiça,CS Maluana,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1100402,Maputo Provincia,Manhiça,CS Manhiça,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1100406,Maputo Provincia,Manhiça,CS Maragra,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,10,0,10
+1100416,Maputo Provincia,Manhiça,CS Mirona,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1100420,Maputo Provincia,Manhiça,CS Mirrone,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100411,Maputo Provincia,Manhiça,CS Munguine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1100413,Maputo Provincia,Manhiça,CS Nwamatibjana,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1100412,Maputo Provincia,Manhiça,CS Taninga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,6,0,6
+1100419,Maputo Provincia,Manhiça,CS Xinavane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1100407,Maputo Provincia,Manhiça,HD Manhiça,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,42,104,146
+1100400,Maputo Provincia,Manhiça,HR Xinavane,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,26,46,72
+1100418,Maputo Provincia,Manhiça,PS Chibututuine,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,0,0
+1060798,Manica,Manica,CS 4º Congresso,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1060794,Manica,Manica,CS Chazuca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060707,Manica,Manica,CS Chicamba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060795,Manica,Manica,CS Chinhagore,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1060709,Manica,Manica,CS Chinhambuzi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060710,Manica,Manica,CS Chitunga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060711,Manica,Manica,CS Jecua Missão,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1060712,Manica,Manica,CS Machipanda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1060713,Manica,Manica,CS Mavonde,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060714,Manica,Manica,CS Messica,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,9,0,9
+1060715,Manica,Manica,CS Mundonguara,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060718,Manica,Manica,CS Nhamaxato,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060719,Manica,Manica,CS Penhalonga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060724,Manica,Manica,CS Zonue Tabaco,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1060706,Manica,Manica,HD Manica,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,24,57,81
+1060721,Manica,Manica,PS Guindingue,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,3,0,3
+1060716,Manica,Manica,PS Munene,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,0,0
+1090509,Gaza,Mapai,CS Machaila,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090408,Gaza,Mapai,CS Mapai,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1090410,Gaza,Mapai,CS Mepuzi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1090401,Gaza,Mapai,HD Mapai,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,8,8,16
+1090406,Gaza,Mapai,PS Chidulo,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,0,0
+1090409,Gaza,Mapai,PS Mapai Ngala,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,0,0
+1051505,Tete,Marara,CS Boroma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1051507,Tete,Marara,CS Cachembe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1051503,Tete,Marara,CS Marara,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1051504,Tete,Marara,CS Matambo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1051508,Tete,Marara,CS Mufa Caconde,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1071010,Sofala,Maringue,CS Canxixe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1071014,Sofala,Maringue,CS Chionde,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1071011,Sofala,Maringue,CS Gumbalatsai,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1071009,Sofala,Maringue,CS Marigue-Sede,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,Sim,5,6,11
+1071008,Sofala,Maringue,CS Nhamacala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1071012,Sofala,Maringue,CS Palane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1071005,Sofala,Maringue,CS Phango,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,6,0,6
+1071007,Sofala,Maringue,CS Senga Senga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1071006,Sofala,Maringue,CS Subue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1100515,Maputo Provincia,Marracuene,CS Abel Jafar,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,11,0,11
+1100508,Maputo Provincia,Marracuene,CS Machubo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1100514,Maputo Provincia,Marracuene,CS Mali,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,8,0,8
+1100506,Maputo Provincia,Marracuene,CS Marracuene,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,28,38,66
+1100507,Maputo Provincia,Marracuene,CS Matalane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100509,Maputo Provincia,Marracuene,CS Michafutene,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1100513,Maputo Provincia,Marracuene,CS Mumemo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1100510,Maputo Provincia,Marracuene,CS Nhongonhane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1100511,Maputo Provincia,Marracuene,CS Ricatla,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1100520,Maputo Provincia,Marracuene,PS Bobole,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1071127,Sofala,Marromeu,CS Amambos,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,6,0,6
+1071111,Sofala,Marromeu,CS Chueza,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,2,0,2
+1071108,Sofala,Marromeu,CS Chupanga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,2,0,2
+1071115,Sofala,Marromeu,CS Malingapanse,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,2,0,2
+1071106,Sofala,Marromeu,CS Nensa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1071109,Sofala,Marromeu,CS Nhansaua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,0,0,0
+1071107,Sofala,Marromeu,CS Salone,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1071100,Sofala,Marromeu,HR  MAarromeu,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,Sim,16,102,118
+1071110,Sofala,Marromeu,PS Bauaze,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1010716,Niassa,Marrupa,CS Cumela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1010707,Niassa,Marrupa,CS Marrangira,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,2,4
+1010714,Niassa,Marrupa,CS Marrupa,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,0,2,2
+1010715,Niassa,Marrupa,CS Mucuaiai,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,2,4
+1010709,Niassa,Marrupa,CS Nungo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,5,8
+1010711,Niassa,Marrupa,CS Tumpue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,2,4
+1010718,Niassa,Marrupa,CS Yaranca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,5,8,13
+1010706,Niassa,Marrupa,HD Marrupa,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,não,16,48,64
+1050998,Tete,Marávia,CS Chipera,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1050906,Tete,Marávia,CS Chiputo,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1050907,Tete,Marávia,CS Fingoe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,24,28
+1050910,Tete,Marávia,CS Kassuende,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1050908,Tete,Marávia,CS Maloera,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1050909,Tete,Marávia,CS Uncanha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1091006,Gaza,Massangena,CS Massangena,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,18,24
+1091008,Gaza,Massangena,CS Massangena,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1091007,Gaza,Massangena,CS Mavue,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080907,Inhambane,Massinga,CS Balata,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080910,Inhambane,Massinga,CS Cangela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1080916,Inhambane,Massinga,CS Chicomo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080919,Inhambane,Massinga,CS Chihunze,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1080917,Inhambane,Massinga,CS Chtuane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,12,0,12
+1080915,Inhambane,Massinga,CS Inhaloi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1080911,Inhambane,Massinga,CS Mangonha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1080900,Inhambane,Massinga,CS Massinga,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1080918,Inhambane,Massinga,CS Muchungo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1080914,Inhambane,Massinga,CS Murie,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1080912,Inhambane,Massinga,CS Muvamba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1080906,Inhambane,Massinga,CS Nhachengue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1080913,Inhambane,Massinga,CS Rio das Pedras,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1080901,Inhambane,Massinga,HD Massinga,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,28,72,100
+1091106,Gaza,Massingir,CS Massingir,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,7,42,49
+1091112,Gaza,Massingir,CS Mucatine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1091108,Gaza,Massingir,PS Chibotane,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1091109,Gaza,Massingir,PS Cubo,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1091116,Gaza,Massingir,PS Macaringue,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1091110,Gaza,Massingir,PS Machamba,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1091111,Gaza,Massingir,PS Mavodze,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1091107,Gaza,Massingir,PS Zulo,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,0,0
+1100118,Maputo Provincia,Matola,CS  Unidade A,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1100122,Maputo Provincia,Matola,CS Bedene,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,22,0,22
+1100114,Maputo Provincia,Matola,CS Boquisso,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,11,0,11
+1100117,Maputo Provincia,Matola,CS Khongolote,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,12,0,12
+1100113,Maputo Provincia,Matola,CS Liberdade,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1100105,Maputo Provincia,Matola,CS Lingamo,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1100121,Maputo Provincia,Matola,CS Machava I,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1100107,Maputo Provincia,Matola,CS Machava II,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,25,0,25
+1100110,Maputo Provincia,Matola,CS Matola,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1100108,Maputo Provincia,Matola,CS Matola Gare,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1100106,Maputo Provincia,Matola,CS Matola II,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,25,0,25
+1100125,Maputo Provincia,Matola,CS Muhalaze,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1100109,Maputo Provincia,Matola,CS Ndlavela,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1100111,Maputo Provincia,Matola,CS Sao Damanso,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1100159,Maputo Provincia,Matola,CS Socimol,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,45,0,45
+1100167,Maputo Provincia,Matola,CS Tsalala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,19,0,19
+1100100,Maputo Provincia,Matola,HG Machava,HG - Hospital Gerais,Nível Secundário,Hospital Geral (Tipo US),HosPital,não,0,260,260
+1100101,Maputo Provincia,Matola,HP Matola,HP - Hospital Provincial,Nível Terciário,Hospital Provincial (Tipo US),HosPital,sim,100,300,400
+1100166,Maputo Provincia,Matola,PS BO-Machava,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,9,0,9
+1100119,Maputo Provincia,Matola,PS Cadeia Central,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1100161,Maputo Provincia,Matola,PS Cimentos,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1100155,Maputo Provincia,Matola,PS Clinica da Liberdade,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1100158,Maputo Provincia,Matola,PS Clinica da Matola,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1100168,Maputo Provincia,Matola,PS Dzovo,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1100156,Maputo Provincia,Matola,PS Fomento,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1100157,Maputo Provincia,Matola,PS Hanhane,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1100116,Maputo Provincia,Matola,PS Km-25,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1100170,Maputo Provincia,Matola,PS Mapinhane,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1100123,Maputo Provincia,Matola,PS Policia,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,10,0,10
+1100115,Maputo Provincia,Matola,PS T.3,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,11,0,11
+1100169,Maputo Provincia,Matola,PS Zona Verde,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1100608,Maputo Provincia,Matutine,CS Catuane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1100659,Maputo Provincia,Matutine,CS Gueveza,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100614,Maputo Provincia,Matutine,CS Hindanne,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100609,Maputo Provincia,Matutine,CS Mabilibili,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100671,Maputo Provincia,Matutine,CS Manhangane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100607,Maputo Provincia,Matutine,CS Matutuine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,11,38,49
+1100663,Maputo Provincia,Matutine,CS Mungazine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100669,Maputo Provincia,Matutine,CS Ndelane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100660,Maputo Provincia,Matutine,CS Nsime,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100611,Maputo Provincia,Matutine,CS Ponta do Ouro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100612,Maputo Provincia,Matutine,CS Salamanga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100670,Maputo Provincia,Matutine,CS Santa Maria,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100613,Maputo Provincia,Matutine,CS Zitundo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1010806,Niassa,Maua,CS Maiaca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,3,6
+1010807,Niassa,Maua,CS Maua,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,13,22,35
+1010809,Niassa,Maua,CS Muapula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1010811,Niassa,Maua,CS Mugoma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1010813,Niassa,Maua,CS Muhoco,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1010822,Niassa,Maua,CS Muloloua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1010808,Niassa,Maua,CS Queta,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1010906,Niassa,Mavago,CS Mavago,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,3,18,21
+1010909,Niassa,Mavago,CS Milepa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1010907,Niassa,Mavago,CS Nkalapa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,13,15
+1010908,Niassa,Mavago,CS Nsawize,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,3,4
+1081007,Inhambane,Maxixe,CS Agostinho Neto,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1081011,Inhambane,Maxixe,CS Bembe,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1081012,Inhambane,Maxixe,CS Chicuque,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1081014,Inhambane,Maxixe,CS Cuguana,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1081008,Inhambane,Maxixe,CS Dambo,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,6,0,6
+1081013,Inhambane,Maxixe,CS Mabil,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1081015,Inhambane,Maxixe,CS Macuamene,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1081016,Inhambane,Maxixe,CS Manhala,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,6,0,6
+1081006,Inhambane,Maxixe,CS Maxixe,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,17,0,17
+1081010,Inhambane,Maxixe,CS Tinga Tinga,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1081000,Inhambane,Maxixe,HR Chicuque,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,35,118,153
+1011019,Niassa,Mecanhelas,CS Candulo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1011017,Niassa,Mecanhelas,CS Caronga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1011015,Niassa,Mecanhelas,CS Chamba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1011007,Niassa,Mecanhelas,CS Chissaua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1011008,Niassa,Mecanhelas,CS Chiuta,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,1,5
+1011009,Niassa,Mecanhelas,CS Entre-Lagos,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1011021,Niassa,Mecanhelas,CS Kumulike,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1011011,Niassa,Mecanhelas,CS Mecanhelas,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,17,4,21
+1011010,Niassa,Mecanhelas,CS Mecomera,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1011020,Niassa,Mecanhelas,CS Muhurune,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1011018,Niassa,Mecanhelas,CS Nanhumba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1011023,Niassa,Mecanhelas,CS Naveia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1011013,Niassa,Mecanhelas,CS Sale,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,1,1
+1030711,Nampula,Meconta,CS Japire,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1030708,Nampula,Meconta,CS Corrane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,6,12
+1030707,Nampula,Meconta,CS Meconta,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,11,30,41
+1030712,Nampula,Meconta,CS Mecua,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030710,Nampula,Meconta,CS Nacavala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1030706,Nampula,Meconta,CS Namialo,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1030709,Nampula,Meconta,CS Tetererene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1030814,Nampula,Mecuburi,CS Issipe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1030815,Nampula,Mecuburi,CS Malithe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030806,Nampula,Mecuburi,CS Mecuburi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,15,20,35
+1030816,Nampula,Mecuburi,CS Mualua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030810,Nampula,Mecuburi,CS Muite,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030817,Nampula,Mecuburi,CS Nahipa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1030808,Nampula,Mecuburi,CS Namina,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,14,21
+1030812,Nampula,Mecuburi,CS Nipai,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1030818,Nampula,Mecuburi,CS Ratane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1030819,Nampula,Mecuburi,CS Unidade Moçambicana,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1030807,Nampula,Mecuburi,PS Milhana,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,8,0,8
+1030809,Nampula,Mecuburi,PS Momane,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,3,0,3
+1030813,Nampula,Mecuburi,PS Popue,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,5,0,5
+1020706,Cabo Delgado,Mecufi,CS Mecufi,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,23,35
+1020707,Cabo Delgado,Mecufi,CS Murrebue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,2,9
+1020708,Cabo Delgado,Mecufi,CS Natuco,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1020705,Cabo Delgado,Mecufi,CS Ngoma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1011106,Niassa,Mecula,CS Gomba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,2,4
+1011107,Niassa,Mecula,CS Lugenda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,3,6
+1011108,Niassa,Mecula,CS Macalange,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,1,1
+1011113,Niassa,Mecula,CS Matondovela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,1,1
+1011109,Niassa,Mecula,CS Mbamba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,3,6
+1011110,Niassa,Mecula,CS Mecula,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1011111,Niassa,Mecula,CS Naulala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,1,1
+1011115,Niassa,Mecula,CS Ntimbo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,1,1
+1020811,Cabo Delgado,Meluco,CS Imbada,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,2,6
+1020809,Cabo Delgado,Meluco,CS Meluco,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,18,24
+1020810,Cabo Delgado,Meluco,CS Minhanha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1020806,Cabo Delgado,Meluco,CS Muaguide,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,2,7
+1020812,Cabo Delgado,Meluco,CS Raiva,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,2,5
+1030916,Nampula,Memba,CS Baixo Pinda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1030913,Nampula,Memba,CS Cava,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1030907,Nampula,Memba,CS Chipene,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,7,35,42
+1030914,Nampula,Memba,CS Geba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1030910,Nampula,Memba,CS Mazua,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1030906,Nampula,Memba,CS Memba,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,18,30,48
+1030908,Nampula,Memba,CS Namahaca,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,11,30,41
+1030915,Nampula,Memba,CS Namatapa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1030917,Nampula,Memba,CS Pavala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1030909,Nampula,Memba,PS Lurio,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,3,0,3
+1030911,Nampula,Memba,PS Napila,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1030912,Nampula,Memba,PS Simuco,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,4,0,4
+1011212,Niassa,Metarica,CS Mepuera,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1011209,Niassa,Metarica,CS Metarica,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,9,18,27
+1011200,Niassa,Metarica,CS Meunica,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1011206,Niassa,Metarica,CS Muhemela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1011211,Niassa,Metarica,CS Nacumua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1011210,Niassa,Metarica,CS Namicunde,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1011213,Niassa,Metarica,CS Niputa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1021601,Cabo Delgado,Metuge,CS Metuge,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,12,23,35
+1021609,Cabo Delgado,Metuge,CS Mieze,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,2,6
+1021607,Cabo Delgado,Metuge,CS Nacuta,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,1,6
+1021608,Cabo Delgado,Metuge,CS Nanlia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,2,6
+1021606,Cabo Delgado,Metuge,CS Ntessa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,2,5
+1041007,Zambezia,Milange,CS Carico,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041016,Zambezia,Milange,CS Dachudua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041011,Zambezia,Milange,CS Dulanha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041018,Zambezia,Milange,CS Grugunha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1041014,Zambezia,Milange,CS Liciro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041010,Zambezia,Milange,CS Majaua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041006,Zambezia,Milange,CS Milange,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,9,0,9
+1041015,Zambezia,Milange,CS Mongue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041004,Zambezia,Milange,CS Munhambo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1041017,Zambezia,Milange,CS Nambuzi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1041067,Zambezia,Milange,CS Sabelua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041012,Zambezia,Milange,CS Tengua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041000,Zambezia,Milange,HD Milange,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,18,37,55
+1041013,Zambezia,Milange,PS Vulalo,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1041020,Zambezia,Milange,CS Chitambo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,,,
+1100713,Maputo Provincia,Moamba,CS Chinhanguanine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100708,Maputo Provincia,Moamba,CS Corumane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100712,Maputo Provincia,Moamba,CS Mahulane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100706,Maputo Provincia,Moamba,CS Moamba,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,38,50
+1100705,Maputo Provincia,Moamba,CS Ngolhosa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1100711,Maputo Provincia,Moamba,CS Pessene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100707,Maputo Provincia,Moamba,CS Ressano Garcia,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,10,4,14
+1100709,Maputo Provincia,Moamba,CS Sabie,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,8,14
+1100710,Maputo Provincia,Moamba,CS Tenga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1100714,Maputo Provincia,Moamba,PS Chanculo,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1051018,Tete,Moatize,CS 25 de Setembro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1051009,Tete,Moatize,CS Benga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1051010,Tete,Moatize,CS Cambulatsitsi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1051011,Tete,Moatize,CS Caphirizange,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1051017,Tete,Moatize,CS Cateme,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1051013,Tete,Moatize,CS CFM,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1051005,Tete,Moatize,CS de Chithatha,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1051007,Tete,Moatize,CS Mameme II,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1051015,Tete,Moatize,CS Micunga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1051008,Tete,Moatize,CS Moatize,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,15,35,50
+1051004,Tete,Moatize,CS Mphandzu,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1051014,Tete,Moatize,CS Mualazi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1051003,Tete,Moatize,CS Ncondezi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1051012,Tete,Moatize,CS Nkhanga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1051016,Tete,Moatize,CS Samoa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1051006,Tete,Moatize,CS Zobue,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,18,31,49
+1020908,Cabo Delgado,Mocimboa da Praia,CS Diaca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,1,7
+1020909,Cabo Delgado,Mocimboa da Praia,CS Mangoma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,5,7
+1020907,Cabo Delgado,Mocimboa da Praia,CS Mbau,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,5,7
+1020904,Cabo Delgado,Mocimboa da Praia,CS Milamba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,2,2
+1020903,Cabo Delgado,Mocimboa da Praia,CS Nanduadua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,3,3
+1020906,Cabo Delgado,Mocimboa da Praia,CS Quelimane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,2,4
+1020901,Cabo Delgado,Mocimboa da Praia,HR Mocimboa da Praia,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,29,45,74
+1041137,Zambezia,Mocuba,CS 16 de Junho,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1041114,Zambezia,Mocuba,CS Alto Benfica,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041110,Zambezia,Mocuba,CS Caiave,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041155,Zambezia,Mocuba,CS Chimbua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041113,Zambezia,Mocuba,CS Intome,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1041119,Zambezia,Mocuba,CS Magogodo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041106,Zambezia,Mocuba,CS Mocuba,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,13,0,13
+1041107,Zambezia,Mocuba,CS Mocuba - Sisal,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041136,Zambezia,Mocuba,CS Muanaco,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,12,0,12
+1041109,Zambezia,Mocuba,CS Muaquiua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041108,Zambezia,Mocuba,CS Mugeba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,9,16,25
+1041112,Zambezia,Mocuba,CS Muloe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041117,Zambezia,Mocuba,CS Munhiba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041156,Zambezia,Mocuba,CS Namadiba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1041158,Zambezia,Mocuba,CS Namagoa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1041116,Zambezia,Mocuba,CS Namanjavira,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041118,Zambezia,Mocuba,CS Nhaluanda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041111,Zambezia,Mocuba,CS P.Ucerra (Privado),Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1041121,Zambezia,Mocuba,CS Pedreira,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1041120,Zambezia,Mocuba,CS Samora Machel,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,7,0,7
+1041100,Zambezia,Mocuba,HD Mocuba,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,45,170,215
+1042003,Zambezia,Mocubela,CS Gurai,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1042004,Zambezia,Mocubela,CS Ilha de Idugu,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1042005,Zambezia,Mocubela,CS Maneia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1042006,Zambezia,Mocubela,CS Mocubela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1042007,Zambezia,Mocubela,CS Naico,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1042008,Zambezia,Mocubela,PS Bajone,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1042009,Zambezia,Mocubela,PS Missal,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1042010,Zambezia,Mocubela,PS Tapata,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,4,12,16
+1031011,Nampula,Mogincual,CS Mepeone (NAKIRA),Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1031007,Nampula,Mogincual,CS Namige,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,26,6,32
+1031009,Nampula,Mogincual,CS Perequexo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1031012,Nampula,Mogincual,CS Quixaxe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,16,24
+1031014,Nampula,Mogincual,CS Xa-Momade,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1031013,Nampula,Mogincual,CS Xa-Selemane,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1031107,Nampula,Mogovolas,CS Calipo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1031108,Nampula,Mogovolas,CS iuluti,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1031109,Nampula,Mogovolas,CS Mecutamala,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,9,0,9
+1031112,Nampula,Mogovolas,CS Muatua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1031106,Nampula,Mogovolas,CS Murrirrimue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1031110,Nampula,Mogovolas,CS Nametil,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,30,38
+1031111,Nampula,Mogovolas,CS Nanhupo Rio,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1042104,Zambezia,Molumbo,CS Corromana,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1042105,Zambezia,Molumbo,CS Malua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1042106,Zambezia,Molumbo,CS Molumbo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,16,22
+1042107,Zambezia,Molumbo,CS Namucumua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1042108,Zambezia,Molumbo,CS Nantuto,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1042109,Zambezia,Molumbo,PS Cazimbe,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1031208,Nampula,Moma,CS Briganha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1031207,Nampula,Moma,CS Chalaua,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,18,30
+1031211,Nampula,Moma,CS Ligonha (Mucoroge),Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1031219,Nampula,Moma,CS Mavuco,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1031218,Nampula,Moma,CS Micane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,9,17
+1031215,Nampula,Moma,CS Pilivili,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1031209,Nampula,Moma,CS Piqueira,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1031217,Nampula,Moma,CS Uala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1031206,Nampula,Moma,HD Moma,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,34,70,104
+1031213,Nampula,Moma,PS Metil,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,4,0,4
+1031216,Nampula,Moma,PS Savara,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,2,0,2
+1031307,Nampula,Monapo,CS Carapira,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,24,50,74
+1031312,Nampula,Monapo,CS Chihiri,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,6,8
+1031309,Nampula,Monapo,CS Itocolo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,5,13
+1031313,Nampula,Monapo,CS Jagaia,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,1,5
+1031314,Nampula,Monapo,CS Mecuco,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,6,12
+1031306,Nampula,Monapo,CS Monapo,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,14,47,61
+1031318,Nampula,Monapo,CS Monapo Rio,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,11,2,13
+1031310,Nampula,Monapo,CS Muatuca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,3,7
+1031319,Nampula,Monapo,CS Mucujua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,7,10
+1031321,Nampula,Monapo,CS Murruto,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1031308,Nampula,Monapo,CS Natete,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,7,45,52
+1031311,Nampula,Monapo,CS Netia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,7,10
+1031317,Nampula,Monapo,CS Ramiane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,3,9
+1031300,Nampula,Monapo,HD Monapo,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,17,50,67
+1031315,Nampula,Monapo,CS Maserpane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,1,6
+1031316,Nampula,Monapo,PS Metocheria,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,1,1
+1031320,Nampula,Monapo,CS Napala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,16,2,18
+1021009,Cabo Delgado,Montepuez,CS Linde,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1021014,Cabo Delgado,Montepuez,CS Mapupulo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1021008,Cabo Delgado,Montepuez,CS Mirate,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,4,8
+1021015,Cabo Delgado,Montepuez,CS Montepuez,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1021010,Cabo Delgado,Montepuez,CS Nairoto,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1021011,Cabo Delgado,Montepuez,CS Namanhumbiri,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,2,4
+1021012,Cabo Delgado,Montepuez,CS Namueto,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,1,6
+1021016,Cabo Delgado,Montepuez,CS Niuhula,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,8,0,8
+1021013,Cabo Delgado,Montepuez,CS Nropa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1021007,Cabo Delgado,Montepuez,CS Ntapata,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1021001,Cabo Delgado,Montepuez,HR Montepuez,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,32,97,129
+1041236,Zambezia,Mopeia,CS 8 de Março,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1041237,Zambezia,Mopeia,CS Catale,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1041206,Zambezia,Mopeia,CS Chimuara,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041207,Zambezia,Mopeia,CS Gulamo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041208,Zambezia,Mopeia,CS Lua-Lua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041209,Zambezia,Mopeia,CS Mopeia-Sede,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,14,46,60
+1041202,Zambezia,Mopeia,CS Mungane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1041214,Zambezia,Mopeia,CS Nzanza,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1041210,Zambezia,Mopeia,CS Posto Campo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041203,Zambezia,Mopeia,CS Sangalaza,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1041213,Zambezia,Mopeia,CS. Noere,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1041211,Zambezia,Mopeia,PS Nhacatundo,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1041321,Zambezia,Morrumbala,CS Balichocho,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041307,Zambezia,Morrumbala,CS Boroma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041363,Zambezia,Morrumbala,CS Chilomo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041315,Zambezia,Morrumbala,CS Chire,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,13,8,21
+1041308,Zambezia,Morrumbala,CS Cumbapo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1041317,Zambezia,Morrumbala,CS Djasse,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1041358,Zambezia,Morrumbala,CS Fabrica,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1041316,Zambezia,Morrumbala,CS Gaute,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041320,Zambezia,Morrumbala,CS Goro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1041359,Zambezia,Morrumbala,CS Mecaula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041311,Zambezia,Morrumbala,CS Megaza,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1041312,Zambezia,Morrumbala,CS Mepinha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,9,0,9
+1041306,Zambezia,Morrumbala,CS Morrumbala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1041340,Zambezia,Morrumbala,CS Muandiua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1041362,Zambezia,Morrumbala,CS Muerra,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1041322,Zambezia,Morrumbala,CS Mureremba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1041313,Zambezia,Morrumbala,CS Pinda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,9,0,9
+1041325,Zambezia,Morrumbala,CS Reis,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1041314,Zambezia,Morrumbala,CS Sabe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1041336,Zambezia,Morrumbala,HD Morrumbala,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,17,55,72
+1081115,Inhambane,Morrumbene,CS Barrane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1081107,Inhambane,Morrumbene,CS Cambine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1081106,Inhambane,Morrumbene,CS Gotite,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081108,Inhambane,Morrumbene,CS Magumbo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1081109,Inhambane,Morrumbene,CS Mahangue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1081112,Inhambane,Morrumbene,CS Maivene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1081113,Inhambane,Morrumbene,CS Matacalane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1081114,Inhambane,Morrumbene,CS Mocodoene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081111,Inhambane,Morrumbene,CS Morrumbene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,18,41,59
+1081110,Inhambane,Morrumbene,CS Sitila,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1081116,Inhambane,Morrumbene,CS Tambanjane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1031413,Nampula,Mossuril,CS Cabeceira Pequena,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1031409,Nampula,Mossuril,CS Chocas Mar,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1031410,Nampula,Mossuril,CS Lunga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,4,9
+1031411,Nampula,Mossuril,CS Matibane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1031406,Nampula,Mossuril,CS Mossuril,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,14,26,40
+1031439,Nampula,Mossuril,CS Muaualo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1031407,Nampula,Mossuril,CS Nacucha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,6,11
+1031412,Nampula,Mossuril,CS Namige,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1031415,Nampula,Mossuril,CS Namitatare,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,9,11,20
+1031408,Nampula,Mossuril,PS Cabeceira Grande,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1060813,Manica,Mossurize,CS Chaiva,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060816,Manica,Mossurize,CS Chitsama,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060807,Manica,Mossurize,CS Chiurairue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060808,Manica,Mossurize,CS Dacata,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060814,Manica,Mossurize,CS Garagua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060841,Manica,Mossurize,CS Goi-Goi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060812,Manica,Mossurize,CS Gunhe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060811,Manica,Mossurize,CS Macuo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060809,Manica,Mossurize,CS Mude,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060810,Manica,Mossurize,CS Mupengo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1060806,Manica,Mossurize,HD Espungabera,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,não,31,67,98
+1071209,Sofala,Muanza,CS Galinha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1071207,Sofala,Muanza,CS Muanza,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,7,4,11
+1071206,Sofala,Muanza,CS Muanza-Baixa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1071208,Sofala,Muanza,CS Nhansato,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1071262,Sofala,Muanza,CS Nsituculo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1071205,Sofala,Muanza,CS Sanguze-Muana,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1071210,Sofala,Muanza,CS Wiriquize,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1031514,Nampula,Muecate,CS Chereque,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1031512,Nampula,Muecate,CS Gracio,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1031507,Nampula,Muecate,CS Imala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,5,12
+1031513,Nampula,Muecate,CS Kavula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1031516,Nampula,Muecate,CS Manicane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1031510,Nampula,Muecate,CS Muculuone,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1031506,Nampula,Muecate,CS Muecate,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,14,26
+1031508,Nampula,Muecate,CS Namahia,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1031505,Nampula,Muecate,CS Namina-Rio,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1031511,Nampula,Muecate,CS Napala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1031509,Nampula,Muecate,PS Chinamane,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,2,0,2
+1021109,Cabo Delgado,Mueda,CS Chapa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1021107,Cabo Delgado,Mueda,CS Chilinde,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1021105,Cabo Delgado,Mueda,CS Chudi,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,Sim,4,0,4
+1021113,Cabo Delgado,Mueda,CS Mbuo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1021108,Cabo Delgado,Mueda,CS M'peme,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1021110,Cabo Delgado,Mueda,CS Namatil,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1021104,Cabo Delgado,Mueda,CS Nandimba,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,Sim,3,0,3
+1021111,Cabo Delgado,Mueda,CS Negomano,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,Sim,0,0,0
+1021106,Cabo Delgado,Mueda,HR Mueda,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,24,114,138
+1011306,Niassa,Muembe,CS Chiconono,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1011310,Niassa,Muembe,CS Chuanjota,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,4,8
+1011307,Niassa,Muembe,CS Lutuesse,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1011308,Niassa,Muembe,CS Muembe,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,não,9,15,24
+1011309,Niassa,Muembe,CS Nzize,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1021207,Cabo Delgado,Muidumbe,CS Chitunda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1021212,Cabo Delgado,Muidumbe,CS Miangalewa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1021209,Cabo Delgado,Muidumbe,CS Miteda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1021206,Cabo Delgado,Muidumbe,CS Muambula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1021208,Cabo Delgado,Muidumbe,CS Muatide,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,31,39
+1021211,Cabo Delgado,Muidumbe,CS Namacamde,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1021213,Cabo Delgado,Muidumbe,CS Ntchinga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1042204,Zambezia,Mulevala,CS Chiraco,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1042206,Zambezia,Mulevala,CS Jajo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1042207,Zambezia,Mulevala,CS Morropino,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1042208,Zambezia,Mulevala,CS Morrua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1042203,Zambezia,Mulevala,CS Mulevala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,8,12
+1042205,Zambezia,Mulevala,PS Tebo,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,0,0
+1031608,Nampula,Murrupula,CS Chinga,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1031610,Nampula,Murrupula,CS Gazuzu,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1031606,Nampula,Murrupula,CS Murrupula,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,21,31,52
+1031607,Nampula,Murrupula,CS Nihessiue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,6,13
+1031611,Nampula,Murrupula,CS Tiponha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1031609,Nampula,Murrupula,CS Umuato,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,não,5,0,5
+1051109,Tete,Mutarara,CS Charre,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1051111,Tete,Mutarara,CS Inhangoma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,8,12
+1051112,Tete,Mutarara,CS Jardim,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1051106,Tete,Mutarara,CS Mutarara,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1051113,Tete,Mutarara,CS Mutarara velha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1051116,Tete,Mutarara,CS Nhapale,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1051114,Tete,Mutarara,CS Sinjal,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1051107,Tete,Mutarara,CS Traquino,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1051115,Tete,Mutarara,CS Vila Nova da Fronteira,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1051101,Tete,Mutarara,HR Mutarara,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,12,52,64
+1031715,Nampula,Nacala Porto,CS Akumi,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1031714,Nampula,Nacala Porto,CS C.A.M.I.N.A,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1031711,Nampula,Nacala Porto,CS CFM,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1031712,Nampula,Nacala Porto,CS Cimentos,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1031716,Nampula,Nacala Porto,CS Mahelene,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1031708,Nampula,Nacala Porto,CS Murrupulane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,9,0,9
+1031709,Nampula,Nacala Porto,CS Naherengue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1031717,Nampula,Nacala Porto,CS Ontupaia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1031707,Nampula,Nacala Porto,CS Quissimajulo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1031700,Nampula,Nacala Porto,CS-Nacala Porto,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,11,12,23
+1031701,Nampula,Nacala Porto,HD Nacala Porto,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,25,165,190
+1031710,Nampula,Nacala Porto,PS A.D.P.P. Muzuane,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,0,0
+1031713,Nampula,Nacala Porto,PS CIFE,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1031706,Nampula,Nacala Porto,PS Mathapue,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1031808,Nampula,Nacala-a-velha,CS Barragem,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1031856,Nampula,Nacala-a-velha,CS Ger-Ger (Covo),Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1031807,Nampula,Nacala-a-velha,CS Mueria,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,18,22
+1031806,Nampula,Nacala-a-velha,CS Nacla-a-Velha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,24,32
+1031811,Nampula,Nacala-a-velha,CS Namalala,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1031809,Nampula,Nacala-a-velha,CS Salina,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1031903,Nampula,Nacaroa,CS Halaca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1031911,Nampula,Nacaroa,CS Mahetha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1031910,Nampula,Nacaroa,CS Muchico,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1031906,Nampula,Nacaroa,CS Nacaroa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,31,39
+1031907,Nampula,Nacaroa,CS Nachere,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,12,16
+1031909,Nampula,Nacaroa,CS Nahadje,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,5,8,13
+1031908,Nampula,Nacaroa,CS Saua-Saua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100807,Maputo Provincia,Namaacha,CS Changalane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100813,Maputo Provincia,Namaacha,CS Dibinduane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100808,Maputo Provincia,Namaacha,CS Goba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100809,Maputo Provincia,Namaacha,CS Kulula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100811,Maputo Provincia,Namaacha,CS Mafuiane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100810,Maputo Provincia,Namaacha,CS Mahelane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100815,Maputo Provincia,Namaacha,CS Mundavene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100806,Maputo Provincia,Namaacha,CS Namaacha,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,15,31,46
+1100814,Maputo Provincia,Namaacha,CS Odete Mechisso,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1100855,Maputo Provincia,Namaacha,PS Wamongo,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,3,0,3
+1041419,Zambezia,Namacurra,CS Lugela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1041408,Zambezia,Namacurra,CS Macuse,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,11,16,27
+1041409,Zambezia,Namacurra,CS Malei,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041414,Zambezia,Namacurra,CS Mbawa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041410,Zambezia,Namacurra,CS Mexixine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041417,Zambezia,Namacurra,CS Muceliua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041415,Zambezia,Namacurra,CS Muebele,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041418,Zambezia,Namacurra,CS Mugubia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041406,Zambezia,Namacurra,CS Namacurra-Sede,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,11,25,36
+1041407,Zambezia,Namacurra,PS Furquia,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,3,0,3
+1041416,Zambezia,Namacurra,PS Mutange,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,3,0,3
+1041411,Zambezia,Namacurra,PS Naciaia,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1041510,Zambezia,Namarroi,CS Lipale,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041509,Zambezia,Namarroi,CS Marea,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041512,Zambezia,Namarroi,CS Mudine,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041511,Zambezia,Namarroi,CS Mutatala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041508,Zambezia,Namarroi,CS Mutepua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1041507,Zambezia,Namarroi,CS Namarroi-Sede,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,26,32
+1041506,Zambezia,Namarroi,CS Regone,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041513,Zambezia,Namarroi,CS Rumala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041505,Zambezia,Namarroi,CS Namano,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,,,
+1021307,Cabo Delgado,Namuno,CS Hucula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1021308,Cabo Delgado,Namuno,CS Machoca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1021309,Cabo Delgado,Namuno,CS Meloco,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1021314,Cabo Delgado,Namuno,CS Namacaca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1021310,Cabo Delgado,Namuno,CS Namrapa (EP2),Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1021306,Cabo Delgado,Namuno,CS Namuno,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,18,57,75
+1021311,Cabo Delgado,Namuno,CS Ncumpe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1021313,Cabo Delgado,Namuno,CS Nicuita,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1021312,Cabo Delgado,Namuno,CS Papai,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1021410,Cabo Delgado,Nangade,CS Muhia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1021406,Cabo Delgado,Nangade,CS Nangade,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,10,18,28
+1021409,Cabo Delgado,Nangade,CS Nkonga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1021407,Cabo Delgado,Nangade,CS N'tamba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,13,17
+1021408,Cabo Delgado,Nangade,CS N'toli,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1011405,Niassa,Ngauma,CS Chicoa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1011412,Niassa,Ngauma,CS Chiguaja,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1011406,Niassa,Ngauma,CS Chissimbir,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1011407,Niassa,Ngauma,CS Itepela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1011411,Niassa,Ngauma,CS Luelele,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1011408,Niassa,Ngauma,CS Lupalane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1011409,Niassa,Ngauma,CS Massangulo,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,7,0,7
+1011410,Niassa,Ngauma,CS N'gauma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1071319,Sofala,Nhamatanda,CS Chiadeia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1071321,Sofala,Nhamatanda,CS Chirassicua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1071304,Sofala,Nhamatanda,CS Chiro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1071316,Sofala,Nhamatanda,CS Jasse Manguena,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1071308,Sofala,Nhamatanda,CS Lamengo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1071315,Sofala,Nhamatanda,CS Macarorocho,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1071314,Sofala,Nhamatanda,CS Mecuzi-Puazi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1071307,Sofala,Nhamatanda,CS Metuchira Lomaco,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,2,7
+1071305,Sofala,Nhamatanda,CS Mutondo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1071312,Sofala,Nhamatanda,CS Nharchonga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1071313,Sofala,Nhamatanda,CS Siluvo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1071318,Sofala,Nhamatanda,CS Tica,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1071357,Sofala,Nhamatanda,CS Vinho,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1071301,Sofala,Nhamatanda,HR Nhamatanda,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,não,25,70,95
+1071306,Sofala,Nhamatanda,PS Mbimbir,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1071310,Sofala,Nhamatanda,PS Muda,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1071311,Sofala,Nhamatanda,PS Nhampoca,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,,0
+1071317,Sofala,Nhamatanda,PS Siluvo Pedreira,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1041618,Zambezia,Nicoadala,CS Amorro,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041606,Zambezia,Nicoadala,CS Domela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1041609,Zambezia,Nicoadala,CS Ilalane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041613,Zambezia,Nicoadala,CS Licuar,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041614,Zambezia,Nicoadala,CS Namacata,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1041617,Zambezia,Nicoadala,CS Nicoadala-Sede,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,20,30,50
+1041620,Zambezia,Nicoadala,CS Quinta Girassol,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041612,Zambezia,Nicoadala,PS Marrongane,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,3,0,3
+1011509,Niassa,Nipepe,CS Cheia Cheia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1011506,Niassa,Nipepe,CS Manlia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,2,5
+1011513,Niassa,Nipepe,CS Metarica Lurio,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,2,5
+1011510,Niassa,Nipepe,CS Muluco,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1011508,Niassa,Nipepe,CS Napalave,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,1,3
+1011514,Niassa,Nipepe,CS Natil,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,1,3
+1011507,Niassa,Nipepe,CS Nipepe,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,5,2,7
+1011515,Niassa,Nipepe,CS Nveriua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,1,3
+1011502,Niassa,Nipepe,CS Uachila,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,2,5
+1110214,Maputo Cidade,Nlhamankulo,CS Chamanculo,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110206,Maputo Cidade,Nlhamankulo,CS José Macamo,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110208,Maputo Cidade,Nlhamankulo,CS No 14,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110207,Maputo Cidade,Nlhamankulo,CS Villas,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1110212,Maputo Cidade,Nlhamankulo,CS Xipamanine,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,27,4,31
+1110201,Maputo Cidade,Nlhamankulo,HG Chamanculo,HG - Hospital Gerais,Nível Secundário,Hospital Geral (Tipo US),HosPital,sim,46,6,52
+1110202,Maputo Cidade,Nlhamankulo,HG José Macamo,HG - Hospital Gerais,Nível Secundário,Hospital Geral (Tipo US),HosPital,sim,68,301,369
+1021509,Cabo Delgado,Palma,CS Maganja,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1021507,Cabo Delgado,Palma,CS Muite,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,1,0,1
+1021508,Cabo Delgado,Palma,CS Olumbe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1021506,Cabo Delgado,Palma,CS Palma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,17,40,57
+1021510,Cabo Delgado,Palma,CS Pundanhari,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,2,3
+1021511,Cabo Delgado,Palma,CS Quionga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,2,4
+1081205,Inhambane,Panda,CS Chivalo,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081206,Inhambane,Panda,CS Inhassune,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,5,6,11
+1081209,Inhambane,Panda,CS Jojo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1081207,Inhambane,Panda,CS Massalane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1081208,Inhambane,Panda,CS Mawayela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1081210,Inhambane,Panda,CS Panda,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,9,21,30
+1041715,Zambezia,Pebane,CS 7 de Abril,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1041737,Zambezia,Pebane,CS Alto Maganha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041716,Zambezia,Pebane,CS Impaca,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041708,Zambezia,Pebane,CS Magiga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041709,Zambezia,Pebane,CS Malema,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041710,Zambezia,Pebane,CS Mihecue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041711,Zambezia,Pebane,CS Mulela,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041712,Zambezia,Pebane,CS Muligode,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041713,Zambezia,Pebane,CS Naburi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,12,20
+1041706,Zambezia,Pebane,CS Pebane-Sede,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,10,28,38
+1041757,Zambezia,Pebane,CS Pele-Pele,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041717,Zambezia,Pebane,CS Tomea,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041736,Zambezia,Pebane,CS Txalalane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1041707,Zambezia,Pebane,PS Cutal,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1020106,Cabo Delgado,Pemba,CS B. Cariocó,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,8,2,10
+1020109,Cabo Delgado,Pemba,CS B. Cimento,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,0,4,4
+1020110,Cabo Delgado,Pemba,CS B. Eduardo Mondlane,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,10,0,10
+1020107,Cabo Delgado,Pemba,CS B. Ingonane,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,7,0,7
+1020112,Cabo Delgado,Pemba,CS B. Muxara,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,5,0,5
+1020151,Cabo Delgado,Pemba,CS Chuiba,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1020111,Cabo Delgado,Pemba,CS Mahate,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,6,0,6
+1020108,Cabo Delgado,Pemba,CS Natite,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,10,10,20
+1020113,Cabo Delgado,Pemba,CS Paquite,Centro de Saúde Urbano Tipo C,Nível Primário,Centro de Saúde Urbano,CS,sim,9,0,9
+1020100,Cabo Delgado,Pemba,HP Pemba,HP - Hospital Provincial,Nível Terciário,Hospital Provincial (Tipo US),HosPital,sim,52,267,319
+1040106,Zambezia,Quelimane,CS 17 De Setembro,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,14,0,14
+1040107,Zambezia,Quelimane,CS 24 de Julho,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,12,0,12
+1040109,Zambezia,Quelimane,CS 4 de Dezembro,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1040114,Zambezia,Quelimane,CS Chabeco,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1040108,Zambezia,Quelimane,CS Coalane,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,8,0,8
+1040119,Zambezia,Quelimane,CS Estação Malanha,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1040117,Zambezia,Quelimane,CS Incidua,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,5,0,5
+1040125,Zambezia,Quelimane,CS Inhangulue,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1040120,Zambezia,Quelimane,CS Ionge,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1040121,Zambezia,Quelimane,CS Madal,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1040122,Zambezia,Quelimane,CS Maquival Sede,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,6,0,6
+1040123,Zambezia,Quelimane,CS Maquival-Rio,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,3,0,3
+1040116,Zambezia,Quelimane,CS Micajune,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,6,0,6
+1040111,Zambezia,Quelimane,CS Namuinho,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,6,0,6
+1040112,Zambezia,Quelimane,CS Sangarivera,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1040115,Zambezia,Quelimane,CS Santo Egidio,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1040124,Zambezia,Quelimane,CS Varela,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,4,0,4
+1040101,Zambezia,Quelimane,HC Quelimane,Hospital Central,Nível Quaternário,Hospital Central (Tipo US),HosPital,sim,12,604,616
+1040100,Zambezia,Quelimane,HG Quelimane,HG - Hospital Gerais,Nível Secundário,Hospital Geral (Tipo US),HosPital,sim,60,166,226
+1040110,Zambezia,Quelimane,PS Cadeia Civil,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1040118,Zambezia,Quelimane,PS Zalala Mar,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1021710,Cabo Delgado,Quissanga,CS Bilibiza,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,5,7,12
+1021707,Cabo Delgado,Quissanga,CS Cagembe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1021708,Cabo Delgado,Quissanga,CS Mahate,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,3,6
+1021712,Cabo Delgado,Quissanga,CS Nacoba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1021709,Cabo Delgado,Quissanga,CS Namaluco,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,Sim,0,0,0
+1021706,Cabo Delgado,Quissanga,CS Quissanga,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,5,25,30
+1021711,Cabo Delgado,Quissanga,CS Tororo,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,Sim,0,2,2
+1032009,Nampula,Rapale,CS Caramaja,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,3,1,4
+1032011,Nampula,Rapale,CS Mutive,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,1,7
+1032022,Nampula,Rapale,CS Muleheia,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,0,2,2
+1032012,Nampula,Rapale,CS Mutovo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,1,5
+1032008,Nampula,Rapale,CS Namaita,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,7,13,20
+1032017,Nampula,Rapale,CS Namucaua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,1,7
+1032018,Nampula,Rapale,CS Natoa,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1032006,Nampula,Rapale,CS Rapale,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,23,31
+1032107,Nampula,Ribaue,CS Chica,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,2,8
+1032113,Nampula,Ribaue,CS Cunle,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,1,7
+1032108,Nampula,Ribaue,CS Lapala Estação,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,7,1,8
+1032106,Nampula,Ribaue,CS Lapala Monapo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,10,26,36
+1032110,Nampula,Ribaue,CS Namiconha,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,2,8
+1032111,Nampula,Ribaue,CS Riane,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,6,2,8
+1032101,Nampula,Ribaue,HR Ribaue,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,20,2,22
+1032112,Nampula,Ribaue,PS ESC.BAS.AGRARIA,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,40,40
+1032109,Nampula,Ribaue,PS Mecuasse,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,6,0,6
+1011606,Niassa,Sanga,CS 7 De Setembro,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,8,24,32
+1011616,Niassa,Sanga,CS Chitula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1011607,Niassa,Sanga,CS Licole,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1011608,Niassa,Sanga,CS Lumbiza,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,5,0,5
+1011609,Niassa,Sanga,CS Macaloge,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,6,0,6
+1011610,Niassa,Sanga,CS Madjedje (II Congresso),Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1011611,Niassa,Sanga,CS Malemia,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1011612,Niassa,Sanga,CS Maumbica,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1011613,Niassa,Sanga,CS Mbemba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,4,0,4
+1011614,Niassa,Sanga,CS Nansinhenje,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1011618,Niassa,Sanga,CS Ngongote,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,2,0,2
+1011615,Niassa,Sanga,CS Unango-Velho,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1060994,Manica,Sussundenga,CS Bunga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1060995,Manica,Sussundenga,CS Darue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060911,Manica,Sussundenga,CS Dombe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1060918,Manica,Sussundenga,CS Ifloma,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1060912,Manica,Sussundenga,CS Mavuzi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1060919,Manica,Sussundenga,CS Muhoa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,1,0,1
+1060908,Manica,Sussundenga,CS Munhinga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1060914,Manica,Sussundenga,CS Mutarara,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060909,Manica,Sussundenga,CS Nhambamba,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060910,Manica,Sussundenga,CS Rotanda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1060917,Manica,Sussundenga,CS Rupisse,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060913,Manica,Sussundenga,CS Sembezea,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,13,0,13
+1060906,Manica,Sussundenga,CS Sussundenga,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,18,32,50
+1061006,Manica,Tambara,CS Búzua,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1061011,Manica,Tambara,CS Campange,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1061012,Manica,Tambara,CS Miteme,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1061007,Manica,Tambara,CS Nhacafula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1061010,Manica,Tambara,CS Nhacalapho,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1061008,Manica,Tambara,CS Nhacolo,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,12,0,12
+1061009,Manica,Tambara,CS Sabeta,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1050119,Tete,Tete,CS Canjanda,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1050120,Tete,Tete,CS Degue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1050107,Tete,Tete,CS Mpadue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1050109,Tete,Tete,CS Nº 1 - Bairro Magaia,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1050110,Tete,Tete,CS Nº 2 - Bairro Matundo,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1050111,Tete,Tete,CS Nº 3 - Bairro Manyanga,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,não,0,0,0
+1050106,Tete,Tete,CS Nº 4 - Bairro Muthemba,Centro de Saúde Urbano Tipo A,Nível Primário,Centro de Saúde Urbano,CS,sim,0,0,0
+1050100,Tete,Tete,HP Tete,HP - Hospital Provincial,Nível Terciário,Hospital Provincial (Tipo US),HosPital,sim,46,215,261
+1050122,Tete,Tete,PS Base Aérea,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1050118,Tete,Tete,PS Cadeia,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,0,0,0
+1051506,Tete,Tete,CS Mufa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1050414,Tete,Tsangano,CS Banga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1051210,Tete,Tsangano,CS Chinvano,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1050209,Tete,Tsangano,CS Fonte Boa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1051206,Tete,Tsangano,CS Kalipale,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1051209,Tete,Tsangano,CS Maconge,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1051207,Tete,Tsangano,CS Ntengombalame,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1051208,Tete,Tsangano,CS Tsangano,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,sim,5,12,17
+1061103,Manica,Vanduzi,CS Chigodole,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1061107,Manica,Vanduzi,CS Dangalenga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1061108,Manica,Vanduzi,CS IAC,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,10,0,10
+1061105,Manica,Vanduzi,CS Manaoquera,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1061104,Manica,Vanduzi,CS Matsinho,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1060727,Manica,Vanduzi,CS Mucombezi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,0,8
+1061106,Manica,Vanduzi,CS Pungue Sul,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1061102,Manica,Vanduzi,CS Vanduzi,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,8,18,26
+1081306,Inhambane,Vilanculos,CS Belane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081313,Inhambane,Vilanculos,CS Chibuene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,não,3,0,3
+1081315,Inhambane,Vilanculos,CS Chichocane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081309,Inhambane,Vilanculos,CS Machaniça,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081314,Inhambane,Vilanculos,CS Macunhe,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081307,Inhambane,Vilanculos,CS Mapinhane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081311,Inhambane,Vilanculos,CS Muabsa,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081308,Inhambane,Vilanculos,CS Pambara,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081305,Inhambane,Vilanculos,CS Querquer A.,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081312,Inhambane,Vilanculos,CS Quewene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081310,Inhambane,Vilanculos,CS Vialanculos,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1081301,Inhambane,Vilanculos,HR Vilanculos,HR - Hospital Rurais,Nível Secundário,Hospital Rural  (Tipo US),HosPital,sim,25,135,160
+1091207,Gaza,Xai-Xai,CS Chilaulane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1090107,Gaza,Xai-Xai,CS Cidade de Xai - Xai,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,8,0,8
+1090106,Gaza,Xai-Xai,CS Marien Nguabi,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,6,0,6
+1090108,Gaza,Xai-Xai,CS Patrice Lumumba,Centro de Saúde Urbano Tipo B,Nível Primário,Centro de Saúde Urbano,CS,sim,8,0,8
+1091221,Gaza,Xai-Xai,CS Zimilene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1090100,Gaza,Xai-Xai,HP Xai Xai,HP - Hospital Provincial,Nível Terciário,Hospital Provincial (Tipo US),HosPital,sim,38,237,275
+1090114,Gaza,Xai-Xai,PS FIR,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,0,0
+1090113,Gaza,Xai-Xai,PS Marien Nguabi,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,0,0,0
+1090109,Gaza,Xai-Xai,PS Praia,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,sim,5,0,5
+1081406,Inhambane,Zavala,CS Banguza,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081408,Inhambane,Zavala,CS Cala,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1081416,Inhambane,Zavala,CS Canda,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1081404,Inhambane,Zavala,CS Chitondo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081407,Inhambane,Zavala,CS Guilundo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1081414,Inhambane,Zavala,CS Maculuva,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1081409,Inhambane,Zavala,CS Maundene,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,4,0,4
+1081413,Inhambane,Zavala,CS Mavila,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,5,0,5
+1081415,Inhambane,Zavala,CS Muane,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,3,0,3
+1081411,Inhambane,Zavala,CS Quissico,Centro de Saúde Rural Tipo 1,Nível Primário,Centro de Saúde Rural,CS,não,0,0,0
+1081410,Inhambane,Zavala,CS Zandamele,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,6,0,6
+1081405,Inhambane,Zavala,HD Quissico,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,42,80,122
+1081412,Inhambane,Zavala,PS Chipole,Posto de Saúde,Nível Primário,Posto de Saúde (Tipo US),Posto,não,3,0,3
+1051315,Tete,Zumbo,CS Chissavo,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1051305,Tete,Zumbo,CS Minga,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1051306,Tete,Zumbo,CS Mphangula,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1051312,Tete,Zumbo,CS Mugangadze,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1051307,Tete,Zumbo,CS Muze,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1051310,Tete,Zumbo,CS Tongue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,0,0,0
+1051308,Tete,Zumbo,CS Zambue,Centro de Saúde Rural Tipo 2,Nível Primário,Centro de Saúde Rural,CS,sim,2,0,2
+1051309,Tete,Zumbo,HD Zumbo,HD - Hospital Distritais,Nível Secundário,Hospital Distrital (Tipo US),HosPital,sim,0,0,0

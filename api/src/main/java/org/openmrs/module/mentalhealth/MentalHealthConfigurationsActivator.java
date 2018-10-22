@@ -92,11 +92,17 @@ public class MentalHealthConfigurationsActivator extends BaseModuleActivator {
 	 */
 	public void started() {
 		MetadataDeployService deployService = Context.getService(MetadataDeployService.class);
+		try {
 
-
-		// install commonly used metadata
-		installCommonMetadata(deployService);
-
+			// install commonly used metadata
+			//create the location attribute if it does NOt exist
+			HealthFacilities.createLocationAttributeType();
+			//load locations if such location are NOT loaded yet
+			HealthFacilities.uploadLocations();
+			installCommonMetadata(deployService);
+		}catch (Exception ex) {
+			throw new RuntimeException("Failed to setup initial data", ex);
+		}
 		// run the initializers
 		for (MhInitializer initializer : getInitializers()) {
 			initializer.started();

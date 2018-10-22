@@ -24,7 +24,7 @@ public class MhSampleIndicators {
      * @return
      */
     public CohortIndicator allPatients() {
-        return cohortIndicator("Sample",  map(mhCommonLibrary.allPatients(), "startDate=${startDate},endDate=${endDate},location=${location}"));
+        return cohortIndicator("Sample",  map(mhCommonLibrary.allPatients(), "startDate=${startDate},endDate=${endDate},location=${location},concept=${concept},months=${months},alive=${alive},encounter=${encounter}"));
     }
 
 }

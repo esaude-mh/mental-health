@@ -1,5 +1,7 @@
 package org.openmrs.module.mentalhealth.reports;
 
+import org.openmrs.Concept;
+import org.openmrs.EncounterType;
 import org.openmrs.Location;
 import org.openmrs.module.mentalhealth.MhDataExportManager;
 import org.openmrs.module.mentalhealth.reporting.library.dimension.MhCommonDimension;
@@ -94,7 +96,11 @@ public class SampleReport extends MhDataExportManager {
     public List<Parameter> getParameters() {
         return Arrays.asList(new Parameter("startDate", "Data Inicial Inclusão", Date.class),
                             new Parameter("endDate","Data Final Inclusão", Date.class),
-                            new Parameter("location", "Unidade Sanitária", Location.class));
+                            new Parameter("location", "Unidade Sanitária", Location.class),
+                            new Parameter("concept", "Concept", Concept.class),
+                            new Parameter("months", "Months", Integer.class),
+                            new Parameter("alive", "Alive", Boolean.class),
+                            new Parameter("encounter", "Encounter Type", EncounterType.class));
     }
 
     private DataSetDefinition dataSetDefinition() {
@@ -102,7 +108,7 @@ public class SampleReport extends MhDataExportManager {
         dsd.setParameters(getParameters());
         dsd.setName("S");
 
-        String indParams = "startDate=${startDate},endDate=${endDate},location=${location}";
+        String indParams = "startDate=${startDate},endDate=${endDate},location=${location},concept=${concept},months=${months},alive=${alive},encounter=${encounter}";
         //add dimensions to the dsd
         dsd.addDimension("gender", MhReportUtils.map(mhCommonDimension.gender()));
 
