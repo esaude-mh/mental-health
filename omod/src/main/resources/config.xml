@@ -43,6 +43,11 @@
 	
 	<!-- Module Activator -->
 	<activator>${project.parent.groupId}.${project.parent.artifactId}.MentalHealthConfigurationsActivator</activator>
+
+	<extension>
+		<point>org.openmrs.patientDashboardTab</point>
+		<class>${project.parent.groupId}.${project.parent.artifactId}.extension.html.PatientDashboardMentalHealthTabExt</class>
+	</extension>
 	
 	
 	<!-- Maps hibernate file's, if present -->

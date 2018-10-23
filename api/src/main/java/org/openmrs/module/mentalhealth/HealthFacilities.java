@@ -15,11 +15,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Date;
-
 public class HealthFacilities {
 
     protected Log log = LogFactory.getLog(getClass());
-
     public static void createLocationAttributeType() {
         LocationService locationService = Context.getLocationService();
         LocationAttributeType locationAttributeType = locationService.getLocationAttributeTypeByUuid("132895aa-1c88-11e8-b6fd-7395830b63f3");
