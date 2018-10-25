@@ -29,7 +29,9 @@ public class GenerateOpenMRSPatientIdentifierTask extends AbstractTask {
             startExecuting();
             try {
                 //do all the work here
-                generateOpenMRSIdentifierForPatientsWithout();
+                //we need to find the correct identifier source, the correct one is provided in 2.x fresh install
+                //need to find a way to import that into 1.x
+                //generateOpenMRSIdentifierForPatientsWithout();
             }
             catch (Exception e) {
                 log.error("Error while generating OpenMRS id for patient", e);
