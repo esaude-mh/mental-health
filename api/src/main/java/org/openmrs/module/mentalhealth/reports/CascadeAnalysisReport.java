@@ -102,7 +102,8 @@ public class CascadeAnalysisReport extends MhDataExportManager {
         return Arrays.asList(new Parameter("endDate","Data Final Inclusão", Date.class),
                             new Parameter("facility", "Unidade Sanitária", Location.class),
                             new Parameter("pop","Catchment Population",Integer.class),
-                            new Parameter("dx","Diagnosis", String.class)
+                            new Parameter("dx","Diagnosis", String.class),
+                            new Parameter("numMonths","Number of months for catchment", Integer.class)
                             );
     }
 
@@ -117,7 +118,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     	String sqlQuery = "SELECT :dx AS dx," +
     			" :pop AS pop," +
     			" :facility as facility," +
-    			" :endDate as months," +
+    			" (SELECT CONCAT( DATE_FORMAT(STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH, '%Y-%m-%d'), ' to ', :endDate)) as months," +
     			//patients previous in care with schizophrenia
     			/**/
     			" (SELECT COUNT(DISTINCT P.patient_id)" +
@@ -133,7 +134,8 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 				" FROM concept VC"+
 				" JOIN concept_name CN"+
 				" WHERE CN.name like 'F20%'))"+
-    			" AND STR_TO_DATE(:endDate, '%d-%m-%Y') - INTERVAL 3 MONTH >= E.encounter_datetime"+
+    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH >= E.encounter_datetime"+
+    			//" AND Location=:facility"
     			" AND O.voided = 0)" +
     			/**/
     			//
@@ -154,7 +156,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 				" FROM concept VC"+
 				" JOIN concept_name CN"+
 				" WHERE CN.name like 'F20%'))"+
-    			" AND STR_TO_DATE(:endDate, '%d-%m-%Y') - INTERVAL 3 MONTH < E.encounter_datetime"+
+    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime"+
     			" AND O.voided = 0" +
     			" AND P.patient_id NOT IN (SELECT DISTINCT P.patient_id" +
 	    			" FROM patient P" +
@@ -169,7 +171,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 					" FROM concept VC"+
 					" JOIN concept_name CN"+
 					" WHERE CN.name like 'F20%'))"+
-	    			" AND STR_TO_DATE(:endDate, '%d-%m-%Y') - INTERVAL 3 MONTH >= E.encounter_datetime"+
+	    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH >= E.encounter_datetime"+
 	    			" AND O.voided = 0)" +
     	    	")" +
     			/**/
@@ -191,7 +193,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 				" FROM concept VC"+
 				" JOIN concept_name CN"+
 				" WHERE CN.name like 'F20%'))"+
-    			" AND STR_TO_DATE(:endDate, '%d-%m-%Y') - INTERVAL 3 MONTH < E.encounter_datetime" + 
+    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
     			" AND O.voided = 0" +
     			" AND P.patient_ID IN " +
     			//patient ids of patients subscribed medication in the last 3 mos
@@ -204,7 +206,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    			" JOIN concept C" + 
 	    			" ON O.value_coded = C.concept_id" + 
 	    			" WHERE O.uuid ='e1da0ab2-1d5f-11e0-b929-000c29ad1d07'" + 
-	    			" AND STR_TO_DATE(:endDate, '%d-%m-%Y') - INTERVAL 3 MONTH < E.encounter_datetime" + 
+	    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
 	    			" AND P.patient_id NOT IN (SELECT DISTINCT P.patient_id" +
 	    				" FROM patient P" +
 	    				" JOIN encounter E"+
@@ -218,7 +220,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 						" FROM concept VC"+
 						" JOIN concept_name CN"+
 						" WHERE CN.name like 'F20%'))"+
-						" AND STR_TO_DATE(:endDate, '%d-%m-%Y') - INTERVAL 3 MONTH >= E.encounter_datetime"+
+						" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH >= E.encounter_datetime"+
 						" AND O.voided = 0)" +
 					")"+
 				")"+	
@@ -242,7 +244,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 				" FROM concept VC"+
 				" JOIN concept_name CN"+
 				" WHERE CN.name like 'F20%'))"+
-    			" AND STR_TO_DATE(:endDate, '%d-%m-%Y') - INTERVAL 3 MONTH < E.encounter_datetime" + 
+    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
     			" AND O.voided = 0" +
     			" AND P.patient_ID IN " +
     			//patient ids of patients subscribed medication in the last 3 mos
@@ -255,7 +257,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    			" JOIN concept C" + 
 	    			" ON O.value_coded = C.concept_id" + 
 	    			" WHERE O.uuid ='e1da0ab2-1d5f-11e0-b929-000c29ad1d07'" + 
-	    			" AND STR_TO_DATE(:endDate, '%d-%m-%Y') - INTERVAL 3 MONTH < E.encounter_datetime" + 
+	    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
 	    			" AND O.voided = 0"+
 	    			" AND P.patient_id IN " +
 	    			//patients with follow-up appointments made in the last 3 mos
@@ -269,7 +271,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    				" ON O.value_coded = C.concept_id" + 
 	    				//with follow-up appointments
 	    				" WHERE O.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" + 
-	    				" AND STR_TO_DATE(:endDate, '%d-%m-%Y') - INTERVAL 3 MONTH < E.encounter_datetime" + 
+	    				" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
 	    				" AND P.patient_id NOT IN (SELECT DISTINCT P.patient_id" +
 		    			" FROM patient P" +
 		    			" JOIN encounter E"+
@@ -283,7 +285,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 						" FROM concept VC"+
 						" JOIN concept_name CN"+
 						" WHERE CN.name like 'F20%'))"+
-		    			" AND STR_TO_DATE(:endDate, '%d-%m-%Y') - INTERVAL 3 MONTH >= E.encounter_datetime"+
+		    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH >= E.encounter_datetime"+
 		    			" AND O.voided = 0)" +
 	    				" AND O.voided = 0)"
     	    		+ ")"
