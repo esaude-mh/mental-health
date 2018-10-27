@@ -118,7 +118,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     	String sqlQuery = "SELECT :dx AS dx," +
     			" :pop AS pop," +
     			" :facility as facility," +
-    			" (SELECT CONCAT( DATE_FORMAT(STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH, '%Y-%m-%d'), ' to ', :endDate)) as months," +
+    			" (SELECT CONCAT( DATE_FORMAT(STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH, '%Y-%m-%d'), ' to ', DATE(:endDate))) as months," +
     			//patients previous in care with schizophrenia
     			/**/
     			" (SELECT COUNT(DISTINCT P.patient_id)" +
@@ -135,7 +135,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 				" JOIN concept_name CN"+
 				" WHERE CN.name like 'F20%'))"+
     			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH >= E.encounter_datetime"+
-    			//" AND Location=:facility"
+    			" AND E.location_id=:facility"+
     			" AND O.voided = 0)" +
     			/**/
     			//
@@ -150,15 +150,15 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     			" JOIN obs O"+
     			" ON E.encounter_id = O.encounter_id"+ 
     			" JOIN concept C"+
-    			" ON O.value_coded = C.concept_id"+ 
-    			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
-				" OR C.uuid IN (SELECT VC.uuid"+
-				" FROM concept VC"+
-				" JOIN concept_name CN"+
-				" WHERE CN.name like 'F20%'))"+
+    			" ON O.value_coded = C.concept_id"+
+    			" JOIN encounter_type ET"+
+    			" ON E.encounter_type = ET.encounter_type_id"+
+    			" WHERE "+
+    			" ET.uuid = 'e7c5643e-9efe-11e8-a4c3-2b65da6977a7'"+
     			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime"+
     			" AND O.voided = 0" +
-    			" AND P.patient_id NOT IN (SELECT DISTINCT P.patient_id" +
+    			" AND E.location_id=:facility"+
+    			" AND P.patient_id IN (SELECT DISTINCT P.patient_id" +
 	    			" FROM patient P" +
 	    			" JOIN encounter E"+
 	    			" ON P.patient_id = E.patient_id"+
@@ -171,7 +171,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 					" FROM concept VC"+
 					" JOIN concept_name CN"+
 					" WHERE CN.name like 'F20%'))"+
-	    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH >= E.encounter_datetime"+
+					" AND E.location_id=:facility"+
 	    			" AND O.voided = 0)" +
     	    	")" +
     			/**/
@@ -180,21 +180,36 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     			" AS newdx," +
     			//new patients with schizophrenia in the last 3 mos
     			/**/
-    			" (SELECT COUNT(DISTINCT P.patient_id)" + 
-    			" FROM patient P" + 
-    			" JOIN encounter E" + 
-    			" ON P.patient_id = E.patient_id" + 
-    			" JOIN obs O" + 
-    			" ON E.encounter_id = O.encounter_id" + 
-    			" JOIN concept C" + 
-    			" ON O.value_coded = C.concept_id" + 
-    			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')" + 
-    			" OR C.uuid IN (SELECT VC.uuid"+
-				" FROM concept VC"+
-				" JOIN concept_name CN"+
-				" WHERE CN.name like 'F20%'))"+
-    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
+    			" (SELECT COUNT(DISTINCT P.patient_id)" +
+    			" FROM patient P" +
+    			" JOIN encounter E"+
+    			" ON P.patient_id = E.patient_id"+
+    			" JOIN obs O"+
+    			" ON E.encounter_id = O.encounter_id"+ 
+    			" JOIN concept C"+
+    			" ON O.value_coded = C.concept_id"+
+    			" JOIN encounter_type ET"+
+    			" ON E.encounter_type = ET.encounter_type_id"+
+    			" WHERE "+
+    			" ET.uuid = 'e7c5643e-9efe-11e8-a4c3-2b65da6977a7'"+
+    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime"+
     			" AND O.voided = 0" +
+    			" AND E.location_id=:facility"+
+    			" AND P.patient_id IN (SELECT DISTINCT P.patient_id" +
+	    			" FROM patient P" +
+	    			" JOIN encounter E"+
+	    			" ON P.patient_id = E.patient_id"+
+	    			" JOIN obs O"+
+	    			" ON E.encounter_id = O.encounter_id"+ 
+	    			" JOIN concept C"+
+	    			" ON O.value_coded = C.concept_id"+ 
+	    			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
+					" OR C.uuid IN (SELECT VC.uuid"+
+					" FROM concept VC"+
+					" JOIN concept_name CN"+
+					" WHERE CN.name like 'F20%'))"+
+					" AND E.location_id=:facility"+
+	    			" AND O.voided = 0)" +
     			" AND P.patient_ID IN " +
     			//patient ids of patients subscribed medication in the last 3 mos
     			" (SELECT P.patient_id" + 
@@ -205,47 +220,48 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    			" ON E.encounter_id = O.encounter_id" + 
 	    			" JOIN concept C" + 
 	    			" ON O.value_coded = C.concept_id" + 
-	    			" WHERE O.uuid ='e1da0ab2-1d5f-11e0-b929-000c29ad1d07'" + 
+	    			" WHERE O.uuid ='e1da0ab2-1d5f-11e0-b929-000c29ad1d07'" +
+	    			" AND E.location_id=:facility"+
 	    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
-	    			" AND P.patient_id NOT IN (SELECT DISTINCT P.patient_id" +
-	    				" FROM patient P" +
-	    				" JOIN encounter E"+
-	    				" ON P.patient_id = E.patient_id"+
-	    				" JOIN obs O"+
-	    				" ON E.encounter_id = O.encounter_id"+ 
-	    				" JOIN concept C"+
-	    				" ON O.value_coded = C.concept_id"+ 
-	    				" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
-						" OR C.uuid IN (SELECT VC.uuid"+
-						" FROM concept VC"+
-						" JOIN concept_name CN"+
-						" WHERE CN.name like 'F20%'))"+
-						" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH >= E.encounter_datetime"+
-						" AND O.voided = 0)" +
-					")"+
 				")"+	
-    			/**/
+				")"+
+				/**/
     			//" (3)" +
     			" AS numrx," +
     			//e1dae630-1d5f-11e0-b929-000c29ad1d07
     			//patients newly diagnosed with schizophrenia 
     			//with rx and fu
     			/**/
-    			" (SELECT COUNT(DISTINCT P.patient_id)" + 
-    			" FROM patient P" + 
-    			" JOIN encounter E" + 
-    			" ON P.patient_id = E.patient_id" + 
-    			" JOIN obs O" + 
-    			" ON E.encounter_id = O.encounter_id" + 
-    			" JOIN concept C" + 
-    			" ON O.value_coded = C.concept_id" + 
-    			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')" +
-    			" OR C.uuid IN (SELECT VC.uuid"+
-				" FROM concept VC"+
-				" JOIN concept_name CN"+
-				" WHERE CN.name like 'F20%'))"+
-    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
+    			" (SELECT COUNT(DISTINCT P.patient_id)" +
+    			" FROM patient P" +
+    			" JOIN encounter E"+
+    			" ON P.patient_id = E.patient_id"+
+    			" JOIN obs O"+
+    			" ON E.encounter_id = O.encounter_id"+ 
+    			" JOIN concept C"+
+    			" ON O.value_coded = C.concept_id"+
+    			" JOIN encounter_type ET"+
+    			" ON E.encounter_type = ET.encounter_type_id"+
+    			" WHERE "+
+    			" ET.uuid = 'e7c5643e-9efe-11e8-a4c3-2b65da6977a7'"+
+    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime"+
     			" AND O.voided = 0" +
+    			" AND E.location_id=:facility"+
+    			" AND P.patient_id IN (SELECT DISTINCT P.patient_id" +
+	    			" FROM patient P" +
+	    			" JOIN encounter E"+
+	    			" ON P.patient_id = E.patient_id"+
+	    			" JOIN obs O"+
+	    			" ON E.encounter_id = O.encounter_id"+ 
+	    			" JOIN concept C"+
+	    			" ON O.value_coded = C.concept_id"+ 
+	    			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
+					" OR C.uuid IN (SELECT VC.uuid"+
+					" FROM concept VC"+
+					" JOIN concept_name CN"+
+					" WHERE CN.name like 'F20%'))"+
+					" AND E.location_id=:facility"+
+	    			" AND O.voided = 0" +
     			" AND P.patient_ID IN " +
     			//patient ids of patients subscribed medication in the last 3 mos
 					" (SELECT P.patient_id" + 
@@ -256,7 +272,8 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    			" ON E.encounter_id = O.encounter_id" + 
 	    			" JOIN concept C" + 
 	    			" ON O.value_coded = C.concept_id" + 
-	    			" WHERE O.uuid ='e1da0ab2-1d5f-11e0-b929-000c29ad1d07'" + 
+	    			" WHERE O.uuid ='e1da0ab2-1d5f-11e0-b929-000c29ad1d07'" +
+	    			" AND E.location_id=:facility"+
 	    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
 	    			" AND O.voided = 0"+
 	    			" AND P.patient_id IN " +
@@ -270,33 +287,58 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    				" JOIN concept C" + 
 	    				" ON O.value_coded = C.concept_id" + 
 	    				//with follow-up appointments
-	    				" WHERE O.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" + 
+	    				" WHERE O.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" +
+	    				" AND E.location_id=:facility"+
 	    				" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
-	    				" AND P.patient_id NOT IN (SELECT DISTINCT P.patient_id" +
-		    			" FROM patient P" +
-		    			" JOIN encounter E"+
-		    			" ON P.patient_id = E.patient_id"+
-		    			" JOIN obs O"+
-		    			" ON E.encounter_id = O.encounter_id"+ 
-		    			" JOIN concept C"+
-		    			" ON O.value_coded = C.concept_id"+ 
-		    			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
-						" OR C.uuid IN (SELECT VC.uuid"+
-						" FROM concept VC"+
-						" JOIN concept_name CN"+
-						" WHERE CN.name like 'F20%'))"+
-		    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH >= E.encounter_datetime"+
-		    			" AND O.voided = 0)" +
 	    				" AND O.voided = 0)"
-    	    		+ ")"
-    			+ ")" +
+    	    		+ ")" +
+    			 ")" +
+    			 ")" +
     			/**/
     			//" (4) " +
-    			" AS numfu";
+    			" AS numfu,"+
+    			" (SELECT COUNT(DISTINCT P.patient_id)" +
+    			" FROM patient P" +
+    			" JOIN encounter E"+
+    			" ON P.patient_id = E.patient_id"+
+    			" JOIN obs O"+
+    			" ON E.encounter_id = O.encounter_id"+ 
+    			" JOIN concept C"+
+    			" ON O.value_coded = C.concept_id"+ 
+    			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
+				" OR C.uuid IN (SELECT VC.uuid"+
+				" FROM concept VC"+
+				" JOIN concept_name CN"+
+				" WHERE CN.name like 'F20%'))"+
+				" AND E.location_id=:facility"+
+    			" AND P.patient_id IN"+
+				" (SELECT P.patient_id"+
+    			" FROM patient P"+
+				" JOIN encounter E"+
+    			" ON P.patient_id = E.patient_id"+
+				" JOIN obs O"+
+    			" ON O.encounter_id = E.encounter_id"+
+				" JOIN concept C"+
+    			" ON C.concept_id = O.concept_id"+
+				" WHERE O.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" +
+    			//followup apt is during this period
+				" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH <= O.value_datetime"+
+				" AND O.value_datetime <= STR_TO_DATE(:endDate, '%Y-%m-%d'))"+
+				" AND O.voided = 0)" +
+    			" AS allfudue,"+
+    			" 'not implemented'"+
+    			" AS fukept,"+
+    			" 'not implemented'"+
+    			" AS fuontime,"+
+    			" 'not implemented'"+
+    			" AS adherent,"+
+    			" 'not implemented'"+
+    			" AS improved";
 
     	SqlDataSetDefinition dsd = new SqlDataSetDefinition(queryName, getDescription(), sqlQuery);
     	dsd.setParameters(getParameters());
     	
     	return dsd;
     }
+
 }
