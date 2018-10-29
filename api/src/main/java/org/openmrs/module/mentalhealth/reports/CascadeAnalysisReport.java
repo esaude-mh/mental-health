@@ -117,7 +117,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     	//back into the xls template renderer
     	String sqlQuery = "SELECT :dx AS dx," +
     			" :pop AS pop," +
-    			" :facility as facility," +
+    			" (SELECT L.name from location L where L.location_id = :facility) as facility," +
     			" (SELECT CONCAT( DATE_FORMAT(STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH, '%Y-%m-%d'), ' to ', DATE(:endDate))) as months," +
     			//patients previous in care with schizophrenia
     			/**/
