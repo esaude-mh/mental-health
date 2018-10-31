@@ -211,7 +211,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 					" AND E.location_id=:facility"+
 	    			" AND O.voided = 0)" +
     			" AND P.patient_ID IN " +
-    			//patient ids of patients subscribed medication in the last 3 mos
+    			//patient ids of patients prescribed medication in the last 3 mos
           "(SELECT P.patient_id" +
                    " FROM patient P" +
                     " JOIN encounter E" +
@@ -262,7 +262,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 					" AND E.location_id=:facility"+
 	    			" AND O.voided = 0" +
     			" AND P.patient_ID IN " +
-    			//patient ids of patients subscribed medication in the last 3 mos
+    			//patient ids of patients prescribed medication in the last 3 mos
 					" (SELECT P.patient_id" +
 	    			" FROM patient P" +
 	    			" JOIN encounter E" +
@@ -270,7 +270,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    			" JOIN obs O" +
 	    			" ON E.encounter_id = O.encounter_id" +
 	    			" JOIN concept C" +
-	    			" ON O.value_coded = C.concept_id" +
+	    			" ON O.concept_id = C.concept_id" +
 	    			" WHERE O.uuid ='e1da0ab2-1d5f-11e0-b929-000c29ad1d07'" +
 	    			" AND E.location_id=:facility"+
 	    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" +
