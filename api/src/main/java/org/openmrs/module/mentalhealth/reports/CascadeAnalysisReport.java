@@ -38,7 +38,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     public static final String XLS_TEMPLATE_UUID = "c30729e6-6995-4195-916c-4591f1b96a71";
     public static final String REPORT_DEFINITION_UUID = "fb263416-8f24-4fe2-af7a-c17ef22eef19";
     public static final String REPORT_NAME = "Cascade Analysis Report";
-    
+
     @Override
     public String getExcelDesignUuid() {
         return XLS_TEMPLATE_UUID;
@@ -108,11 +108,11 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     }
 
     private DataSetDefinition dataSetDefinition() {
-    	
+
     	//this name is used like "#queryName.resultcolumnname#"
     	//in the template
     	String queryName = "catch";
-    	
+
     	//pass the parameters that we're supplied as UDV
     	//back into the xls template renderer
     	String sqlQuery = "SELECT :dx AS dx," +
@@ -126,9 +126,9 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     			" JOIN encounter E"+
     			" ON P.patient_id = E.patient_id"+
     			" JOIN obs O"+
-    			" ON E.encounter_id = O.encounter_id"+ 
+    			" ON E.encounter_id = O.encounter_id"+
     			" JOIN concept C"+
-    			" ON O.value_coded = C.concept_id"+ 
+    			" ON O.value_coded = C.concept_id"+
     			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
 				" OR C.uuid IN (SELECT VC.uuid"+
 				" FROM concept VC"+
@@ -148,7 +148,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     			" JOIN encounter E"+
     			" ON P.patient_id = E.patient_id"+
     			" JOIN obs O"+
-    			" ON E.encounter_id = O.encounter_id"+ 
+    			" ON E.encounter_id = O.encounter_id"+
     			" JOIN concept C"+
     			" ON O.value_coded = C.concept_id"+
     			" JOIN encounter_type ET"+
@@ -163,9 +163,9 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    			" JOIN encounter E"+
 	    			" ON P.patient_id = E.patient_id"+
 	    			" JOIN obs O"+
-	    			" ON E.encounter_id = O.encounter_id"+ 
+	    			" ON E.encounter_id = O.encounter_id"+
 	    			" JOIN concept C"+
-	    			" ON O.value_coded = C.concept_id"+ 
+	    			" ON O.value_coded = C.concept_id"+
 	    			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
 					" OR C.uuid IN (SELECT VC.uuid"+
 					" FROM concept VC"+
@@ -185,7 +185,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     			" JOIN encounter E"+
     			" ON P.patient_id = E.patient_id"+
     			" JOIN obs O"+
-    			" ON E.encounter_id = O.encounter_id"+ 
+    			" ON E.encounter_id = O.encounter_id"+
     			" JOIN concept C"+
     			" ON O.value_coded = C.concept_id"+
     			" JOIN encounter_type ET"+
@@ -200,9 +200,9 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    			" JOIN encounter E"+
 	    			" ON P.patient_id = E.patient_id"+
 	    			" JOIN obs O"+
-	    			" ON E.encounter_id = O.encounter_id"+ 
+	    			" ON E.encounter_id = O.encounter_id"+
 	    			" JOIN concept C"+
-	    			" ON O.value_coded = C.concept_id"+ 
+	    			" ON O.value_coded = C.concept_id"+
 	    			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
 					" OR C.uuid IN (SELECT VC.uuid"+
 					" FROM concept VC"+
@@ -212,24 +212,23 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    			" AND O.voided = 0)" +
     			" AND P.patient_ID IN " +
     			//patient ids of patients subscribed medication in the last 3 mos
-    			" (SELECT P.patient_id" + 
-    	    		" FROM patient P" + 
-	    			" JOIN encounter E" + 
-	    			" ON P.patient_id = E.patient_id" + 
-	    			" JOIN obs O" + 
-	    			" ON E.encounter_id = O.encounter_id" + 
-	    			" JOIN concept C" + 
-	    			" ON O.value_coded = C.concept_id" + 
-	    			" WHERE O.uuid ='e1da0ab2-1d5f-11e0-b929-000c29ad1d07'" +
-	    			" AND E.location_id=:facility"+
-	    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
-				")"+	
+          "(SELECT P.patient_id" +
+                   " FROM patient P" +
+                    " JOIN encounter E" +
+                    " ON P.patient_id = E.patient_id" +
+                    " JOIN obs O" +
+                    " ON E.encounter_id = O.encounter_id" +
+                    " JOIN concept C" +
+                    " ON O.concept_id = C.concept_id" +
+                    " WHERE C.uuid ='e1da0ab2-1d5f-11e0-b929-000c29ad1d07'" +
+                    " AND E.location_id=:facility"+
+                    " AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime"")"+
 				")"+
 				/**/
     			//" (3)" +
     			" AS numrx," +
     			//e1dae630-1d5f-11e0-b929-000c29ad1d07
-    			//patients newly diagnosed with schizophrenia 
+    			//patients newly diagnosed with schizophrenia
     			//with rx and fu
     			/**/
     			" (SELECT COUNT(DISTINCT P.patient_id)" +
@@ -237,7 +236,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     			" JOIN encounter E"+
     			" ON P.patient_id = E.patient_id"+
     			" JOIN obs O"+
-    			" ON E.encounter_id = O.encounter_id"+ 
+    			" ON E.encounter_id = O.encounter_id"+
     			" JOIN concept C"+
     			" ON O.value_coded = C.concept_id"+
     			" JOIN encounter_type ET"+
@@ -252,9 +251,9 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    			" JOIN encounter E"+
 	    			" ON P.patient_id = E.patient_id"+
 	    			" JOIN obs O"+
-	    			" ON E.encounter_id = O.encounter_id"+ 
+	    			" ON E.encounter_id = O.encounter_id"+
 	    			" JOIN concept C"+
-	    			" ON O.value_coded = C.concept_id"+ 
+	    			" ON O.value_coded = C.concept_id"+
 	    			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
 					" OR C.uuid IN (SELECT VC.uuid"+
 					" FROM concept VC"+
@@ -264,32 +263,32 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    			" AND O.voided = 0" +
     			" AND P.patient_ID IN " +
     			//patient ids of patients subscribed medication in the last 3 mos
-					" (SELECT P.patient_id" + 
-	    			" FROM patient P" + 
-	    			" JOIN encounter E" + 
-	    			" ON P.patient_id = E.patient_id" + 
-	    			" JOIN obs O" + 
-	    			" ON E.encounter_id = O.encounter_id" + 
-	    			" JOIN concept C" + 
-	    			" ON O.value_coded = C.concept_id" + 
+					" (SELECT P.patient_id" +
+	    			" FROM patient P" +
+	    			" JOIN encounter E" +
+	    			" ON P.patient_id = E.patient_id" +
+	    			" JOIN obs O" +
+	    			" ON E.encounter_id = O.encounter_id" +
+	    			" JOIN concept C" +
+	    			" ON O.value_coded = C.concept_id" +
 	    			" WHERE O.uuid ='e1da0ab2-1d5f-11e0-b929-000c29ad1d07'" +
 	    			" AND E.location_id=:facility"+
-	    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
+	    			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" +
 	    			" AND O.voided = 0"+
 	    			" AND P.patient_id IN " +
 	    			//patients with follow-up appointments made in the last 3 mos
-	    				" (SELECT P.patient_id" + 
-	    				" FROM patient P" + 
-	    				" JOIN encounter E" + 
-	    				" ON P.patient_id = E.patient_id" + 
-	    				" JOIN obs O" + 
-	    				" ON E.encounter_id = O.encounter_id" + 
-	    				" JOIN concept C" + 
-	    				" ON O.value_coded = C.concept_id" + 
+	    				" (SELECT P.patient_id" +
+	    				" FROM patient P" +
+	    				" JOIN encounter E" +
+	    				" ON P.patient_id = E.patient_id" +
+	    				" JOIN obs O" +
+	    				" ON E.encounter_id = O.encounter_id" +
+	    				" JOIN concept C" +
+	    				" ON O.value_coded = C.concept_id" +
 	    				//with follow-up appointments
 	    				" WHERE O.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" +
 	    				" AND E.location_id=:facility"+
-	    				" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" + 
+	    				" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" +
 	    				" AND O.voided = 0)"
     	    		+ ")" +
     			 ")" +
@@ -302,9 +301,9 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     			" JOIN encounter E"+
     			" ON P.patient_id = E.patient_id"+
     			" JOIN obs O"+
-    			" ON E.encounter_id = O.encounter_id"+ 
+    			" ON E.encounter_id = O.encounter_id"+
     			" JOIN concept C"+
-    			" ON O.value_coded = C.concept_id"+ 
+    			" ON O.value_coded = C.concept_id"+
     			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
 				" OR C.uuid IN (SELECT VC.uuid"+
 				" FROM concept VC"+
@@ -337,7 +336,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 
     	SqlDataSetDefinition dsd = new SqlDataSetDefinition(queryName, getDescription(), sqlQuery);
     	dsd.setParameters(getParameters());
-    	
+
     	return dsd;
     }
 
