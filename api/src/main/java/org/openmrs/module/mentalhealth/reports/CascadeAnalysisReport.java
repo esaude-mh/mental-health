@@ -284,9 +284,9 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	    				" JOIN obs O" +
 	    				" ON E.encounter_id = O.encounter_id" +
 	    				" JOIN concept C" +
-	    				" ON O.value_coded = C.concept_id" +
+	    				" ON O.concept_id = C.concept_id" +
 	    				//with follow-up appointments
-	    				" WHERE O.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" +
+	    				" WHERE C.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" +
 	    				" AND E.location_id=:facility"+
 	    				" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH < E.encounter_datetime" +
 	    				" AND O.voided = 0)"
