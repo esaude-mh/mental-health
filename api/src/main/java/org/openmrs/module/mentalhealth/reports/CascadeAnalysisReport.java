@@ -293,9 +293,9 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     	    		+ ")" +
     			 ")" +
     			 ")" +
-    			/**/
-    			//" (4) " +
     			" AS numfu,"+
+          /**/
+          //" (4) " +
     			" (SELECT COUNT(DISTINCT P.patient_id)" +
     			" FROM patient P" +
     			" JOIN encounter E"+
@@ -319,7 +319,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     			" ON O.encounter_id = E.encounter_id"+
 				" JOIN concept C"+
     			" ON C.concept_id = O.concept_id"+
-				" WHERE O.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" +
+				" WHERE C.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" +
     			//followup apt is during this period
 				" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH <= O.value_datetime"+
 				" AND O.value_datetime <= STR_TO_DATE(:endDate, '%Y-%m-%d'))"+
