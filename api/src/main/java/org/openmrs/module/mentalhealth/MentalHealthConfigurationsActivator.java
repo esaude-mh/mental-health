@@ -115,6 +115,10 @@ public class MentalHealthConfigurationsActivator extends BaseModuleActivator {
 	 * @see ModuleActivator#willStop()
 	 */
 	public void willStop() {
+		// run the initializers
+		for (MhInitializer initializer : getInitializers()) {
+			initializer.stopped();
+		}
 		log.info("Stopping Aihd Configurations Module");
 	}
 	

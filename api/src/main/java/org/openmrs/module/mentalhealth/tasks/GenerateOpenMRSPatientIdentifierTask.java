@@ -42,9 +42,10 @@ public class GenerateOpenMRSPatientIdentifierTask extends AbstractTask {
         }
     }
 
-    private PatientIdentifier generateMissingPatientIdentifier() {
+    private PatientIdentifier generateMissingPatientIdentifier(int source) {
+
         IdentifierSourceService iss = Context.getService(IdentifierSourceService.class);
-        IdentifierSource idSource = iss.getIdentifierSource(1); // this is the default OpenMRS identifier source
+        IdentifierSource idSource = iss.getIdentifierSource(source); // this is the default OpenMRS identifier source
         PatientService patientService = Context.getPatientService();
 
         UUID uuid = UUID.randomUUID();
@@ -65,7 +66,7 @@ public class GenerateOpenMRSPatientIdentifierTask extends AbstractTask {
     private void generateOpenMRSIdentifierForPatientsWithout() {
         PatientService patientService = Context.getPatientService();
         AdministrationService as = Context.getAdministrationService();
-
+        int source = Integer.valueOf(as.getGlobalProperty("mentalhealth.identifier.source"));
         List<List<Object>> patientIds = as.executeSQL("SELECT patient_id FROM patient_identifier WHERE patient_id NOT IN (SELECT patient_id FROM patient_identifier p INNER JOIN patient_identifier_type pt ON (p.identifier_type = pt.patient_identifier_type_id AND pt.uuid = '05a29f94-c0ed-11e2-94be-8c13b969e334'))", true);
 
         if (patientIds.size() == 0) {
@@ -77,7 +78,7 @@ public class GenerateOpenMRSPatientIdentifierTask extends AbstractTask {
         for (List<Object> row : patientIds) {
             Patient p = patientService.getPatient((Integer) row.get(0));
             // Create new Patient Identifier
-            PatientIdentifier pid = generateMissingPatientIdentifier();
+            PatientIdentifier pid = generateMissingPatientIdentifier(source);
             pid.setPatient(p);
             try {
                 log.info("Adding OpenMRS ID " + pid.getIdentifier() + " to patient with id " + p.getPatientId());
