@@ -297,33 +297,56 @@ public class CascadeAnalysisReport extends MhDataExportManager {
           /**/
           //" (4) " +
     			" (SELECT COUNT(DISTINCT P.patient_id)" +
-    			" FROM patient P" +
-    			" JOIN encounter E"+
-    			" ON P.patient_id = E.patient_id"+
-    			" JOIN obs O"+
-    			" ON E.encounter_id = O.encounter_id"+
-    			" JOIN concept C"+
-    			" ON O.value_coded = C.concept_id"+
-    			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
-				" OR C.uuid IN (SELECT VC.uuid"+
-				" FROM concept VC"+
-				" JOIN concept_name CN"+
-				" WHERE CN.name like 'F20%'))"+
-				" AND E.location_id=:facility"+
-    			" AND P.patient_id IN"+
-				" (SELECT P.patient_id"+
-    			" FROM patient P"+
-				" JOIN encounter E"+
-    			" ON P.patient_id = E.patient_id"+
-				" JOIN obs O"+
-    			" ON O.encounter_id = E.encounter_id"+
-				" JOIN concept C"+
-    			" ON C.concept_id = O.concept_id"+
-				" WHERE C.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" +
-    			//followup apt is during this period
-				" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH <= O.value_datetime"+
-				" AND O.value_datetime <= STR_TO_DATE(:endDate, '%Y-%m-%d'))"+
-				" AND O.voided = 0)" +
+               " FROM patient P" +
+               " JOIN encounter E"+
+               " ON P.patient_id = E.patient_id"+
+               " JOIN obs O"+
+               " ON E.encounter_id = O.encounter_id"+
+               " JOIN concept C"+
+               " ON O.value_coded = C.concept_id"+
+               " WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
+                " OR C.uuid IN (SELECT VC.uuid"+
+                " FROM concept VC"+
+                " JOIN concept_name CN"+
+                " WHERE CN.name like 'F20%'))"+
+                " AND E.location_id=:facility"+
+               " AND P.patient_id IN"+
+                " (SELECT P.patient_id"+
+               " FROM patient P"+
+                " JOIN encounter E"+
+               " ON P.patient_id = E.patient_id"+
+                " JOIN obs O"+
+               " ON O.encounter_id = E.encounter_id"+
+                " JOIN concept C"+
+               " ON C.concept_id = O.concept_id"+
+                " WHERE C.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" +
+               //followup apt is during this period
+                " AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH <= O.value_datetime"+
+                " AND O.value_datetime <= STR_TO_DATE(:endDate, '%Y-%m-%d'))"+
+               " AND P.patient_id IN"+
+                " (SELECT P.patient_id"+
+               " FROM patient P"+
+                " JOIN encounter E"+
+               " ON P.patient_id = E.patient_id"+
+                " JOIN obs O"+
+               " ON O.encounter_id = E.encounter_id"+
+                " JOIN concept C"+
+               " ON C.concept_id = O.concept_id"+
+        " JOIN (SELECT P.patient_id, MAX(O.value_datetime) as latest_next_visit"+
+               " FROM patient P"+
+               " JOIN encounter E"+
+            " ON P.patient_id = E.patient_id"+
+               " JOIN obs O"+
+            " ON O.encounter_id = E.encounter_id"+
+               " JOIN concept C"+
+            " ON C.concept_id = O.concept_id"+
+               " WHERE C.uuid = 'e1dae630-1d5f-11e0-b929-000c29ad1d07') X"+
+           " ON X.patient_id = P.patient_id"+
+                " WHERE C.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" +
+               //followup apt is >= 5 days before latest 'next consult date'
+                " AND STR_TO_DATE(X.latest_next_visit, '%Y-%m-%d') - INTERVAL 5 DAY <= O.value_datetime"+
+                " AND O.value_datetime <= STR_TO_DATE(:endDate, '%Y-%m-%d'))"+
+                " AND O.voided = 0)" +
     			" AS allfudue,"+
     			" 'not implemented'"+
     			" AS fukept,"+
