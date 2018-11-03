@@ -410,14 +410,14 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	                " JOIN concept C"+
 	               " ON C.concept_id = O.concept_id"+
 	                " WHERE C.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" +
-	               //followup apt is during this period
+	                //followup appt is +- 5 days before latest 'next consult date'
+	                " AND X.most_recent_fu BETWEEN STR_TO_DATE(O.value_datetime, '%Y-%m-%d') - INTERVAL 5 DAY "+
+	                " AND STR_TO_DATE(O.value_datetime, '%Y-%m-%d') + INTERVAL 5 DAY"+
+	                //followup apt is during this period
 	                " AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH <= O.value_datetime"+
 	                " AND O.value_datetime <= STR_TO_DATE(:endDate, '%Y-%m-%d'))"+
 	                //that encounter with the fu scheduled is before the most recent fu encounter in the system
 	                " AND E.encounter_datetime < X.most_recent_fu"+
-	               //followup apt is >= 5 days before latest 'next consult date'
-	                " AND X.most_recent_fu BETWEEN STR_TO_DATE(O.value_datetime, '%Y-%m-%d') - INTERVAL 5 DAY "+
-	                " AND STR_TO_DATE(O.value_datetime, '%Y-%m-%d') + INTERVAL 5 DAY"+
 	                " AND O.voided = 0)" +
     			" AS fuontime,"+
     			" 'not implemented'"+
