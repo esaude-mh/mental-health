@@ -420,9 +420,108 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 	                " AND E.encounter_datetime < X.most_recent_fu"+
 	                " AND O.voided = 0)" +
     			" AS fuontime,"+
-    			" 'not implemented'"+
+    			" (SELECT COUNT(DISTINCT P.patient_id)"+
+    	                   " FROM patient P"+
+    	                   " JOIN encounter E"+
+    	                   " ON P.patient_id = E.patient_id"+
+    	                   " JOIN obs O"+
+    	                   " ON E.encounter_id = O.encounter_id"+
+    					   " JOIN (SELECT MEDS_DURATION_OBS.encounter_id, MEDS_DURATION_OBS.value_numeric"+ 
+    	                        " FROM obs MEDS_DURATION_OBS"+
+    	                        " JOIN concept MEDS_DUR_CNCPT"+
+    	                        " ON MEDS_DUR_CNCPT.concept_id = MEDS_DURATION_OBS.concept_id"+
+    	                        " WHERE MEDS_DUR_CNCPT.uuid = '591b988b-8f9c-4b99-84d0-d655bd9c1fd5') MEDS_DUR"+
+    						" ON MEDS_DUR.encounter_id = E.encounter_id"+
+    	                   " JOIN (SELECT P.patient_id, MAX(E.encounter_datetime) as most_recent_fu"+
+    	                   " FROM patient P"+
+    	                   " JOIN encounter E"+
+    	                   " ON P.patient_id = E.patient_id"+
+    	                   " JOIN encounter_type ET"+
+    	                   " ON ET.encounter_type_id = E.encounter_type"+
+    	                   //where the encounters we're looking for are mh-fu encounters
+    	                   " WHERE ET.uuid = '0b3012b6-9eff-11e8-a0a6-cb6dac4515ee'"+
+    	                   " GROUP BY P.patient_id) X"+
+    	                   " ON X.patient_id = P.patient_id"+
+    	                   " JOIN concept C"+
+    	                   " ON O.value_coded = C.concept_id"+
+    	                   " WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
+    	                   " OR C.uuid IN (SELECT VC.uuid"+
+    	                   " FROM concept VC"+
+    	                   " JOIN concept_name CN"+
+    	                   " WHERE CN.name like 'F20%'))"+
+    	                   " AND E.location_id=:facility"+
+    	                   " AND P.patient_id IN"+
+    	                   		" (SELECT P.patient_id"+
+    	                   		" FROM patient P"+
+    	                   		" JOIN encounter E"+
+    	                   		" ON P.patient_id = E.patient_id"+
+    	                   		" JOIN obs O"+
+    	                   		" ON O.encounter_id = E.encounter_id"+
+    	                   		" JOIN concept C"+
+    	                   		" ON C.concept_id = O.concept_id"+
+    	                   		" WHERE C.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'"+
+    	                   		//that encounter with the fu scheduled is before the most recent fu encounter in the system
+    	                   		" AND E.encounter_datetime < X.most_recent_fu"+
+    	                   //followup apt is during this period
+    	                    " AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL 3 MONTH <= O.value_datetime"+
+    	                    " AND O.value_datetime <= STR_TO_DATE(:endDate, '%Y-%m-%d'))"+
+
+    	                    " AND E.encounter_datetime + INTERVAL"+
+    	                    " MEDS_DUR.value_numeric  DAY >= X.most_recent_fu"+
+    	                    " AND O.voided = 0)"+
     			" AS adherent,"+
-    			" 'not implemented'"+
+    			" (SELECT COUNT(DISTINCT P.patient_id)" + 
+    			"	               FROM patient P" + 
+    			"	               JOIN encounter E" + 
+    			"	               ON P.patient_id = E.patient_id" + 
+    			"	               JOIN obs O" + 
+    			"	               ON E.encounter_id = O.encounter_id" + 
+    			" 	               JOIN (SELECT P.patient_id, E.encounter_id, MAX(E.encounter_datetime) as most_recent_fu" + 
+    			"	                FROM patient P" + 
+    			"	                JOIN encounter E" + 
+    			"	                ON P.patient_id = E.patient_id" + 
+    			"	                JOIN encounter_type ET" + 
+    			"	                ON ET.encounter_type_id = E.encounter_type" + 
+    			"	                	                WHERE ET.uuid = '0b3012b6-9eff-11e8-a0a6-cb6dac4515ee'" + 
+    			"	                GROUP BY P.patient_id, E.encounter_id) X" + 
+    			"	                ON X.patient_id = P.patient_id" + 
+    			" JOIN (SELECT FU2_OBS.encounter_id, FU2_OBS.value_numeric as SCORE" + 
+    			"								FROM obs FU2_OBS" + 
+    			"								WHERE FU2_OBS.concept_id = (SELECT WHODAS_CNCPT.concept_id FROM concept WHODAS_CNCPT WHERE WHODAS_CNCPT.uuid = 'd14dec0e-833b-49d4-b3f2-02c4111ab4f9')" + 
+    			"								) FU2_WHODAS" + 
+    			"ON FU2_WHODAS.encounter_id = X.encounter_id" + 
+    			"						JOIN (SELECT FU1_OBS.encounter_id, FU1_OBS.value_numeric as SCORE" + 
+    			"								FROM obs FU1_OBS" + 
+    			"								WHERE FU1_OBS.concept_id = (SELECT WHODAS_CNCPT.concept_id FROM concept WHODAS_CNCPT WHERE WHODAS_CNCPT.uuid = 'd14dec0e-833b-49d4-b3f2-02c4111ab4f9')" + 
+    			"								) FU1_WHODAS" + 
+    			" 				   ON FU1_WHODAS.encounter_id = E.encounter_id" + 
+    			"" + 
+    			"	               JOIN concept C" + 
+    			"	               ON O.value_coded = C.concept_id" + 
+    			"	               WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')" + 
+    			"	                OR C.uuid IN (SELECT VC.uuid" + 
+    			"	                FROM concept VC" + 
+    			"	                JOIN concept_name CN" + 
+    			"	                WHERE CN.name like 'F20%'))" + 
+    			"	                AND E.location_id=857" + 
+    			"	               AND P.patient_id IN" + 
+    			"	                (SELECT P.patient_id" + 
+    			"	               FROM patient P" + 
+    			"	                JOIN encounter E" + 
+    			"	               ON P.patient_id = E.patient_id" + 
+    			"	                JOIN obs O" + 
+    			"	               ON O.encounter_id = E.encounter_id" + 
+    			"	                JOIN concept C" + 
+    			"	               ON C.concept_id = O.concept_id" + 
+    			"	                WHERE C.uuid ='e1dae630-1d5f-11e0-b929-000c29ad1d07'" + 
+    			"	                	                AND X.most_recent_fu BETWEEN STR_TO_DATE(O.value_datetime, '%Y-%m-%d') - INTERVAL 5 DAY " + 
+    			"	                AND STR_TO_DATE(O.value_datetime, '%Y-%m-%d') + INTERVAL 5 DAY" + 
+    			"	                	                AND STR_TO_DATE('2018-10-20', '%Y-%m-%d') - INTERVAL 3 MONTH <= O.value_datetime" + 
+    			"	                AND O.value_datetime <= STR_TO_DATE('2018-10-20', '%Y-%m-%d'))" + 
+    			"	                	                AND E.encounter_datetime < X.most_recent_fu" + 
+    			"						" + 
+    			"					AND FU2_WHODAS.SCORE - FU1_WHODAS.SCORE > 0" + 
+    			"	                AND O.voided = 0)"+
     			" AS improved";
 
     	SqlDataSetDefinition dsd = new SqlDataSetDefinition(queryName, getDescription(), sqlQuery);
