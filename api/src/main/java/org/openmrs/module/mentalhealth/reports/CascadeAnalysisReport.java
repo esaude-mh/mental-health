@@ -239,6 +239,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 				" WHERE ET.uuid = '0b3012b6-9eff-11e8-a0a6-cb6dac4515ee'"+
 				" AND E.location_id=:facility"+
 				" AND E.voided = 0"+
+		        " AND E.encounter_datetime BETWEEN STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH AND STR_TO_DATE(:endDate, '%Y-%m-%d')"+
 				" GROUP BY P.patient_id) X"+
 				" ON X.patient_id = P.patient_id"+
 		        " JOIN concept C"+
@@ -277,6 +278,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 				" WHERE ET.uuid = '0b3012b6-9eff-11e8-a0a6-cb6dac4515ee'"+
 				" AND E.location_id=:facility"+
 				" AND E.voided = 0"+
+		        " AND E.encounter_datetime BETWEEN STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH AND STR_TO_DATE(:endDate, '%Y-%m-%d')"+
 				" GROUP BY P.patient_id) X"+
 				" ON X.patient_id = P.patient_id"+
 		        " JOIN concept C"+
@@ -313,6 +315,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 				" WHERE ET.uuid = '0b3012b6-9eff-11e8-a0a6-cb6dac4515ee'"+
 				" AND E.location_id=:facility"+
 				" AND E.voided = 0"+
+		        " AND E.encounter_datetime BETWEEN STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH AND STR_TO_DATE(:endDate, '%Y-%m-%d')"+
 				" GROUP BY P.patient_id) X"+
 				" ON X.patient_id = P.patient_id"+
 				" JOIN (SELECT P.patient_id, E.encounter_id, E.encounter_datetime"+
@@ -468,7 +471,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 				numFu+
 				"))"+
 				allFuDue+
-				fuKept+
+				adherent+
 				fuOntime+
 				")"+
 				improved+
