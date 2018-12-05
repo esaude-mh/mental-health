@@ -140,6 +140,11 @@ public class MentalHealthConfigurationsActivator extends BaseModuleActivator {
 	private void installCommonMetadata(MetadataDeployService deployService) {
 		try {
 			deployService.installBundle(Context.getRegisteredComponents(MentalHealthCommonMetadataBundle.class).get(0));
+			//install facilities
+			HealthFacilities.createLocationAttributeType();
+			HealthFacilities.uploadLocations();
+			HealthFacilities.retireUnwantedLocations();
+			HealthFacilities.retireUnWantedUsers();
 
 
 		}

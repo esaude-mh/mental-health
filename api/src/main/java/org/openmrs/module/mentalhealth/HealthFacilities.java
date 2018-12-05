@@ -6,7 +6,11 @@ import org.apache.commons.logging.LogFactory;
 import org.openmrs.Location;
 import org.openmrs.LocationAttribute;
 import org.openmrs.LocationAttributeType;
+import org.openmrs.Provider;
+import org.openmrs.User;
 import org.openmrs.api.LocationService;
+import org.openmrs.api.ProviderService;
+import org.openmrs.api.UserService;
 import org.openmrs.api.context.Context;
 import org.openmrs.util.OpenmrsClassLoader;
 
@@ -14,13 +18,16 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
+
 public class HealthFacilities {
 
     protected Log log = LogFactory.getLog(getClass());
     public static void createLocationAttributeType() {
         LocationService locationService = Context.getLocationService();
-        LocationAttributeType locationAttributeType = locationService.getLocationAttributeTypeByUuid("132895aa-1c88-11e8-b6fd-7395830b63f3");
+        LocationAttributeType locationAttributeType = locationService.getLocationAttributeTypeByUuid("0f78d4fa-f875-11e8-ab37-9774005faaf6");
         //if missing create one here
         if (locationAttributeType == null) {
             LocationAttributeType type = new LocationAttributeType();
@@ -28,7 +35,7 @@ public class HealthFacilities {
             type.setCreator(Context.getAuthenticatedUser());
             type.setDatatypeClassname("org.openmrs.customdatatype.datatype.FreeTextDatatype");
             type.setDescription("Attribute that hold the unique code for the facility");
-            type.setUuid("132895aa-1c88-11e8-b6fd-7395830b63f3");
+            type.setUuid("0f78d4fa-f875-11e8-ab37-9774005faaf6");
             locationService.saveLocationAttributeType(type);
         }
 
@@ -51,9 +58,9 @@ public class HealthFacilities {
             while ((line = br.readLine()) != null) {
 
                 String[] records = line.split(cvsSplitBy);
-                health_facility_code = records[0];
-                province = records[1];
-                district = records[2];
+                health_facility_code = records[2];
+                province = records[0];
+                district = records[1];
                 facility_name = records[3];
 
                 if (StringUtils.isNotEmpty(facility_name)) {
@@ -81,7 +88,7 @@ public class HealthFacilities {
 
    private static LocationAttribute setLocationAttribute(String facilityCode, Location location) throws Exception {
         LocationService locationService = Context.getLocationService();
-        LocationAttributeType locationAttributeType = locationService.getLocationAttributeTypeByUuid("132895aa-1c88-11e8-b6fd-7395830b63f3");
+        LocationAttributeType locationAttributeType = locationService.getLocationAttributeTypeByUuid("0f78d4fa-f875-11e8-ab37-9774005faaf6");
         LocationAttribute attribute = new LocationAttribute();
 
         if (StringUtils.isNotEmpty(facilityCode) && location != null) {
@@ -95,5 +102,60 @@ public class HealthFacilities {
             throw new Exception("The MFL code for "+location.getName()+" is NOT provided");
         }
         return attribute;
+    }
+
+
+    public static void retireUnwantedLocations() {
+        LocationService locationService = Context.getLocationService();
+        List<String> locationUuid = Arrays.asList(
+                "2131aff8-2e2a-480a-b7ab-4ac53250262b",
+                "b1a8b05e-3542-4037-bbd3-998ee9c40574",
+                "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+                "7fdfa2cb-bc95-405a-88c6-32b7673c0453",
+                "58c57d25-8d39-41ab-8422-108a0c277d98",
+                "7f65d926-57d6-4402-ae10-a5b3bcbf7986",
+                "6351fcf4-e311-4a19-90f9-35667d99a8af"
+        );
+        for(String s:locationUuid){
+            Location location = locationService.getLocationByUuid(s);
+            if(location != null && !location.isRetired()){
+                location.setRetired(true);
+                locationService.saveLocation(location);
+            }
+        }
+    }
+
+    public static void retireUnWantedUsers() {
+        UserService userService = Context.getUserService();
+        ProviderService providerService = Context.getProviderService();
+        List<String> usersUuids = Arrays.asList(
+                "doctor",
+                "nurse",
+                "clerk",
+                "sysadmin"
+        );
+        for(String us:usersUuids){
+            User user = userService.getUserByUsername(us);
+            if(user != null && !user.isRetired()) {
+                user.setRetired(true);
+                user.setRetireReason("Not needed");
+                user.setRetiredBy(Context.getAuthenticatedUser());
+                user.setDateRetired(new Date());
+                //save the user
+                userService.saveUser(user, "Retiring");
+            }
+        }
+
+        for(String pr:usersUuids){
+            Provider provider = providerService.getProviderByIdentifier(pr);
+            if(provider != null && !provider.isRetired()) {
+                provider.setRetired(true);
+                provider.setRetireReason("Not needed");
+                provider.setRetiredBy(Context.getAuthenticatedUser());
+                provider.setDateRetired(new Date());
+                //save the user
+                providerService.saveProvider(provider);
+            }
+        }
     }
 }
