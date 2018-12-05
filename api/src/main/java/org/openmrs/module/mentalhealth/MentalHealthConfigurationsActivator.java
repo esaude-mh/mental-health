@@ -115,6 +115,10 @@ public class MentalHealthConfigurationsActivator extends BaseModuleActivator {
 	 * @see ModuleActivator#willStop()
 	 */
 	public void willStop() {
+		// run the initializers
+		for (MhInitializer initializer : getInitializers()) {
+			initializer.stopped();
+		}
 		log.info("Stopping Aihd Configurations Module");
 	}
 	
@@ -136,6 +140,11 @@ public class MentalHealthConfigurationsActivator extends BaseModuleActivator {
 	private void installCommonMetadata(MetadataDeployService deployService) {
 		try {
 			deployService.installBundle(Context.getRegisteredComponents(MentalHealthCommonMetadataBundle.class).get(0));
+			//install facilities
+			HealthFacilities.createLocationAttributeType();
+			HealthFacilities.uploadLocations();
+			HealthFacilities.retireUnwantedLocations();
+			HealthFacilities.retireUnWantedUsers();
 
 
 		}

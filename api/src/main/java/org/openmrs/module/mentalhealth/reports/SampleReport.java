@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * Sample indicator report that will output to the excel template
  */
-@Component
+//@Component
 public class SampleReport extends MhDataExportManager {
 
     @Autowired
