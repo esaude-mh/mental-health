@@ -10,7 +10,6 @@ import org.openmrs.module.mentalhealth.reports.SampleReport;
 import org.openmrs.module.mentalhealth.utils.MhReportUtils;
 import org.openmrs.module.reporting.ReportingConstants;
 import org.openmrs.module.reporting.report.manager.ReportManager;
-import org.openmrs.module.reporting.report.manager.ReportManagerUtil;
 import org.openmrs.module.reporting.report.util.ReportUtil;
 
 public class MhReportsInitializer implements MhInitializer {
@@ -21,19 +20,9 @@ public class MhReportsInitializer implements MhInitializer {
 
     @Override
     public void started() {
+        removeOldReports();
+        purgeReports();
 
-        for (ReportManager reportManager : Context.getRegisteredComponents(MhReportManager.class)) {
-            if (reportManager.getClass().getAnnotation(Deprecated.class) != null) {
-                // remove depricated reports
-                MhReportUtils.purgeReportDefinition(reportManager);
-                log.info("Report " + reportManager.getName() + " is deprecated.  Removing it from database.");
-            } else {
-                // setup MH active reports
-                MhReportUtils.setupReportDefinition(reportManager);
-                log.info("Setting up report " + reportManager.getName() + "...");
-            }
-        }
-        ReportUtil.updateGlobalProperty(ReportingConstants.GLOBAL_PROPERTY_DATA_EVALUATION_BATCH_SIZE, "-1");
     }
 
     @Override
@@ -49,42 +38,52 @@ public class MhReportsInitializer implements MhInitializer {
         // the purpose of this snipet is to allow rapid development other than
         // going to change the report version all the time for change
         log.warn("Removing old reports");
-        
-        String []oldReportDesignUUIDs = 	{
-        								SampleReport.XLS_TEMPLATE_UUID,
-        								CascadeAnalysisReport.XLS_TEMPLATE_UUID//""
-        							};
-        
-        for(int i=0; i<oldReportDesignUUIDs.length; i++) {
-        	// getting id of the loaded report designs
-        	String report_resource_sample_id = "select id from reporting_report_design where uuid='"+oldReportDesignUUIDs[i]+"'";
-        	// deleting the resource already loaded
-        	as.executeSQL("delete from reporting_report_design_resource where report_design_id =("
-                + report_resource_sample_id + ");", false);
-        	// deleting the actual designs now
-        	as.executeSQL("delete from reporting_report_design where uuid='"+oldReportDesignUUIDs[i]+"';", false);
+
+        String[] oldReportDesignUUIDs = {
+                SampleReport.XLS_TEMPLATE_UUID,
+                CascadeAnalysisReport.XLS_TEMPLATE_UUID//""
+        };
+
+        for (int i = 0; i < oldReportDesignUUIDs.length; i++) {
+            // getting id of the loaded report designs
+            String report_resource_sample_id = "select id from reporting_report_design where uuid='" + oldReportDesignUUIDs[i] + "'";
+            // deleting the resource already loaded
+            as.executeSQL("delete from reporting_report_design_resource where report_design_id =("
+                    + report_resource_sample_id + ");", false);
+            // deleting the actual designs now
+            as.executeSQL("delete from reporting_report_design where uuid='" + oldReportDesignUUIDs[i] + "';", false);
         }
         // deleting all report requests and managers
         as.executeSQL("delete from reporting_report_request;", false);
         as.executeSQL("delete from global_property WHERE property LIKE 'reporting.reportManager%';", false);
 
-        String []oldReportDefinitionUUIDs = {
-        										SampleReport.REPORT_DEFINITION_UUID,
-        										CascadeAnalysisReport.REPORT_DEFINITION_UUID,
+        String[] oldReportDefinitionUUIDs = {
+                SampleReport.REPORT_DEFINITION_UUID,
+                CascadeAnalysisReport.REPORT_DEFINITION_UUID,
         };
-        
-        for(int i=0; i<oldReportDefinitionUUIDs.length; i++) {
-        	// deleting the actual report definitions from the db
-        	as.executeSQL("delete from serialized_object WHERE uuid = '"+oldReportDefinitionUUIDs[i]+"';", false);
-    /**
-     * Purges all MH reports from database.
-     *
-     * @throws Exception
-     */
-    private void purgeReports() {
-        for (ReportManager reportManager : Context.getRegisteredComponents(MhReportManager.class)) {
-            MhReportUtils.purgeReportDefinition(reportManager);
-            log.info("Report " + reportManager.getName() + " removed from database.");
+
+        for (int i = 0; i < oldReportDefinitionUUIDs.length; i++) {
+            // deleting the actual report definitions from the db
+            as.executeSQL("delete from serialized_object WHERE uuid = '" + oldReportDefinitionUUIDs[i] + "';", false);
         }
     }
+            /**
+             * Purges all MH reports from database.
+             *
+             * @throws Exception
+             */
+        private void purgeReports () {
+            for (ReportManager reportManager : Context.getRegisteredComponents(MhReportManager.class)) {
+                if (reportManager.getClass().getAnnotation(Deprecated.class) != null) {
+                    // remove depricated reports
+                    MhReportUtils.purgeReportDefinition(reportManager);
+                    log.info("Report " + reportManager.getName() + " is deprecated.  Removing it from database.");
+                } else {
+                    // setup MH active reports
+                    MhReportUtils.setupReportDefinition(reportManager);
+                    log.info("Setting up report " + reportManager.getName() + "...");
+                }
+            }
+            ReportUtil.updateGlobalProperty(ReportingConstants.GLOBAL_PROPERTY_DATA_EVALUATION_BATCH_SIZE, "-1");
+        }
 }

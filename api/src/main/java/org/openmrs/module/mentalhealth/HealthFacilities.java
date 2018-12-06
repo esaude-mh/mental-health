@@ -31,7 +31,7 @@ public class HealthFacilities {
         //if missing create one here
         if (locationAttributeType == null) {
             LocationAttributeType type = new LocationAttributeType();
-            type.setName("Health facility code");
+            type.setName("Facility code");
             type.setCreator(Context.getAuthenticatedUser());
             type.setDatatypeClassname("org.openmrs.customdatatype.datatype.FreeTextDatatype");
             type.setDescription("Attribute that hold the unique code for the facility");
@@ -120,6 +120,9 @@ public class HealthFacilities {
             Location location = locationService.getLocationByUuid(s);
             if(location != null && !location.isRetired()){
                 location.setRetired(true);
+                location.setRetireReason("Not needed");
+                location.setRetiredBy(Context.getAuthenticatedUser());
+                location.setDateRetired(new Date());
                 locationService.saveLocation(location);
             }
         }
@@ -142,19 +145,20 @@ public class HealthFacilities {
                 user.setRetiredBy(Context.getAuthenticatedUser());
                 user.setDateRetired(new Date());
                 //save the user
-                userService.saveUser(user, "Retiring");
+                userService.retireUser(user, "Retiring");
             }
         }
 
         for(String pr:usersUuids){
             Provider provider = providerService.getProviderByIdentifier(pr);
             if(provider != null && !provider.isRetired()) {
+                System.out.println("The provider is :::"+provider.getIdentifier());
                 provider.setRetired(true);
                 provider.setRetireReason("Not needed");
                 provider.setRetiredBy(Context.getAuthenticatedUser());
                 provider.setDateRetired(new Date());
                 //save the user
-                providerService.saveProvider(provider);
+                providerService.retireProvider(provider, "Retiring");
             }
         }
     }
