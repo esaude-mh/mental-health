@@ -22,7 +22,7 @@ public class PatientDashboardMentalHealthTabExt extends PatientDashboardTabExt {
 
     @Override
     public String getTabName() {
-        return Context.getMessageSourceService().getMessage("Mental Health");
+        return Context.getMessageSourceService().getMessage("mentalhealth.dashboard.portlet.tab.title");
     }
 
 }
