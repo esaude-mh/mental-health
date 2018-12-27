@@ -2412,6 +2412,7 @@ $(document).ready(
 	                    <input data-concept-id="e1dd2d50-1d5f-11e0-b929-000c29ad1d07" type="checkbox" name="other-diagnosis" id="other-diagnosis" value="on" onclick="setDependentDisabledState(this, undefined, [ 'input[id=other-freetext-desc]', 'input[id=other-diagnosis-diagnosis-date]' ], true, !this.checked);" class="form-control-sm"/>
 	                    <label for="other-diagnosis" class="col-md-3 col-form-label-sm">mentalhealth.form.initial.patient.obs.other.diagnosis</label>
 	                    <div class="col-md-2">
+	                    	<label for="other-freetext-desc">mentalhealth.form.initial.patient.obs.other.diagnosis.specify</label><br />
 	                    	<input data-concept-id="e1dd2d50-1d5f-11e0-b929-000c29ad1d07" type="text" name="other-freetext-desc" id="other-freetext-desc" class="form-control-sm"/>
 	                    </div>
 	                    <div class="col-md-3">
