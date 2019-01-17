@@ -32,8 +32,10 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 
     public static final String XLS_TEMPLATE_UUID = "c30729e6-6995-4195-916c-4591f1b96a71";
     public static final String REPORT_DEFINITION_UUID = "fb263416-8f24-4fe2-af7a-c17ef22eef19";
-    public static final String REPORT_NAME = "Schizophrenia Cascade Analysis Report";
+    public static final String REPORT_NAME = "Cascade Analysis Report";
 
+    private final String CASCADE_TYPES = "Schizophrenia,Epilepsy,Depression";
+    
     @Override
     public String getExcelDesignUuid() {
         return XLS_TEMPLATE_UUID;
@@ -94,10 +96,17 @@ public class CascadeAnalysisReport extends MhDataExportManager {
 
     @Override
     public List<Parameter> getParameters() {
+    	
+    	Parameter selectCascadeTypeParam =
+    			new Parameter("dx","Diagnosis", String.class);
+    			
+    	selectCascadeTypeParam.setRequired(true);
+    	selectCascadeTypeParam.addToWidgetConfiguration("codedOptions", CASCADE_TYPES);
+    	
         return Arrays.asList(new Parameter("endDate","Data Final Inclusão", Date.class),
                             new Parameter("facility", "Unidade Sanitária", Location.class),
                             new Parameter("pop","Catchment Population",Integer.class),
-                            //new Parameter("dx","Diagnosis", String.class),
+                            selectCascadeTypeParam,
                             new Parameter("numMonths","Number of months for catchment", Integer.class)
                             );
     }
@@ -349,7 +358,7 @@ public class CascadeAnalysisReport extends MhDataExportManager {
     			
     	//pass the parameters that we're supplied as UDV
     	//back into the xls template renderer
-    	String sqlQuery = "SELECT 'Schizophrenia' AS dx,"+
+    	String sqlQuery = "SELECT :dx AS dx,"+
     			" :pop AS pop,"+
     			" (SELECT L.name from location L where L.location_id = :facility) as facility,"+
     			" (SELECT CONCAT( DATE_FORMAT(STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH, '%Y-%m-%d'), ' to ', DATE(:endDate))) as months,"+
