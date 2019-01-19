@@ -116,13 +116,8 @@ public class EpilepsyCascadeAnalysisReport extends MhDataExportManager {
     			" JOIN obs O"+
     			" ON E.encounter_id = O.encounter_id"+
     			" JOIN concept C"+
-    			" ON O.value_coded = C.concept_id"+
-    			" WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
-    			" OR C.uuid IN (SELECT DISTINCT VC.uuid"+
-    			" FROM concept VC"+
-				" JOIN concept_name CN"+
-				" ON CN.concept_id = VC.concept_id"+
-				" WHERE CN.name like 'F20%'))"+
+    			" ON O.concept_id = C.concept_id"+
+    			" WHERE C.uuid IN ('af2d7516-8be6-476f-9776-fb5a6b95ffa6')"+
     			" AND STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH >= E.encounter_datetime"+
     			" AND E.location_id=:facility"+
 				" AND E.voided = 0"+
@@ -135,7 +130,7 @@ public class EpilepsyCascadeAnalysisReport extends MhDataExportManager {
     			" JOIN obs O"+
     			" ON E.encounter_id = O.encounter_id"+
     			" JOIN concept C"+
-    			" ON O.value_coded = C.concept_id"+
+    			" ON O.concept_id = C.concept_id"+
 				" JOIN (SELECT DISTINCT P.patient_id, E.encounter_datetime"+
     			"       FROM patient P"+
 		        "    	JOIN encounter E"+
@@ -160,12 +155,7 @@ public class EpilepsyCascadeAnalysisReport extends MhDataExportManager {
     			"    	AND E.voided = 0"+
 		        "    	AND E.location_id=:facility) X2"+
     			" ON X2.patient_id = P.patient_id"+
-		        " WHERE (C.uuid IN ('e1d25e8e-1d5f-11e0-b929-000c29ad1d07')"+
-		        " OR C.uuid IN (SELECT DISTINCT VC.uuid"+
-		        " FROM concept VC"+
-		        " JOIN concept_name CN"+
-		        " ON CN.concept_id = VC.concept_id"+
-		        " WHERE CN.name like 'F20%'))"+
+		        " WHERE C.uuid IN ('af2d7516-8be6-476f-9776-fb5a6b95ffa6')"+
 		        " AND X1.encounter_datetime = X2.encounter_datetime"+
     			" AND E.encounter_datetime BETWEEN STR_TO_DATE(:endDate, '%Y-%m-%d') - INTERVAL :numMonths MONTH AND STR_TO_DATE(:endDate, '%Y-%m-%d')"+
 		        " AND E.location_id=:facility"+
