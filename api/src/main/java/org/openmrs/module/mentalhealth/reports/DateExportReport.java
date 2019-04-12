@@ -2,12 +2,15 @@ package org.openmrs.module.mentalhealth.reports;
 
 import org.openmrs.EncounterType;
 import org.openmrs.PatientIdentifierType;
+import org.openmrs.api.context.Context;
 import org.openmrs.module.mentalhealth.MhDataExportManager;
 import org.openmrs.module.mentalhealth.metadata.MentalHealthEncounterTypes;
 import org.openmrs.module.mentalhealth.metadata.MentalHealthPatientIdentifierTypes;
 import org.openmrs.module.mentalhealth.reporting.converter.MhDataConverter;
 import org.openmrs.module.mentalhealth.utils.DataFactory;
 import org.openmrs.module.metadatadeploy.MetadataUtils;
+import org.openmrs.module.reporting.cohort.definition.CohortDefinition;
+import org.openmrs.module.reporting.cohort.definition.EncounterCohortDefinition;
 import org.openmrs.module.reporting.common.SortCriteria;
 import org.openmrs.module.reporting.common.TimeQualifier;
 import org.openmrs.module.reporting.data.DataDefinition;
@@ -21,12 +24,14 @@ import org.openmrs.module.reporting.data.person.definition.PreferredNameDataDefi
 import org.openmrs.module.reporting.dataset.definition.DataSetDefinition;
 import org.openmrs.module.reporting.dataset.definition.PatientDataSetDefinition;
 import org.openmrs.module.reporting.evaluation.parameter.Mapped;
+import org.openmrs.module.reporting.evaluation.parameter.Parameter;
 import org.openmrs.module.reporting.report.ReportDesign;
 import org.openmrs.module.reporting.report.definition.ReportDefinition;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
+import java.util.Date;
 import java.util.Properties;
 
 @Component
@@ -91,6 +96,7 @@ public class DateExportReport extends MhDataExportManager {
         PatientDataSetDefinition dsd = new PatientDataSetDefinition();
         dsd.setName("export");
         dsd.addSortCriteria("consult1", SortCriteria.SortDirection.ASC);
+        dsd.addRowFilter(getFilter(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid()), "");
 
         //identifier
         PatientIdentifierType mhNumber = MetadataUtils.existing(PatientIdentifierType.class, MentalHealthPatientIdentifierTypes.MH_NID.uuid());
@@ -114,5 +120,14 @@ public class DateExportReport extends MhDataExportManager {
         dsd.setWhich(TimeQualifier.FIRST);
         dsd.setTypes(Arrays.asList(MetadataUtils.existing(EncounterType.class, MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid())));
         return dsd;
+    }
+
+    private CohortDefinition getFilter(String uuid) {
+        EncounterCohortDefinition encounter = new EncounterCohortDefinition();
+        encounter.setName("Has encounter");
+        encounter.addParameter(new Parameter("onOrBefore", "End Date", Date.class));
+        encounter.addParameter(new Parameter("onOrAfter", "Start Date", Date.class));
+        encounter.addEncounterType(Context.getEncounterService().getEncounterTypeByUuid(uuid));
+        return encounter;
     }
 }
