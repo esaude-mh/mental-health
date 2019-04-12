@@ -92,8 +92,8 @@ public class DateExportReport extends MhDataExportManager {
         dsd.addColumn("province", new PreferredNameDataDefinition(), (String) null);
         dsd.addColumn("district", new PreferredNameDataDefinition(), (String) null);
         dsd.addColumn("consult1", new PreferredNameDataDefinition(), (String) null);
-        dsd.addColumn("sex", new GenderDataDefinition(), "");
-        dsd.addColumn("age", new AgeDataDefinition(), "");
+        addColumn(dsd, "Gender", builtInPatientData.getGender());
+        addColumn(dsd, "age", builtInPatientData.getAgeAtEnd());
 
 
         return dsd;

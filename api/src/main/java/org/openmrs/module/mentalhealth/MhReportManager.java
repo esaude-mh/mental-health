@@ -6,8 +6,10 @@ import org.openmrs.module.mentalhealth.utils.MhReportUtils;
 import org.openmrs.module.reporting.common.ObjectUtil;
 import org.openmrs.module.reporting.data.encounter.definition.EncounterDataDefinition;
 import org.openmrs.module.reporting.data.obs.definition.ObsDataDefinition;
+import org.openmrs.module.reporting.data.patient.definition.PatientDataDefinition;
 import org.openmrs.module.reporting.dataset.definition.EncounterDataSetDefinition;
 import org.openmrs.module.reporting.dataset.definition.ObsDataSetDefinition;
+import org.openmrs.module.reporting.dataset.definition.PatientDataSetDefinition;
 import org.openmrs.module.reporting.evaluation.parameter.Mapped;
 import org.openmrs.module.reporting.report.ReportDesign;
 import org.openmrs.module.reporting.report.definition.ReportDefinition;
@@ -25,6 +27,10 @@ public abstract class MhReportManager extends BaseReportManager {
 
     protected void addColumn(ObsDataSetDefinition dsd, String columnName, ObsDataDefinition odd) {
         dsd.addColumn(columnName, odd, ObjectUtil.toString(Mapped.straightThroughMappings(odd), "=", ","));
+    }
+
+    protected void addColumn(PatientDataSetDefinition dsd, String columnName, PatientDataDefinition pdd) {
+        dsd.addColumn(columnName, pdd, Mapped.straightThroughMappings(pdd));
     }
 
     protected ReportDesign createExcelTemplateDesign(String reportDesignUuid, ReportDefinition reportDefinition,
