@@ -22,9 +22,12 @@ import org.openmrs.module.reporting.data.patient.definition.PatientIdentifierDat
 import org.openmrs.module.reporting.data.patient.library.BuiltInPatientDataLibrary;
 import org.openmrs.module.reporting.data.person.definition.PreferredNameDataDefinition;
 import org.openmrs.module.reporting.dataset.definition.DataSetDefinition;
+import org.openmrs.module.reporting.dataset.definition.EncounterDataSetDefinition;
 import org.openmrs.module.reporting.dataset.definition.PatientDataSetDefinition;
 import org.openmrs.module.reporting.evaluation.parameter.Mapped;
 import org.openmrs.module.reporting.evaluation.parameter.Parameter;
+import org.openmrs.module.reporting.query.encounter.definition.EncounterQuery;
+import org.openmrs.module.reporting.query.encounter.definition.SqlEncounterQuery;
 import org.openmrs.module.reporting.report.ReportDesign;
 import org.openmrs.module.reporting.report.definition.ReportDefinition;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -93,7 +96,7 @@ public class DateExportReport extends MhDataExportManager {
     }
 
     private DataSetDefinition dataSetDefinition() {
-        PatientDataSetDefinition dsd = new PatientDataSetDefinition();
+        EncounterDataSetDefinition dsd = new EncounterDataSetDefinition();
         dsd.setName("export");
         dsd.addSortCriteria("consult1", SortCriteria.SortDirection.ASC);
         dsd.addRowFilter(getFilter(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid()), "");
@@ -122,12 +125,12 @@ public class DateExportReport extends MhDataExportManager {
         return dsd;
     }
 
-    private CohortDefinition getFilter(String uuid) {
-        EncounterCohortDefinition encounter = new EncounterCohortDefinition();
+    private EncounterQuery getFilter(String uuid) {
+        SqlEncounterQuery encounter = new SqlEncounterQuery();
         encounter.setName("Has encounter");
         encounter.addParameter(new Parameter("onOrBefore", "End Date", Date.class));
         encounter.addParameter(new Parameter("onOrAfter", "Start Date", Date.class));
-        encounter.addEncounterType(Context.getEncounterService().getEncounterTypeByUuid(uuid));
+        encounter.setQuery("");
         return encounter;
     }
 }
