@@ -7,7 +7,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class MhDataConverter implements DataConverter {
+public class EncounterDataConverter implements DataConverter {
     @Override
     public Object convert(Object obj) {
 

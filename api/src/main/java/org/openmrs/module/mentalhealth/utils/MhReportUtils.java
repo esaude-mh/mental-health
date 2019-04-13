@@ -1,5 +1,6 @@
 package org.openmrs.module.mentalhealth.utils;
 
+import org.openmrs.Concept;
 import org.openmrs.GlobalProperty;
 import org.openmrs.api.context.Context;
 import org.openmrs.module.reporting.evaluation.parameter.Mapped;
@@ -136,6 +137,13 @@ public class MhReportUtils {
      */
     public static void setupReportDefinition(ReportManager reportManager) {
         ReportManagerUtil.setupReport(reportManager);
+    }
+
+    /**
+     * Get concepts give a uuid
+     */
+    public static Concept getConcept(String uuid) {
+        return Context.getConceptService().getConceptByUuid(uuid);
     }
 
 }
