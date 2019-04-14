@@ -33,7 +33,7 @@ public class EncounterDataConverter implements DataConverter {
     }
 
     private String formatDate(Date date) {
-        DateFormat dateFormatter = new SimpleDateFormat("dd-MMM-yyyy");
+        DateFormat dateFormatter = new SimpleDateFormat("dd/MM/yyyy");
         return date == null?"":dateFormatter.format(date);
     }
 }
