@@ -127,11 +127,11 @@ public class DateExportReport extends MhDataExportManager {
         dsd.addColumn("AUDIT", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.AUDIT), "", new ObsDataConverter());
         dsd.addColumn("Gravidade", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.GRAVITY), "", new ObsDataConverter());
         dsd.addColumn("Suicidas", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.SUICIDAL_F2), "", new ObsDataConverter());
-        dsd.addColumn("other-concerns", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.OTHER_CONCERNS), "", new ObsDataConverter());
-        dsd.addColumn("other-concerns-yes", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.OTHER_CONCERNS_YES), "", new ObsDataConverter());
-        dsd.addColumn("alcohol-drugs", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.CONSERNS_WITH_ALCOHOL_DRUGS), "", new ObsDataConverter());
-        dsd.addColumn("pregnant", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.PATIENT_PREGNANT), "", new ObsDataConverter());
-        dsd.addColumn("onFP", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.PATIENT_ON_FP), "", new ObsDataConverter());
+        dsd.addColumn("Other Concerns", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.OTHER_CONCERNS), "", new ObsDataConverter());
+        dsd.addColumn("Other Concerns Yes", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.OTHER_CONCERNS_YES), "", new ObsDataConverter());
+        dsd.addColumn("Alcohol and Drugs", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.CONSERNS_WITH_ALCOHOL_DRUGS), "", new ObsDataConverter());
+        dsd.addColumn("Pregnant", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.PATIENT_PREGNANT), "", new ObsDataConverter());
+        dsd.addColumn("OnFP", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.PATIENT_ON_FP), "", new ObsDataConverter());
 
 
         return dsd;
