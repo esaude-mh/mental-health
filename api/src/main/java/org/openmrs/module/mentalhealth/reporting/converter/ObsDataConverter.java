@@ -30,6 +30,7 @@ public class ObsDataConverter implements DataConverter {
         List<Object> obsList = new ArrayList<>(Collections.singletonList(obj));
         List<Obs> obsForPatient = new ArrayList<>();
         List<String> wantedValues = new ArrayList<>();
+        String exactValue = "";
         for(int i =0; i< obsList.size(); i++){
             if(obsList.get(i) instanceof Obs) {
                 obsForPatient.add((Obs) obsList.get(i));
@@ -41,16 +42,16 @@ public class ObsDataConverter implements DataConverter {
         if(obsForPatient.size() > 0){
             for(Obs obs: obsForPatient){
                 if(obs.getValueText() != null){
-                    wantedValues.add(obs.getValueText());
+                    wantedValues.add(formatDate(obs.getObsDatetime())+":"+obs.getValueText());
                 }
                 else if(obs.getValueCoded() != null) {
-                    wantedValues.add(getValueCodedValues(obs.getValueCoded()));
+                    wantedValues.add(formatDate(obs.getObsDatetime())+":"+getValueCodedValues(obs.getValueCoded()));
                 }
                 else if(obs.getValueNumeric() != null){
-                    wantedValues.add(obs.getValueNumeric().toString());
+                    wantedValues.add(formatDate(obs.getObsDatetime())+":"+obs.getValueNumeric().toString());
                 }
                 else if(obs.getValueDatetime() != null) {
-                    wantedValues.add(formatDate(obs.getValueDatetime()));
+                    wantedValues.add(formatDate(obs.getObsDatetime())+":"+formatDate(obs.getValueDatetime()));
                 }
             }
         }
