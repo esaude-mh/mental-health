@@ -1,11 +1,22 @@
 package org.openmrs.module.mentalhealth.reporting.converter;
 
 import org.openmrs.Concept;
+import org.openmrs.Encounter;
 import org.openmrs.Obs;
 import org.openmrs.module.mentalhealth.calculation.MhConfigCalculations;
 import org.openmrs.module.mentalhealth.utils.MhConstants;
 import org.openmrs.module.mentalhealth.utils.MhReportUtils;
 import org.openmrs.module.reporting.data.converter.DataConverter;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class ObsDataConverter implements DataConverter {
 
@@ -16,18 +27,35 @@ public class ObsDataConverter implements DataConverter {
             return "";
         }
 
-        /*Obs value = (Obs) obj;
-        if(value.getValueNumeric() != null){
-            return value.getValueNumeric();
+        List<Object> obsList = new ArrayList<>(Collections.singletonList(obj));
+        List<Obs> obsForPatient = new ArrayList<>();
+        List<String> wantedValues = new ArrayList<>();
+        for(int i =0; i< obsList.size(); i++){
+            if(obsList.get(i) instanceof Obs) {
+                obsForPatient.add((Obs) obsList.get(i));
+            }
+            else  {
+                obsForPatient.addAll((Collection<? extends Obs>) obsList.get(i));
+            }
         }
-        else if(value.getValueCoded() != null){
-            return getValueCodedValues(value.getValueCoded());
+        if(obsForPatient.size() > 0){
+            for(Obs obs: obsForPatient){
+                if(obs.getValueText() != null){
+                    wantedValues.add(obs.getValueText());
+                }
+                else if(obs.getValueCoded() != null) {
+                    wantedValues.add(getValueCodedValues(obs.getValueCoded()));
+                }
+                else if(obs.getValueNumeric() != null){
+                    wantedValues.add(obs.getValueNumeric().toString());
+                }
+                else if(obs.getValueDatetime() != null) {
+                    wantedValues.add(formatDate(obs.getValueDatetime()));
+                }
+            }
         }
-        else if(value.getValueText() != null){
-            return value.getValueText();
-        }*/
 
-        return obj;
+        return wantedValues;
     }
 
     @Override
@@ -42,15 +70,23 @@ public class ObsDataConverter implements DataConverter {
 
     private String getValueCodedValues(Concept c){
         String value = "";
-        if(c.equals(c.equals(MhReportUtils.getConcept(MhConstants.YES)))){
-            value = "Y";
+        if(c.equals(MhReportUtils.getConcept(MhConstants.YES))){
+            value = "S";
         }
-        else if(c.equals(c.equals(MhReportUtils.getConcept(MhConstants.NO)))){
+        else if(c.equals(MhReportUtils.getConcept(MhConstants.NO))){
             value = "N";
         }
-        else if(c.equals(c.equals(MhReportUtils.getConcept(MhConstants.NOT_PROVIDED)))){
+        else if(c.equals(MhReportUtils.getConcept(MhConstants.NOT_PROVIDED))){
             value = "NP";
         }
+        else {
+            value = c.getName().getName();
+        }
             return value;
+    }
+
+    private String formatDate(Date date) {
+        DateFormat dateFormatter = new SimpleDateFormat("dd/MM/yyyy");
+        return date == null?"":dateFormatter.format(date);
     }
 }

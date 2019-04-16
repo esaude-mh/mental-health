@@ -21,7 +21,12 @@ public class EncounterDatetimeForVisitConverter implements DataConverter {
         List<Encounter> encountersForPatient = new ArrayList<>();
         List<Date> wantedDated = new ArrayList<>();
         for(int i =0; i< encounterDatesObjs.size(); i++){
-            encountersForPatient.addAll((Collection<? extends Encounter>) encounterDatesObjs.get(i));
+            if(encounterDatesObjs.get(i) instanceof Encounter){
+                encountersForPatient.add((Encounter) encounterDatesObjs.get(i));
+            }
+            else {
+                encountersForPatient.addAll((Collection<? extends Encounter>) encounterDatesObjs.get(i));
+            }
         }
         if(encountersForPatient.size() > 0){
             for(Encounter enc: encountersForPatient){
