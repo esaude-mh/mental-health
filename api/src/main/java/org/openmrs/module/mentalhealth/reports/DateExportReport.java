@@ -116,6 +116,31 @@ public class DateExportReport extends MhDataExportManager {
         dsd.addColumn("Sexo", builtInPatientData.getGender(), "");
         dsd.addColumn("Idade", builtInPatientData.getAgeAtEnd(), "");
         dsd.addColumn("Data de nascimento (DN)", builtInPatientData.getBirthdate(), "");
+        //Initial form details
+        dsd.addColumn("Homeless", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.HOMELESS), "", new ObsDataConverter());
+        dsd.addColumn("Civil Status", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.CIVIL_STATUS), "", new ObsDataConverter());
+        dsd.addColumn("Number of Children", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.NUMBER_OF_CHILDREN), "", new ObsDataConverter());
+        dsd.addColumn("Do you agree with Community Follow-up", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.COMMUNITY_FOLLO_UP), "", new ObsDataConverter());
+        dsd.addColumn("Accompanying person name", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.ACCOMPANYING_PERSON_NAME), "", new ObsDataConverter());
+        dsd.addColumn("Accompanying person telephone", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.ACCOMPANYING_PERSON_TELEPHONE), "", new ObsDataConverter());
+        dsd.addColumn("Accompanying person relationship", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.ACCOMPANYING_PERSON_RELATIONSHIP), "", new ObsDataConverter());
+        dsd.addColumn("Main Complaint", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.MAIN_COMPLAINT), "", new ObsDataConverter());
+        dsd.addColumn("Reason for Consultation", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.REASON_FOR_CONSULTATION), "", new ObsDataConverter());
+        dsd.addColumn("History of Current Illness", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.HISTORY_OF_CURRENT_ILLINESS), "", new ObsDataConverter());
+        dsd.addColumn("Previous Personal History", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.PREVIOUS_PERSONAL_HISTORY), "", new ObsDataConverter());
+        dsd.addColumn("Epilepsy", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.EPILEPSY), "", new ObsDataConverter());
+        dsd.addColumn("Mental Illness", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.MENTAL_ILLINESS), "", new ObsDataConverter());
+        dsd.addColumn("Mental Illness yes", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.MENTAL_ILLINESS_YES), "", new ObsDataConverter());
+        dsd.addColumn("Suicidal", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.SUICIDAL), "", new ObsDataConverter());
+        dsd.addColumn("Alcoholism", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.ALCOHOLISM), "", new ObsDataConverter());
+        dsd.addColumn("Other Substances", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.OTHER_SUBSTANCE), "", new ObsDataConverter());
+        dsd.addColumn("Other Substances yes", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.OTHER_CONCERNS_YES), "", new ObsDataConverter());
+
+
+
+
+
+
         dsd.addColumn("Diagnosticos", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.DIAGNOSIS_CONCEPT), "", new ObsDataConverter());
         dsd.addColumn("OTHER INFORMATION FROM PROCESSO", other1(), "", new ObsDataConverter());
         dsd.addColumn("Visita", followUp(), "", new EncounterDatetimeForVisitConverter());

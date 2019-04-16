@@ -30,7 +30,6 @@ public class ObsDataConverter implements DataConverter {
         List<Object> obsList = new ArrayList<>(Collections.singletonList(obj));
         List<Obs> obsForPatient = new ArrayList<>();
         List<String> wantedValues = new ArrayList<>();
-        String exactValue = "";
         for(int i =0; i< obsList.size(); i++){
             if(obsList.get(i) instanceof Obs) {
                 obsForPatient.add((Obs) obsList.get(i));
