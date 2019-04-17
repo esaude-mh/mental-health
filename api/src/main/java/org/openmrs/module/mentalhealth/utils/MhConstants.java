@@ -58,7 +58,7 @@ public class MhConstants {
     public static final String USE_TRADITIONAL_MEDICINE_DESC = "";
     public static final String APPEARENCE_POSTURE = "";
     public static final String SYNTHESIS_FUNCTIONS = "";
-    public static final String SESIORY_PERCEPTION = "";
+    public static final String SENSIORY_PERCEPTION = "";
     public static final String THOUGHTS_JUDGMENT_CRITICAL = "";
     public static final String HUMOR = "";
     public static final String CONDUCT = "";

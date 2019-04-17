@@ -136,6 +136,30 @@ public class DateExportReport extends MhDataExportManager {
         dsd.addColumn("Alcoholism", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.ALCOHOLISM), "", new ObsF1DataConverter());
         dsd.addColumn("Other Substances", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.OTHER_SUBSTANCE), "", new ObsF1DataConverter());
         dsd.addColumn("Other Substances specified", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.OTHER_SUBSTANCE_YES), "", new ObsF1DataConverter());
+        dsd.addColumn("Other chronic diseases (comorbidity)", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.OTHER_CHRONIC_DISEASES), "", new ObsF1DataConverter());
+        dsd.addColumn("Other chronic diseases (Specify)", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.OTHER_CHRONIC_DISEASE_SPECIFY), "", new ObsF1DataConverter());
+        dsd.addColumn("TB Test +", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.TB_TEST), "", new ObsF1DataConverter());
+        dsd.addColumn("TB Test Diagnosed", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.TB_TEST_DIAGNOSED), "", new ObsF1DataConverter());
+        dsd.addColumn("HIV Test", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.HIV_TEST), "", new ObsF1DataConverter());
+        dsd.addColumn("HIV Date Diagnosed", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.HIV_DIAGNOSED_DATE), "", new ObsF1DataConverter());
+        dsd.addColumn("HIV start date of ART", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.HIV_START_DATE), "", new ObsF1DataConverter());
+        dsd.addColumn("Alcohol use", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.ALCOHOL_USE), "", new ObsF1DataConverter());
+        dsd.addColumn("Alcohol use Description", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.ALCOHOL_USE_DESC), "", new ObsF1DataConverter());
+        dsd.addColumn("Use of other drugs", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.USE_OF_OTHER_DRUGS), "", new ObsF1DataConverter());
+        dsd.addColumn("Use of other drugs Description", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.USE_OF_OTHER_DRUGS_DESC), "", new ObsF1DataConverter());
+        dsd.addColumn("Use of traditional medicine", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.USE_TRADITIOANL_MEDICINE), "", new ObsF1DataConverter());
+        dsd.addColumn("Use of traditional medicine description", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.USE_TRADITIONAL_MEDICINE_DESC), "", new ObsF1DataConverter());
+        dsd.addColumn("PHQ-9 Score (DEPRESSION)", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.PHQ9), "", new ObsF1DataConverter());
+        dsd.addColumn("Score GAD 7 (ANXIETY)", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.GAD7), "", new ObsF1DataConverter());
+        dsd.addColumn("AUDIT Score (ALCOHOL)", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.AUDIT), "", new ObsF1DataConverter());
+        dsd.addColumn("WHODAS Score (DISABILITY)", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.WHODAS), "", new ObsF1DataConverter());
+        dsd.addColumn("A. Appearance and Posture", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.APPEARENCE_POSTURE), "", new ObsF1DataConverter());
+        dsd.addColumn("B1. Synthesis Functions", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.SYNTHESIS_FUNCTIONS), "", new ObsF1DataConverter());
+        dsd.addColumn("B2. Sensory Perception", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.SENSIORY_PERCEPTION), "", new ObsF1DataConverter());
+        dsd.addColumn("B3. Thought / Judgment Critical", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.THOUGHTS_JUDGMENT_CRITICAL), "", new ObsF1DataConverter());
+        dsd.addColumn("C. Humor", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.HUMOR), "", new ObsF1DataConverter());
+        dsd.addColumn("D. Conduct", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.CONDUCT), "", new ObsF1DataConverter());
+        dsd.addColumn("F. Relationship Functions", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.RELATIONSHIP_FUNCTIONS), "", new ObsF1DataConverter());
 
 
 
