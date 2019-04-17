@@ -43,6 +43,30 @@ public class MhConstants {
     public static final String ALCOHOLISM = "6360c0bb-908a-11e6-a98e-000c29db4475";
     public static final String OTHER_SUBSTANCE = "8a3d44c6-d428-406f-9b46-d6229756548b";
     public static final String OTHER_SUBSTANCE_YES = "5a9ad37b-f330-44de-afad-6330a9eb4673";
+    public static final String OTHER_CHRONIC_DISEASES = "";
+    public static final String OTHER_CHRONIC_DISEASE_SPECIFY = "";
+    public static final String TB_TEST = "";
+    public static final String TB_TEST_DIAGNOSED = "";
+    public static final String HIV_TEST = "";
+    public static final String HIV_DIAGNOSED_DATE = "";
+    public static final String HIV_START_DATE = "";
+    public static final String ALCOHOL_USE = "";
+    public static final String ALCOHOL_USE_DESC = "";
+    public static final String USE_OF_OTHER_DRUGS = "";
+    public static final String USE_OF_OTHER_DRUGS_DESC = "";
+    public static final String USE_TRADITIOANL_MEDICINE = "";
+    public static final String USE_TRADITIONAL_MEDICINE_DESC = "";
+    public static final String APPEARENCE_POSTURE = "";
+    public static final String SYNTHESIS_FUNCTIONS = "";
+    public static final String SESIORY_PERCEPTION = "";
+    public static final String THOUGHTS_JUDGMENT_CRITICAL = "";
+    public static final String HUMOR = "";
+    public static final String CONDUCT = "";
+    public static final String RELATIONSHIP_FUNCTIONS = "";
+
+
+
+
 
 
 }
