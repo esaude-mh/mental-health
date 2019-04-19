@@ -12,6 +12,9 @@ import org.openmrs.module.reporting.report.definition.service.ReportDefinitionSe
 import org.openmrs.module.reporting.report.manager.ReportManager;
 import org.openmrs.module.reporting.report.manager.ReportManagerUtil;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -144,6 +147,11 @@ public class MhReportUtils {
      */
     public static Concept getConcept(String uuid) {
         return Context.getConceptService().getConceptByUuid(uuid);
+    }
+
+    public static String formatDate(Date date) {
+        DateFormat dateFormatter = new SimpleDateFormat("dd/MM/yyyy");
+        return date == null?"":dateFormatter.format(date);
     }
 
 }

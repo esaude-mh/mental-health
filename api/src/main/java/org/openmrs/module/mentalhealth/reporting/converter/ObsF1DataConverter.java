@@ -1,14 +1,15 @@
 package org.openmrs.module.mentalhealth.reporting.converter;
 
-import org.openmrs.Concept;
 import org.openmrs.Obs;
-import org.openmrs.module.mentalhealth.utils.MhConstants;
-import org.openmrs.module.mentalhealth.utils.MhReportUtils;
 import org.openmrs.module.reporting.data.converter.DataConverter;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
+import static org.openmrs.module.mentalhealth.utils.MhReportUtils.formatDate;
+import static org.openmrs.module.mentalhealth.utils.ValueCodedAnswers.getValueCodedValues;
 
 public class ObsF1DataConverter implements DataConverter {
 
@@ -18,22 +19,46 @@ public class ObsF1DataConverter implements DataConverter {
         if (obj == null) {
             return "";
         }
+        List<Object> obsList = new ArrayList<>(Collections.singletonList(obj));
+        List<Obs> obsForPatient = new ArrayList<>();
+        List<String> wantedValues = new ArrayList<>();
 
-        Obs obs = (Obs) obj;
-        if(obs.getValueCoded() != null) {
-            return getValueCodedValues(obs.getValueCoded());
+        if(obj instanceof Obs) {
+            Obs obs = (Obs) obj;
+            if (obs.getValueCoded() != null) {
+                wantedValues.add(getValueCodedValues(obs.getValueCoded()));
+            } else if (obs.getValueDatetime() != null) {
+                wantedValues.add(formatDate(obs.getValueDatetime()));
+            } else if (obs.getValueNumeric() != null) {
+                wantedValues.add(obs.getValueNumeric().toString());
+            } else if (obs.getValueText() != null) {
+                wantedValues.add(obs.getValueText());
+            }
         }
-        else if(obs.getValueDatetime() != null) {
-            return formatDate(obs.getValueDatetime());
-        }
-        else if(obs.getValueNumeric() != null) {
-            return obs.getValueNumeric();
-        }
-        else if(obs.getValueText() != null){
-            return obs.getValueText();
+        else {
+
+            for(int i =0; i< obsList.size(); i++){
+                obsForPatient.addAll((Collection<? extends Obs>) obsList.get(i));
+            }
+            if(obsForPatient.size() > 0){
+                for(Obs obs: obsForPatient){
+                    if(obs.getValueText() != null){
+                        wantedValues.add(formatDate(obs.getObsDatetime())+":"+obs.getValueText());
+                    }
+                    else if(obs.getValueCoded() != null) {
+                        wantedValues.add(formatDate(obs.getObsDatetime())+":"+ getValueCodedValues(obs.getValueCoded()));
+                    }
+                    else if(obs.getValueNumeric() != null){
+                        wantedValues.add(formatDate(obs.getObsDatetime())+":"+obs.getValueNumeric().toString());
+                    }
+                    else if(obs.getValueDatetime() != null) {
+                        wantedValues.add(formatDate(obs.getObsDatetime())+":"+ formatDate(obs.getValueDatetime()));
+                    }
+                }
+            }
         }
 
-        return null;
+        return wantedValues;
     }
 
     @Override
@@ -44,27 +69,5 @@ public class ObsF1DataConverter implements DataConverter {
     @Override
     public Class<?> getDataType() {
         return String.class;
-    }
-
-    private String getValueCodedValues(Concept c){
-        String value = "";
-        if(c.equals(MhReportUtils.getConcept(MhConstants.YES))){
-            value = "S";
-        }
-        else if(c.equals(MhReportUtils.getConcept(MhConstants.NO))){
-            value = "N";
-        }
-        else if(c.equals(MhReportUtils.getConcept(MhConstants.NOT_PROVIDED))){
-            value = "NP";
-        }
-        else {
-            value = c.getName().getName();
-        }
-        return value;
-    }
-
-    private String formatDate(Date date) {
-        DateFormat dateFormatter = new SimpleDateFormat("dd/MM/yyyy");
-        return date == null?"":dateFormatter.format(date);
     }
 }
