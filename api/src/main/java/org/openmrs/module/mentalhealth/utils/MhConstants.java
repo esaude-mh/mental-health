@@ -88,7 +88,7 @@ public class MhConstants {
     public static final String Behavioral_Disorder = "742dbe8f-11bf-4904-b835-b93052f02128";
     public static final String Attention_Deficit_Hyperactivity_Disorder = "23d54d47-0d3e-4fa3-a2c8-0a21db724110";
     public static final String Nocturnal_enuresis = "1f53044e-9084-11e6-a98e-000c29db4475";
-    public static final String Other = "e1dd2d50-1d5f-11e0-b929-000c29ad1d07";
+    //public static final String Other = "e1dd2d50-1d5f-11e0-b929-000c29ad1d07";
     public static final String Other_specify = "e1dd2d50-1d5f-11e0-b929-000c29ad1d07";
 
 

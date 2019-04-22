@@ -102,11 +102,11 @@ public class DateExportReport extends MhDataExportManager {
         dsd.addSortCriteria("consultation-date", SortCriteria.SortDirection.ASC);
         dsd.addRowFilter(getEnrolledInMentalProgram(), "");
 
-        //identifier
+        //identifier types
         PatientIdentifierType mhNumber = MetadataUtils.existing(PatientIdentifierType.class, MentalHealthPatientIdentifierTypes.MH_NID.uuid());
         DataConverter identifierFormatter = new ObjectFormatter("{identifier}");
         DataDefinition identifierDef = new ConvertedPatientDataDefinition("identifier", new PatientIdentifierDataDefinition(mhNumber.getName(), mhNumber), identifierFormatter);
-
+        //Demographics
         dsd.addColumn("NID Paciente", identifierDef, "");
         dsd.addColumn("Nome Paciente", new PreferredNameDataDefinition(), (String) null);
         dsd.addColumn("Provincia", factory.getPreferredAddress("stateProvince"), "");
@@ -166,6 +166,50 @@ public class DateExportReport extends MhDataExportManager {
         dsd.addColumn("Adjustment Disorder Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.ADJUSTMENT_DISORDER, TimeQualifier.LAST), "", new ObsDateDataConverter());
         dsd.addColumn("Bipolar Affective Disorder", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.BIPOLAR_AFFECTIVE_DISORDER, TimeQualifier.LAST), "", new ObsDataConverter());
         dsd.addColumn("Bipolar Affective Disorder Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.BIPOLAR_AFFECTIVE_DISORDER, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Transient Acute Psychotic Disorder", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Transient_Acute_Psychotic_Disorder, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Transient Acute Psychotic Disorder Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Transient_Acute_Psychotic_Disorder, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Schizophreniform Disorder", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Schizophreniform_Disorder, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Schizophreniform Disorder Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Schizophreniform_Disorder, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Persistent Delusional Disorder", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Persistent_Delusional_Disorder, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Persistent Delusional Disorder Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Persistent_Delusional_Disorder, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Personality Disorder", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Personality_Disorder, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Personality Disorder Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Personality_Disorder, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Schizophrenia", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Schizophrenia, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Schizophrenia Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Schizophrenia, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Postpartum Psychosis (Puerperal Psychosis)", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Postpartum_Psychosis, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Postpartum Psychosis (Puerperal Psychosis) Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Postpartum_Psychosis, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Non-organic Psychosis (SOE)", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Non_organic_Psychosis, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Non-organic Psychosis (SOE) Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Non_organic_Psychosis, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Epilepsy", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Epilepsy, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Epilepsy Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Epilepsy, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Acute Organic Psychosis", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Acute_Organic_Psychosis, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Acute Organic Psychosis Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Acute_Organic_Psychosis, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Drug Use", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Drug_Use, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Drug Use Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Drug_Use, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("If other drug, specify", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Drug_Use_Specify, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Multiple Drug Use", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Multiple_Drug_Use, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Multiple Drug Use Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Multiple_Drug_Use, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("If other drug, specify", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Multiple_Drug_Use_Specify, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Dementia", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Dementia, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Dementia Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Dementia, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Mental Retardation", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Mental_Retardation, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Mental Retardation Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Mental_Retardation, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Behavioral Disorder", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Behavioral_Disorder, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Behavioral Disorder Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Behavioral_Disorder, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Attention Deficit/Hyperactivity Disorder", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Attention_Deficit_Hyperactivity_Disorder, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Attention Deficit/Hyperactivity Disorder Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Attention_Deficit_Hyperactivity_Disorder, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Nocturnal enuresis", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Nocturnal_enuresis, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Nocturnal enuresis Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Nocturnal_enuresis, TimeQualifier.LAST), "", new ObsDateDataConverter());
+        dsd.addColumn("Other Specify", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Other_specify, TimeQualifier.LAST), "", new ObsDataConverter());
+        dsd.addColumn("Other Specify Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Other_specify, TimeQualifier.LAST), "", new ObsDateDataConverter());
+
+
+
+
+
+
+
+
 
 
 
