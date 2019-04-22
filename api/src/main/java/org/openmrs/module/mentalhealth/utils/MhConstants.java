@@ -64,6 +64,34 @@ public class MhConstants {
     public static final String CONDUCT = "6722a5d1-dc1c-44e9-8c90-4256974b7849";
     public static final String RELATIONSHIP_FUNCTIONS = "f5bf98f5-34bb-4e28-b7ec-2312654e5aa1";
 
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    public static final String DEPRESSIVE_DISORDER = "e1eb7806-1d5f-11e0-b929-000c29ad1d07";
+    public static final String ANXIETY_DISORDER = "fc5805e5-c11c-4ae0-9441-d3562fc82b40";
+    public static final String ADJUSTMENT_DISORDER = "e96b83bf-6988-4b8d-b17e-c1d0ad6641d4";
+    public static final String BIPOLAR_AFFECTIVE_DISORDER = "4873ee8e-3e3d-46ff-8fb3-a3ad5443053e";
+
+    public static final String Transient_Acute_Psychotic_Disorder = "f5ede243-9083-11e6-a98e-000c29db4475";
+    public static final String Schizophreniform_Disorder = "57736b5b-f9d7-40c0-94d0-a43eb4b899c2";
+    public static final String Persistent_Delusional_Disorder = "f50ab21b-9083-11e6-a98e-000c29db4475";
+    public static final String Personality_Disorder = "00d48c07-c3db-4926-ab70-9b883f46b079";
+    public static final String Schizophrenia = "e1d25e8e-1d5f-11e0-b929-000c29ad1d07";
+    public static final String Postpartum_Psychosis = "e805e45e-2027-44b5-9412-0e29a79cf801";
+    public static final String Non_organic_Psychosis = "1ffc05b2-5630-41c6-891f-b43b930639db";
+    public static final String Epilepsy = "e1cfcdea-1d5f-11e0-b929-000c29ad1d07";
+    public static final String Acute_Organic_Psychosis = "cac91e33-8f36-4d2b-b4e4-fdad8a0583d6";
+    public static final String Drug_Use = "9d171a5c-973b-4a0a-91ed-f5dbcf6eef67";
+    public static final String Drug_Use_Specify = "76e0946e-8dc3-4597-b470-866bffbee1f1";
+    public static final String Multiple_Drug_Use = "a5fa8b2b-e279-46d5-b7cb-dc59fb2dae3b";
+    public static final String Multiple_Drug_Use_Specify = "76e0946e-8dc3-4597-b470-866bffbee1f1";
+    public static final String Dementia = "e1e3237c-1d5f-11e0-b929-000c29ad1d07";
+    public static final String Mental_Retardation = "8fee16d8-128b-4ef6-b0ef-9e6a4335f6ce";
+    public static final String Behavioral_Disorder = "742dbe8f-11bf-4904-b835-b93052f02128";
+    public static final String Attention_Deficit_Hyperactivity_Disorder = "23d54d47-0d3e-4fa3-a2c8-0a21db724110";
+    public static final String Nocturnal_enuresis = "1f53044e-9084-11e6-a98e-000c29db4475";
+    public static final String Other = "e1dd2d50-1d5f-11e0-b929-000c29ad1d07";
+    public static final String Other_specify = "e1dd2d50-1d5f-11e0-b929-000c29ad1d07";
+
+
 
 
 

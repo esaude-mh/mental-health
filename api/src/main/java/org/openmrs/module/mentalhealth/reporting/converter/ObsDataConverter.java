@@ -25,7 +25,22 @@ public class ObsDataConverter implements DataConverter {
         List<String> wantedValues = new ArrayList<>();
         for(int i =0; i< obsList.size(); i++){
             if(obsList.get(i) instanceof Obs) {
-                obsForPatient.add((Obs) obsList.get(i));
+                Obs singleObs = (Obs) obsList.get(i);
+                if(singleObs.getValueText() != null){
+                    wantedValues.add(singleObs.getValueText());
+                }
+                else if(singleObs.getValueCoded() != null){
+                    wantedValues.add(getValueCodedValues(singleObs.getValueCoded()));
+                }
+                else if(singleObs.getValueNumeric() != null){
+                    wantedValues.add(singleObs.getValueNumeric().toString());
+                }
+                else if(singleObs.getValueDatetime() != null){
+                    wantedValues.add(formatDate(singleObs.getValueDatetime()));
+                }
+                else {
+                    wantedValues.add("Not sure how to interpret this");
+                }
             }
             else  {
                 obsForPatient.addAll((Collection<? extends Obs>) obsList.get(i));
