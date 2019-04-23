@@ -3,27 +3,14 @@ package org.openmrs.module.mentalhealth.utils;
 public class MhConstants {
 
     //Concepts uuid
-    public static final String DIAGNOSIS_CONCEPT = "838be42c-76d0-47c1-9ef6-8881721444e8";
-    public static final String OTHER_F1 = "838be42c-76d0-47c1-9ef6-8881721444e8";
+    public static final String NOT_PROVIDED = "e1d81b62-1d5f-11e0-b929-000c29ad1d07";
+    public static final String NO = "e1d81c70-1d5f-11e0-b929-000c29ad1d07";
+    public static final String YES = "e1d81b62-1d5f-11e0-b929-000c29ad1d07";
     public static final String WHODAS = "d14dec0e-833b-49d4-b3f2-02c4111ab4f9";
     public static final String PHQ9 = "5d6928f5-f470-44d6-8b6a-325955a7c40c";
     public static final String GAD7 = "9270abbe-cc39-41c4-8ea9-9414894efd7c";
     public static final String AUDIT = "907cea1f-92aa-4368-b7ff-64f14ce1a70e";
     public static final String GRAVITY = "a3707116-50ff-4c89-bb6b-cd717bf47e03";
-    public static final String SUICIDAL_F2 = "046e033c-4ba3-44a5-979b-b098615edd11";
-
-    //other variables from page 2
-    //OTHER VARIBLES FROM 2nd PAGE
-    public static final String OTHER_CONCERNS = "bf4324f4-eada-4f53-8a61-efc4fcb37bba";
-    public static final String OTHER_CONCERNS_YES = "635dc91f-ff26-428e-9922-e98636df871e";
-    public static final String CONSERNS_WITH_ALCOHOL_DRUGS = "e1dcabf0-1d5f-11e0-b929-000c29ad1d07";
-    public static final String PATIENT_PREGNANT = "e1e482ee-1d5f-11e0-b929-000c29ad1d07";
-    public static final String PATIENT_ON_FP = "e1e481ea-1d5f-11e0-b929-000c29ad1d07";
-    //OTHER VARIBLES FROM 2nd PAGE answers
-    public static final String NOT_PROVIDED = "e1d81b62-1d5f-11e0-b929-000c29ad1d07";
-    public static final String NO = "e1d81c70-1d5f-11e0-b929-000c29ad1d07";
-    public static final String YES = "e1d81b62-1d5f-11e0-b929-000c29ad1d07";
-
     //initial form fields
     public static final String HOMELESS = "ad8f819c-c83e-49cb-bc63-6dc6372a3823";
     public static final String CIVIL_STATUS = "e1d80fbe-1d5f-11e0-b929-000c29ad1d07";
@@ -88,8 +75,31 @@ public class MhConstants {
     public static final String Behavioral_Disorder = "742dbe8f-11bf-4904-b835-b93052f02128";
     public static final String Attention_Deficit_Hyperactivity_Disorder = "23d54d47-0d3e-4fa3-a2c8-0a21db724110";
     public static final String Nocturnal_enuresis = "1f53044e-9084-11e6-a98e-000c29db4475";
-    //public static final String Other = "e1dd2d50-1d5f-11e0-b929-000c29ad1d07";
     public static final String Other_specify = "e1dd2d50-1d5f-11e0-b929-000c29ad1d07";
+
+    //////follow up form/////////////////////////////////////////////////////////////////////
+    public static final String Primary_Diagnosis = "43d660da-4527-4e79-a735-f0a53a39c28d";
+    public static final String Secondary_Diagnosis = "4649f6d2-2fca-4ae5-8762-3fcec7caec44";
+    public static final String Current_suicidal_thoughts = "046e033c-4ba3-44a5-979b-b098615edd11";
+    public static final String Are_there_other_concerns = "bf4324f4-eada-4f53-8a61-efc4fcb37bba";
+    public static final String Are_there_other_concerns_specify = "635dc91f-ff26-428e-9922-e98636df871e";
+    public static final String Is_the_patient_pregnant = "e1e482ee-1d5f-11e0-b929-000c29ad1d07";
+    public static final String Is_the_patient_using_family_planning = "e1e481ea-1d5f-11e0-b929-000c29ad1d07";
+
+    public static final String Temperature = "e1e2e70e-1d5f-11e0-b929-000c29ad1d07";
+    public static final String Blood_Pressure_S = "e1e2e3d0-1d5f-11e0-b929-000c29ad1d07";
+    public static final String Blood_Pressure_D = "e1e2e4e8-1d5f-11e0-b929-000c29ad1d07";
+    public static final String Weight = "e1e2e826-1d5f-11e0-b929-000c29ad1d07";
+    public static final String Height = "e1e2e934-1d5f-11e0-b929-000c29ad1d07";
+    public static final String SEP = "2596f5e1-e9c3-48b0-be19-bc415c3ade9b";
+    public static final String Orthostatic_Hypotension = "e90fa65c-9084-11e6-a98e-000c29db4475";
+    public static final String Metabolic_syndrome = "3694c0fb-de71-4ab9-9a7a-31d43e3f9453";
+    public static final String Gingival_hypertrophy = "18258483-1a35-4422-bc0b-a8ce928ae984";
+    public static final String Rash = "6302c75c-48b7-4146-95b8-966119aaf88c";
+    public static final String Steven_Johnson_syndrome = "751000e2-5592-4a44-bf10-5da8e5f1c992";
+    public static final String Diabetes = "2fe96a54-524e-4144-853b-ef3fd99fd6bf";
+    public static final String Other_Comments = "277b5002-e317-4707-94cc-828053cfe630";
+    public static final String Date_of_Next_Consulation = "e1dae630-1d5f-11e0-b929-000c29ad1d07";
 
 
 
