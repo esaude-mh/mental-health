@@ -5,7 +5,13 @@ import org.openmrs.module.reporting.data.converter.DataConverter;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Date;
+import java.util.List;
+
+import static org.openmrs.module.mentalhealth.utils.MhReportUtils.formatDate;
 
 public class EncounterDataConverter implements DataConverter {
     @Override
@@ -15,11 +21,24 @@ public class EncounterDataConverter implements DataConverter {
             return "";
         }
 
-        Encounter value = (Encounter) obj;
-        if(value.getEncounterDatetime() != null) {
-            return formatDate(value.getEncounterDatetime());
+        List<Object> encounters = new ArrayList<>(Collections.singletonList(obj));
+        List<String> wantedValues = new ArrayList<>();
+        List<Encounter> encountersForPatient = new ArrayList<>();
+        for(int i =0; i< encounters.size(); i++){
+            if(encounters.get(i) instanceof Encounter) {
+                wantedValues.add(formatDate(((Encounter) encounters.get(i)).getEncounterDatetime()));
+            }
+            else {
+                encountersForPatient.addAll((Collection<? extends Encounter>) encounters.get(i));
+            }
         }
-        return null;
+
+        if(encountersForPatient.size() > 0){
+            for(Encounter enc:encountersForPatient){
+                wantedValues.add(formatDate(enc.getEncounterDatetime()));
+            }
+        }
+        return wantedValues;
     }
 
     @Override
@@ -32,8 +51,5 @@ public class EncounterDataConverter implements DataConverter {
         return String.class;
     }
 
-    private String formatDate(Date date) {
-        DateFormat dateFormatter = new SimpleDateFormat("dd/MM/yyyy");
-        return date == null?"":dateFormatter.format(date);
-    }
+
 }

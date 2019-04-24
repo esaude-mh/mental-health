@@ -22,6 +22,7 @@ import org.openmrs.module.reporting.data.converter.DataConverter;
 import org.openmrs.module.reporting.data.converter.ObjectFormatter;
 import org.openmrs.module.reporting.data.patient.definition.ConvertedPatientDataDefinition;
 import org.openmrs.module.reporting.data.patient.definition.EncountersForPatientDataDefinition;
+import org.openmrs.module.reporting.data.patient.definition.PatientIdDataDefinition;
 import org.openmrs.module.reporting.data.patient.definition.PatientIdentifierDataDefinition;
 import org.openmrs.module.reporting.data.patient.library.BuiltInPatientDataLibrary;
 import org.openmrs.module.reporting.data.person.definition.ObsForPersonDataDefinition;
@@ -38,7 +39,7 @@ import java.util.Arrays;
 import java.util.Properties;
 
 @Component
-public class DateExportReport extends MhDataExportManager {
+public class DateExportInitialReport extends MhDataExportManager {
 
     @Autowired
     private BuiltInPatientDataLibrary builtInPatientData;
@@ -46,7 +47,7 @@ public class DateExportReport extends MhDataExportManager {
     @Autowired
     private DataFactory factory;
 
-    public static final String REPORT_NAME = "Data Export Report";
+    public static final String REPORT_NAME = "Data Export Initial Form";
     @Override
     public String getExcelDesignUuid() {
         return "9c417ffa-5cec-11e9-a14f-8fd3ba460a1b";
@@ -75,7 +76,7 @@ public class DateExportReport extends MhDataExportManager {
 
     @Override
     public String getDescription() {
-        return "";
+        return "Initial form details";
     }
 
     @Override
@@ -92,7 +93,7 @@ public class DateExportReport extends MhDataExportManager {
 
     @Override
     public String getVersion() {
-        return "0.1.5";
+        return "0.1.6";
     }
 
     private DataSetDefinition dataSetDefinition() {
@@ -106,6 +107,7 @@ public class DateExportReport extends MhDataExportManager {
         DataConverter identifierFormatter = new ObjectFormatter("{identifier}");
         DataDefinition identifierDef = new ConvertedPatientDataDefinition("identifier", new PatientIdentifierDataDefinition(mhNumber.getName(), mhNumber), identifierFormatter);
         //Demographics
+        dsd.addColumn("Id", new PatientIdDataDefinition(), "");
         dsd.addColumn("NID Paciente", identifierDef, "");
         dsd.addColumn("Nome Paciente", new PreferredNameDataDefinition(), (String) null);
         dsd.addColumn("Provincia", factory.getPreferredAddress("stateProvince"), "");
@@ -201,43 +203,6 @@ public class DateExportReport extends MhDataExportManager {
         dsd.addColumn("Nocturnal enuresis Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Nocturnal_enuresis, TimeQualifier.LAST), "", new ObsDateDataConverter());
         dsd.addColumn("Other Specify", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Other_specify, TimeQualifier.LAST), "", new ObsDataConverter());
         dsd.addColumn("Other Specify Date", getObs(MentalHealthEncounterTypes.INITIAL_ENCOUNTER_TYPE.uuid(), MhConstants.Other_specify, TimeQualifier.LAST), "", new ObsDateDataConverter());
-
-    // follow up form columns fall here
-        dsd.addColumn("Primay Diagnosis (ICD10)", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Primary_Diagnosis, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Secondary Diagnosis (ICD10)", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Secondary_Diagnosis, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("WHODAS Score (DISABILITY)", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.WHODAS, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("PHQ-9 Score (DEPRESSION)", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.PHQ9, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Score GAD 7 (ANXIETY)", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.GAD7, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("AUDIT Score (ALCOHOL)", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.AUDIT, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("General Gravity", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.GRAVITY, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Current suicidal thoughts", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Current_suicidal_thoughts, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Are there other concerns", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Are_there_other_concerns, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Are there other concerns - Specify", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Are_there_other_concerns_specify, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Concerns with alcohol or drugs", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.ALCOHOL_USE, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Is the patient pregnant", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Is_the_patient_pregnant, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Is the patient using family planning", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Is_the_patient_using_family_planning, TimeQualifier.ANY), "", new ObsDataConverter());
-
-        //Treatment details will go here
-
-        //////////////////////////////////
-
-        //It will end here
-        dsd.addColumn("Temperature (in C)", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Temperature, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Blood Pressure - Systolic", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Blood_Pressure_S, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Blood Pressure - Diastolic", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Blood_Pressure_D, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Weight (in kg)", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Weight, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Height (in cm)", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Height, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("SEP", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.SEP, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Orthostatic Hypotension", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Orthostatic_Hypotension, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Metabolic syndrome", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Metabolic_syndrome, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Gingival hypertrophy", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Gingival_hypertrophy, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Rash", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Rash, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Steven Johnson syndrome", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Steven_Johnson_syndrome, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Diabetes", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Diabetes, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Other Comments", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Other_Comments, TimeQualifier.ANY), "", new ObsDataConverter());
-        dsd.addColumn("Date of Next Consulation", getObs(MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid(), MhConstants.Date_of_Next_Consulation, TimeQualifier.ANY), "", new ObsDataConverter());
-
-
         return dsd;
     }
 
@@ -262,4 +227,5 @@ public class DateExportReport extends MhDataExportManager {
         cd.setPrograms(Arrays.asList(MetadataUtils.existing(Program.class, "cb1e24be-aa03-11e8-a5b5-f34e18407f07")));
         return cd;
     }
+
 }
