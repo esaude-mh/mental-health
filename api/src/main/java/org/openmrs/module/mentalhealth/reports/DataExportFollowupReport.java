@@ -1,8 +1,10 @@
 package org.openmrs.module.mentalhealth.reports;
 
+import org.openmrs.EncounterType;
 import org.openmrs.PatientIdentifierType;
 import org.openmrs.module.mentalhealth.MhDataExportManager;
 import org.openmrs.module.mentalhealth.Queries.FollowupQueries;
+import org.openmrs.module.mentalhealth.metadata.MentalHealthEncounterTypes;
 import org.openmrs.module.mentalhealth.metadata.MentalHealthPatientIdentifierTypes;
 import org.openmrs.module.metadatadeploy.MetadataUtils;
 import org.openmrs.module.reporting.dataset.definition.DataSetDefinition;
@@ -69,8 +71,9 @@ public class DataExportFollowupReport extends MhDataExportManager {
 
     private DataSetDefinition dataSetDefinition() {
         PatientIdentifierType identifierType = MetadataUtils.existing(PatientIdentifierType.class, MentalHealthPatientIdentifierTypes.MH_NID.uuid());
+        EncounterType encounterType = MetadataUtils.existing(EncounterType.class, MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid());
         SqlDataSetDefinition sql = new SqlDataSetDefinition();
-        sql.setSqlQuery(FollowupQueries.getQuery(identifierType.getPatientIdentifierTypeId()));
+        sql.setSqlQuery(FollowupQueries.getQuery(identifierType.getPatientIdentifierTypeId(), encounterType.getEncounterTypeId()));
         return sql;
     }
 }
