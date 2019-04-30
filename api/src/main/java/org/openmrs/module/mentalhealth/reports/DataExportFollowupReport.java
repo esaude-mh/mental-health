@@ -1,23 +1,40 @@
 package org.openmrs.module.mentalhealth.reports;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.openmrs.EncounterType;
 import org.openmrs.PatientIdentifierType;
 import org.openmrs.module.mentalhealth.MhDataExportManager;
-import org.openmrs.module.mentalhealth.Queries.FollowupQueries;
 import org.openmrs.module.mentalhealth.metadata.MentalHealthEncounterTypes;
 import org.openmrs.module.mentalhealth.metadata.MentalHealthPatientIdentifierTypes;
 import org.openmrs.module.metadatadeploy.MetadataUtils;
+import org.openmrs.module.reporting.common.SortCriteria;
+import org.openmrs.module.reporting.data.DataDefinition;
+import org.openmrs.module.reporting.data.converter.DataConverter;
+import org.openmrs.module.reporting.data.converter.ObjectFormatter;
+import org.openmrs.module.reporting.data.patient.definition.ConvertedPatientDataDefinition;
+import org.openmrs.module.reporting.data.patient.definition.PatientIdDataDefinition;
+import org.openmrs.module.reporting.data.patient.definition.PatientIdentifierDataDefinition;
+import org.openmrs.module.reporting.data.person.definition.PreferredNameDataDefinition;
+import org.openmrs.module.reporting.dataset.SimpleDataSet;
 import org.openmrs.module.reporting.dataset.definition.DataSetDefinition;
-import org.openmrs.module.reporting.dataset.definition.SqlDataSetDefinition;
+import org.openmrs.module.reporting.dataset.definition.EncounterAndObsDataSetDefinition;
+import org.openmrs.module.reporting.dataset.definition.service.DataSetDefinitionService;
+import org.openmrs.module.reporting.evaluation.EvaluationException;
 import org.openmrs.module.reporting.evaluation.parameter.Mapped;
+import org.openmrs.module.reporting.query.encounter.definition.BasicEncounterQuery;
 import org.openmrs.module.reporting.report.ReportDesign;
 import org.openmrs.module.reporting.report.definition.ReportDefinition;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.Properties;
 
 @Component
 public class DataExportFollowupReport extends MhDataExportManager {
+    protected Log log = LogFactory.getLog(getClass());
+    @Autowired
+    private DataSetDefinitionService dataSetDefinitionService;
 
     public static final String REPORT_NAME = "Data Export Follow Up Form";
 
@@ -60,7 +77,7 @@ public class DataExportFollowupReport extends MhDataExportManager {
         rd.setDescription(getDescription());
         rd.addParameters(getParameters());
         //rd.
-        rd.addDataSetDefinition("export2", Mapped.mapStraightThrough(dataSetDefinition()));
+        rd.addDataSetDefinition("Followup", Mapped.mapStraightThrough(createEncounterAndObsDataSetDefinition()));
         return rd;
     }
 
@@ -69,11 +86,17 @@ public class DataExportFollowupReport extends MhDataExportManager {
         return "0.0.2";
     }
 
-    private DataSetDefinition dataSetDefinition() {
-        PatientIdentifierType identifierType = MetadataUtils.existing(PatientIdentifierType.class, MentalHealthPatientIdentifierTypes.MH_NID.uuid());
-        EncounterType encounterType = MetadataUtils.existing(EncounterType.class, MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid());
-        SqlDataSetDefinition sql = new SqlDataSetDefinition();
-        sql.setSqlQuery(FollowupQueries.getQuery(identifierType.getPatientIdentifierTypeId(), encounterType.getEncounterTypeId()));
-        return sql;
+    private DataSetDefinition createEncounterAndObsDataSetDefinition() {
+        PatientIdentifierType mhNumber = MetadataUtils.existing(PatientIdentifierType.class, MentalHealthPatientIdentifierTypes.MH_NID.uuid());
+        DataConverter identifierFormatter = new ObjectFormatter("{identifier}");
+        DataDefinition identifierDef = new ConvertedPatientDataDefinition("identifier", new PatientIdentifierDataDefinition(mhNumber.getName(), mhNumber), identifierFormatter);
+        EncounterAndObsDataSetDefinition dsd = new EncounterAndObsDataSetDefinition();
+        BasicEncounterQuery q = new BasicEncounterQuery();
+        q.addEncounterType((MetadataUtils.existing(EncounterType.class, MentalHealthEncounterTypes.FOLLOW_UP_ENCOUNTER_TYPE.uuid())));
+        dsd.addRowFilter(Mapped.noMappings(q));
+        dsd.addSortCriteria("PATIENT_ID", SortCriteria.SortDirection.ASC);
+
+        return dsd;
     }
+    
 }
